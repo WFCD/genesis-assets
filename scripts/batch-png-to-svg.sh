@@ -9,9 +9,9 @@ for file in *.png; do
   # Extract filename without extension
   basename=$(echo "$file" | sed 's/\.\w*$//')
 
- # Convert PNG to black PNG with transparency
- # We need to convert the image from black to white so potrace can detect
- # and trace properly
+  # Convert PNG to black PNG with transparency
+  # We need to convert the image from black to white so potrace can detect
+  # and trace properly
   convert "$file" \
     -channel RGB \
     -fuzz 99% \
