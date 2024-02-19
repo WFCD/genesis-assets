@@ -1,0 +1,313 @@
+@font-face {
+  font-display: block;
+  font-family: "Warframe-symbols";
+  src: url("./Warframe-symbols.eot?a33e65803227252a8cc49b6db802022c#iefix") format("embedded-opentype"),
+url("./Warframe-symbols.woff2?a33e65803227252a8cc49b6db802022c") format("woff2"),
+url("./Warframe-symbols.woff?a33e65803227252a8cc49b6db802022c") format("woff");
+}
+
+i[class^="icon-"]::before, i[class*=" icon-"]::before {
+  font-family: Warframe-symbols !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arbitrations::before {
+  content: "\f101";
+}
+.icon-archwing::before {
+  content: "\f102";
+}
+.icon-entrati::before {
+  content: "\f103";
+}
+.icon-factions-corpus::before {
+  content: "\f104";
+}
+.icon-factions-corrupted::before {
+  content: "\f105";
+}
+.icon-factions-grineer::before {
+  content: "\f106";
+}
+.icon-factions-infested::before {
+  content: "\f107";
+}
+.icon-factions-narmer::before {
+  content: "\f108";
+}
+.icon-factions-narmer2::before {
+  content: "\f109";
+}
+.icon-factions-sentient::before {
+  content: "\f10a";
+}
+.icon-fissures-1::before {
+  content: "\f10b";
+}
+.icon-fissures-2::before {
+  content: "\f10c";
+}
+.icon-fissures-3::before {
+  content: "\f10d";
+}
+.icon-fissures-4::before {
+  content: "\f10e";
+}
+.icon-fissures-5::before {
+  content: "\f10f";
+}
+.icon-hexis::before {
+  content: "\f110";
+}
+.icon-kuva-kuva::before {
+  content: "\f111";
+}
+.icon-kuva-kuvaflood::before {
+  content: "\f112";
+}
+.icon-loading::before {
+  content: "\f113";
+}
+.icon-nightmare::before {
+  content: "\f114";
+}
+.icon-nightwave::before {
+  content: "\f115";
+}
+.icon-ostron::before {
+  content: "\f116";
+}
+.icon-sigils-Arbiters-of-Hexis-ArbitersLevel1::before {
+  content: "\f117";
+}
+.icon-sigils-Arbiters-of-Hexis-ArbitersLevel2::before {
+  content: "\f118";
+}
+.icon-sigils-Arbiters-of-Hexis-ArbitersLevel3::before {
+  content: "\f119";
+}
+.icon-sigils-Arbiters-of-Hexis-ArbitersLevel4::before {
+  content: "\f11a";
+}
+.icon-sigils-Arbiters-of-Hexis-ArbitersLevel5::before {
+  content: "\f11b";
+}
+.icon-sigils-Cephalon-Suda-CephalonSudaLevel1::before {
+  content: "\f11c";
+}
+.icon-sigils-Cephalon-Suda-CephalonSudaLevel2::before {
+  content: "\f11d";
+}
+.icon-sigils-Cephalon-Suda-CephalonSudaLevel3::before {
+  content: "\f11e";
+}
+.icon-sigils-Cephalon-Suda-CephalonSudaLevel4::before {
+  content: "\f11f";
+}
+.icon-sigils-Cephalon-Suda-CephalonSudaLevel5::before {
+  content: "\f120";
+}
+.icon-sigils-Entrati-EntratiLevel1::before {
+  content: "\f121";
+}
+.icon-sigils-Entrati-EntratiLevel2::before {
+  content: "\f122";
+}
+.icon-sigils-Entrati-EntratiLevel3::before {
+  content: "\f123";
+}
+.icon-sigils-Entrati-EntratiLevel4::before {
+  content: "\f124";
+}
+.icon-sigils-Entrati-EntratiLevel5::before {
+  content: "\f125";
+}
+.icon-sigils-Necraloid-NecraloidLevel1::before {
+  content: "\f126";
+}
+.icon-sigils-Necraloid-NecraloidLevel2::before {
+  content: "\f127";
+}
+.icon-sigils-Necraloid-NecraloidLevel3::before {
+  content: "\f128";
+}
+.icon-sigils-NegativeRank1::before {
+  content: "\f129";
+}
+.icon-sigils-NegativeRank2::before {
+  content: "\f12a";
+}
+.icon-sigils-Neutral::before {
+  content: "\f12b";
+}
+.icon-sigils-New-Loka-NewLokaLevel1::before {
+  content: "\f12c";
+}
+.icon-sigils-New-Loka-NewLokaLevel2::before {
+  content: "\f12d";
+}
+.icon-sigils-New-Loka-NewLokaLevel3::before {
+  content: "\f12e";
+}
+.icon-sigils-New-Loka-NewLokaLevel4::before {
+  content: "\f12f";
+}
+.icon-sigils-New-Loka-NewLokaLevel5::before {
+  content: "\f130";
+}
+.icon-sigils-Ostron-OstronLevel1::before {
+  content: "\f131";
+}
+.icon-sigils-Ostron-OstronLevel2::before {
+  content: "\f132";
+}
+.icon-sigils-Ostron-OstronLevel3::before {
+  content: "\f133";
+}
+.icon-sigils-Ostron-OstronLevel4::before {
+  content: "\f134";
+}
+.icon-sigils-Ostron-OstronLevel5::before {
+  content: "\f135";
+}
+.icon-sigils-Red-Veil-RedVeilLevel1::before {
+  content: "\f136";
+}
+.icon-sigils-Red-Veil-RedVeilLevel2::before {
+  content: "\f137";
+}
+.icon-sigils-Red-Veil-RedVeilLevel3::before {
+  content: "\f138";
+}
+.icon-sigils-Red-Veil-RedVeilLevel4::before {
+  content: "\f139";
+}
+.icon-sigils-Red-Veil-RedVeilLevel5::before {
+  content: "\f13a";
+}
+.icon-sigils-Solaris-United-SolarisLevel1::before {
+  content: "\f13b";
+}
+.icon-sigils-Solaris-United-SolarisLevel2::before {
+  content: "\f13c";
+}
+.icon-sigils-Solaris-United-SolarisLevel3::before {
+  content: "\f13d";
+}
+.icon-sigils-Solaris-United-SolarisLevel4::before {
+  content: "\f13e";
+}
+.icon-sigils-Solaris-United-SolarisLevel5::before {
+  content: "\f13f";
+}
+.icon-sigils-Steel-Meridian-SteelMeridianLevel1::before {
+  content: "\f140";
+}
+.icon-sigils-Steel-Meridian-SteelMeridianLevel2::before {
+  content: "\f141";
+}
+.icon-sigils-Steel-Meridian-SteelMeridianLevel3::before {
+  content: "\f142";
+}
+.icon-sigils-Steel-Meridian-SteelMeridianLevel4::before {
+  content: "\f143";
+}
+.icon-sigils-Steel-Meridian-SteelMeridianLevel5::before {
+  content: "\f144";
+}
+.icon-sigils-The-Holdfasts-HoldfastsLevel1::before {
+  content: "\f145";
+}
+.icon-sigils-The-Holdfasts-HoldfastsLevel2::before {
+  content: "\f146";
+}
+.icon-sigils-The-Holdfasts-HoldfastsLevel3::before {
+  content: "\f147";
+}
+.icon-sigils-The-Holdfasts-HoldfastsLevel4::before {
+  content: "\f148";
+}
+.icon-sigils-The-Holdfasts-HoldfastsLevel5::before {
+  content: "\f149";
+}
+.icon-sigils-The-Perrin-Sequence-PerrinLevel1::before {
+  content: "\f14a";
+}
+.icon-sigils-The-Perrin-Sequence-PerrinLevel2::before {
+  content: "\f14b";
+}
+.icon-sigils-The-Perrin-Sequence-PerrinLevel3::before {
+  content: "\f14c";
+}
+.icon-sigils-The-Perrin-Sequence-PerrinLevel4::before {
+  content: "\f14d";
+}
+.icon-sigils-The-Perrin-Sequence-PerrinLevel5::before {
+  content: "\f14e";
+}
+.icon-sigils-The-Quills-QuillsLevel1::before {
+  content: "\f14f";
+}
+.icon-sigils-The-Quills-QuillsLevel2::before {
+  content: "\f150";
+}
+.icon-sigils-The-Quills-QuillsLevel3::before {
+  content: "\f151";
+}
+.icon-sigils-The-Quills-QuillsLevel4::before {
+  content: "\f152";
+}
+.icon-sigils-The-Quills-QuillsLevel5::before {
+  content: "\f153";
+}
+.icon-sigils-VentKids-VentKidsLevel1::before {
+  content: "\f154";
+}
+.icon-sigils-VentKids-VentKidsLevel2::before {
+  content: "\f155";
+}
+.icon-sigils-VentKids-VentKidsLevel3::before {
+  content: "\f156";
+}
+.icon-sigils-VentKids-VentKidsLevel4::before {
+  content: "\f157";
+}
+.icon-sigils-VentKids-VentKidsLevel5::before {
+  content: "\f158";
+}
+.icon-sigils-Vox-Solaris-VoxLevel1::before {
+  content: "\f159";
+}
+.icon-sigils-Vox-Solaris-VoxLevel2::before {
+  content: "\f15a";
+}
+.icon-sigils-Vox-Solaris-VoxLevel3::before {
+  content: "\f15b";
+}
+.icon-sigils-Vox-Solaris-VoxLevel4::before {
+  content: "\f15c";
+}
+.icon-sigils-Vox-Solaris-VoxLevel5::before {
+  content: "\f15d";
+}
+.icon-simaris::before {
+  content: "\f15e";
+}
+.icon-solaris::before {
+  content: "\f15f";
+}
+.icon-sp-logo::before {
+  content: "\f160";
+}
+.icon-standing::before {
+  content: "\f161";
+}
+.icon-wfcd::before {
+  content: "\f162";
+}
