@@ -1,11 +1,11 @@
 @font-face {
   font-display: block;
   font-family: "Warframe-symbols";
-  src: url("./Warframe-symbols.eot?0f07ce55f36d5f057aa8f62f47a7a88d#iefix") format("embedded-opentype"),
-url("./Warframe-symbols.woff?0f07ce55f36d5f057aa8f62f47a7a88d") format("woff"),
-url("./Warframe-symbols.woff2?0f07ce55f36d5f057aa8f62f47a7a88d") format("woff2"),
-url("./Warframe-symbols.ttf?0f07ce55f36d5f057aa8f62f47a7a88d") format("truetype"),
-url("./Warframe-symbols.svg?0f07ce55f36d5f057aa8f62f47a7a88d#Warframe-symbols") format("svg");
+  src: url("./Warframe-symbols.eot?86d6cfc5b79188055b796ad9d8b41131#iefix") format("embedded-opentype"),
+url("./Warframe-symbols.woff?86d6cfc5b79188055b796ad9d8b41131") format("woff"),
+url("./Warframe-symbols.woff2?86d6cfc5b79188055b796ad9d8b41131") format("woff2"),
+url("./Warframe-symbols.ttf?86d6cfc5b79188055b796ad9d8b41131") format("truetype"),
+url("./Warframe-symbols.svg?86d6cfc5b79188055b796ad9d8b41131#Warframe-symbols") format("svg");
 }
 
 i[class^="icon-"]::before, i[class*=" icon-"]::before {
@@ -61,19 +61,19 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 .icon-factions-sentient::before {
   content: "\f10e";
 }
-.icon-fissures-1::before {
+.icon-fissures-axi::before {
   content: "\f10f";
 }
-.icon-fissures-2::before {
+.icon-fissures-lith::before {
   content: "\f110";
 }
-.icon-fissures-3::before {
+.icon-fissures-meso::before {
   content: "\f111";
 }
-.icon-fissures-4::before {
+.icon-fissures-neo::before {
   content: "\f112";
 }
-.icon-fissures-5::before {
+.icon-fissures-requiem::before {
   content: "\f113";
 }
 .icon-hexis::before {

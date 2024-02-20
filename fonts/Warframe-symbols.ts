@@ -13,11 +13,11 @@ export type WarframeSymbolsId =
   | "factions-narmer"
   | "factions-narmer2"
   | "factions-sentient"
-  | "fissures-1"
-  | "fissures-2"
-  | "fissures-3"
-  | "fissures-4"
-  | "fissures-5"
+  | "fissures-axi"
+  | "fissures-lith"
+  | "fissures-meso"
+  | "fissures-neo"
+  | "fissures-requiem"
   | "hexis"
   | "kuva-kuva"
   | "kuva-kuvaflood"
@@ -303,11 +303,11 @@ export type WarframeSymbolsKey =
   | "FactionsNarmer"
   | "FactionsNarmer2"
   | "FactionsSentient"
-  | "Fissures_1"
-  | "Fissures_2"
-  | "Fissures_3"
-  | "Fissures_4"
-  | "Fissures_5"
+  | "FissuresAxi"
+  | "FissuresLith"
+  | "FissuresMeso"
+  | "FissuresNeo"
+  | "FissuresRequiem"
   | "Hexis"
   | "KuvaKuva"
   | "KuvaKuvaflood"
@@ -593,11 +593,11 @@ export enum WarframeSymbols {
   FactionsNarmer = "factions-narmer",
   FactionsNarmer2 = "factions-narmer2",
   FactionsSentient = "factions-sentient",
-  Fissures_1 = "fissures-1",
-  Fissures_2 = "fissures-2",
-  Fissures_3 = "fissures-3",
-  Fissures_4 = "fissures-4",
-  Fissures_5 = "fissures-5",
+  FissuresAxi = "fissures-axi",
+  FissuresLith = "fissures-lith",
+  FissuresMeso = "fissures-meso",
+  FissuresNeo = "fissures-neo",
+  FissuresRequiem = "fissures-requiem",
   Hexis = "hexis",
   KuvaKuva = "kuva-kuva",
   KuvaKuvaflood = "kuva-kuvaflood",
@@ -884,11 +884,11 @@ export const WARFRAME_SYMBOLS_CODEPOINTS: { [key in WarframeSymbols]: string } =
   [WarframeSymbols.FactionsNarmer]: "61708",
   [WarframeSymbols.FactionsNarmer2]: "61709",
   [WarframeSymbols.FactionsSentient]: "61710",
-  [WarframeSymbols.Fissures_1]: "61711",
-  [WarframeSymbols.Fissures_2]: "61712",
-  [WarframeSymbols.Fissures_3]: "61713",
-  [WarframeSymbols.Fissures_4]: "61714",
-  [WarframeSymbols.Fissures_5]: "61715",
+  [WarframeSymbols.FissuresAxi]: "61711",
+  [WarframeSymbols.FissuresLith]: "61712",
+  [WarframeSymbols.FissuresMeso]: "61713",
+  [WarframeSymbols.FissuresNeo]: "61714",
+  [WarframeSymbols.FissuresRequiem]: "61715",
   [WarframeSymbols.Hexis]: "61716",
   [WarframeSymbols.KuvaKuva]: "61717",
   [WarframeSymbols.KuvaKuvaflood]: "61718",
