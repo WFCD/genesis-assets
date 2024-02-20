@@ -1,9 +1,11 @@
 @font-face {
   font-display: block;
   font-family: "Warframe-symbols";
-  src: url("./Warframe-symbols.eot?0f07ce55f36d5f057aa8f62f47a7a88d#iefix") format("embedded-opentype"),
-url("./Warframe-symbols.woff2?0f07ce55f36d5f057aa8f62f47a7a88d") format("woff2"),
-url("./Warframe-symbols.woff?0f07ce55f36d5f057aa8f62f47a7a88d") format("woff");
+  src: url("./Warframe-symbols.eot?29dd8fccc8319d6994e0d38bccd32054#iefix") format("embedded-opentype"),
+url("./Warframe-symbols.woff?29dd8fccc8319d6994e0d38bccd32054") format("woff"),
+url("./Warframe-symbols.woff2?29dd8fccc8319d6994e0d38bccd32054") format("woff2"),
+url("./Warframe-symbols.ttf?29dd8fccc8319d6994e0d38bccd32054") format("truetype"),
+url("./Warframe-symbols.svg?29dd8fccc8319d6994e0d38bccd32054#Warframe-symbols") format("svg");
 }
 
 i[class^="icon-"]::before, i[class*=" icon-"]::before {
