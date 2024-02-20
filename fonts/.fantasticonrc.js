@@ -4,4 +4,5 @@ module.exports = {
   outputDir: "./fonts",
   fontTypes: ["eot", "woff", "woff2", "ttf", "svg"],
   assetTypes: ["css", "scss", "sass", "html", "json", "ts"],
+  normalize: true,
 };
