@@ -1,0 +1,897 @@
+$Warframe-symbols-font: "Warframe-symbols"
+
+@font-face
+  font-display: block
+  font-family: $Warframe-symbols-font
+  src: url("./Warframe-symbols.eot?95118d1ea420c518a6afb7931a420457#iefix") format("embedded-opentype"),
+url("./Warframe-symbols.woff?95118d1ea420c518a6afb7931a420457") format("woff"),
+url("./Warframe-symbols.woff2?95118d1ea420c518a6afb7931a420457") format("woff2"),
+url("./Warframe-symbols.ttf?95118d1ea420c518a6afb7931a420457") format("truetype"),
+url("./Warframe-symbols.svg?95118d1ea420c518a6afb7931a420457#Warframe-symbols") format("svg")
+
+i[class^="icon-"]::before, i[class*=" icon-"]::before
+  font-family: Warframe-symbols !important
+  font-style: normal
+  font-weight: normal !important
+  font-variant: normal
+  text-transform: none
+  line-height: 1
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+$Warframe-symbols-map: (
+  "arbitrations": "\f101",
+  "archwing": "\f102",
+  "damage-impact": "\f103",
+  "damage-puncture": "\f104",
+  "damage-slash": "\f105",
+  "entrati": "\f106",
+  "factions-corpus": "\f107",
+  "factions-corrupted": "\f108",
+  "factions-grineer": "\f109",
+  "factions-infested": "\f10a",
+  "factions-murmur": "\f10b",
+  "factions-narmer": "\f10c",
+  "factions-narmer2": "\f10d",
+  "factions-sentient": "\f10e",
+  "fissures-axi": "\f10f",
+  "fissures-lith": "\f110",
+  "fissures-meso": "\f111",
+  "fissures-neo": "\f112",
+  "fissures-requiem": "\f113",
+  "hexis": "\f114",
+  "kuva-kuva": "\f115",
+  "kuva-kuvaflood": "\f116",
+  "loading": "\f117",
+  "menu-All": "\f118",
+  "menu-Amp": "\f119",
+  "menu-Arcane": "\f11a",
+  "menu-Archwing": "\f11b",
+  "menu-ArchwingColour": "\f11c",
+  "menu-ArchwingEmblem": "\f11d",
+  "menu-ArchwingPrimary": "\f11e",
+  "menu-ArchwingSecondary": "\f11f",
+  "menu-Armor": "\f120",
+  "menu-Augment": "\f121",
+  "menu-Aura": "\f122",
+  "menu-Avionics": "\f123",
+  "menu-AvionicsDefensive": "\f124",
+  "menu-AvionicsOffensive": "\f125",
+  "menu-AvionicsSuper": "\f126",
+  "menu-AvionicsTactical": "\f127",
+  "menu-Barracks": "\f128",
+  "menu-Bile": "\f129",
+  "menu-Biotics": "\f12a",
+  "menu-Blueprint": "\f12b",
+  "menu-Build": "\f12c",
+  "menu-Calx": "\f12d",
+  "menu-Capacity": "\f12e",
+  "menu-Cephalon": "\f12f",
+  "menu-CetusElder": "\f130",
+  "menu-ChangeSkins": "\f131",
+  "menu-ClanObstacleCourse": "\f132",
+  "menu-Command": "\f133",
+  "menu-Connector": "\f134",
+  "menu-Corpus": "\f135",
+  "menu-CraftingAmpBrace": "\f136",
+  "menu-CraftingAmpPrism": "\f137",
+  "menu-CraftingAmpScaffold": "\f138",
+  "menu-CraftingHoundBody": "\f139",
+  "menu-CraftingHoundHead": "\f13a",
+  "menu-CraftingHoundLegs": "\f13b",
+  "menu-CraftingHoundTail": "\f13c",
+  "menu-CraftingKDriveBoard": "\f13d",
+  "menu-CraftingKDriveJet": "\f13e",
+  "menu-CraftingKDriveNose": "\f13f",
+  "menu-CraftingKDriveReactor": "\f140",
+  "menu-CraftingKitgunChamber": "\f141",
+  "menu-CraftingKitgunGrip": "\f142",
+  "menu-CraftingKitgunLoader": "\f143",
+  "menu-CraftingKitgunPrimaryGrip": "\f144",
+  "menu-CraftingMoaBrackets": "\f145",
+  "menu-CraftingMoaCore": "\f146",
+  "menu-CraftingMoaGyro": "\f147",
+  "menu-CraftingMoaModel": "\f148",
+  "menu-Displays": "\f149",
+  "menu-Drone": "\f14a",
+  "menu-Duplicate": "\f14b",
+  "menu-Emotes": "\f14c",
+  "menu-Energy": "\f14d",
+  "menu-Engineering": "\f14e",
+  "menu-Entrati": "\f14f",
+  "menu-Equip": "\f150",
+  "menu-Exilus": "\f151",
+  "menu-Favorite": "\f152",
+  "menu-FishLarge": "\f153",
+  "menu-FishMedium": "\f154",
+  "menu-FishSmall": "\f155",
+  "menu-Fusion": "\f156",
+  "menu-Fx": "\f157",
+  "menu-Gara": "\f158",
+  "menu-Garden": "\f159",
+  "menu-Gear": "\f15a",
+  "menu-GearWheel": "\f15b",
+  "menu-GeneticImprint": "\f15c",
+  "menu-Ghouls": "\f15d",
+  "menu-Gift": "\f15e",
+  "menu-Glyph": "\f15f",
+  "menu-Grineer": "\f160",
+  "menu-Grip": "\f161",
+  "menu-Gunnery": "\f162",
+  "menu-Hall": "\f163",
+  "menu-Incomplete": "\f164",
+  "menu-IndividualObstacleCourse": "\f165",
+  "menu-Infested": "\f166",
+  "menu-Kavat": "\f167",
+  "menu-Keys": "\f168",
+  "menu-Kubrow": "\f169",
+  "menu-KuvaLichActive": "\f16a",
+  "menu-KuvaLichConverted": "\f16b",
+  "menu-KuvaLichTraded": "\f16c",
+  "menu-KuvaLichVanquished": "\f16d",
+  "menu-Lab": "\f16e",
+  "menu-LichCategory": "\f16f",
+  "menu-LimitedTime": "\f170",
+  "menu-Link": "\f171",
+  "menu-LotusEmblem": "\f172",
+  "menu-ManufacturerLavan": "\f173",
+  "menu-ManufacturerSigma": "\f174",
+  "menu-ManufacturerVidar": "\f175",
+  "menu-ManufacturerZekti": "\f176",
+  "menu-Materials": "\f177",
+  "menu-MaterialsOff": "\f178",
+  "menu-Mech": "\f179",
+  "menu-MechBoard": "\f17a",
+  "menu-Melee": "\f17b",
+  "menu-Misc": "\f17c",
+  "menu-MkI": "\f17d",
+  "menu-MkII": "\f17e",
+  "menu-MkIII": "\f17f",
+  "menu-Mods": "\f180",
+  "menu-ModularItem": "\f181",
+  "menu-Natural": "\f182",
+  "menu-Noggles": "\f183",
+  "menu-Operator": "\f184",
+  "menu-OrokinOn": "\f185",
+  "menu-OwnedBlueprint": "\f186",
+  "menu-Oxides": "\f187",
+  "menu-Parazon": "\f188",
+  "menu-ParazonLong": "\f189",
+  "menu-ParazonLongShadow": "\f18a",
+  "menu-ParazonLongShadow2": "\f18b",
+  "menu-Pheromones": "\f18c",
+  "menu-Pilot": "\f18d",
+  "menu-Pistol": "\f18e",
+  "menu-PlayerShip": "\f18f",
+  "menu-PrexCategory": "\f190",
+  "menu-PrimaryWeaponBow": "\f191",
+  "menu-PrimaryWeaponLauncher": "\f192",
+  "menu-PrimaryWeaponRifle": "\f193",
+  "menu-PrimaryWeaponShotgun": "\f194",
+  "menu-PrimaryWeaponSniper": "\f195",
+  "menu-PrimaryWeaponSpeargun": "\f196",
+  "menu-PrimaryWeaponSpecial": "\f197",
+  "menu-PrimeParts": "\f198",
+  "menu-Prospector": "\f199",
+  "menu-Purchase": "\f19a",
+  "menu-QuestPickerActive": "\f19b",
+  "menu-QuestPickerCompleted": "\f19c",
+  "menu-QuestPickerMystery": "\f19d",
+  "menu-Railjack": "\f19e",
+  "menu-Railjack2": "\f19f",
+  "menu-RailjackAbilities": "\f1a0",
+  "menu-RailjackCountermeasures": "\f1a1",
+  "menu-RailjackOrdnance": "\f1a2",
+  "menu-RailjackPilot": "\f1a3",
+  "menu-RailjackTurrets": "\f1a4",
+  "menu-RelatedItems": "\f1a5",
+  "menu-Relic": "\f1a6",
+  "menu-RelicAxi": "\f1a7",
+  "menu-RelicLith": "\f1a8",
+  "menu-RelicMeso": "\f1a9",
+  "menu-RelicNeo": "\f1aa",
+  "menu-RequiemMod": "\f1ab",
+  "menu-RequiemRelic": "\f1ac",
+  "menu-RequirementsMet": "\f1ad",
+  "menu-ResearchCorpus": "\f1ae",
+  "menu-ResearchGrineer": "\f1af",
+  "menu-ResearchInfested": "\f1b0",
+  "menu-ResearchOrokin": "\f1b1",
+  "menu-ResearchRailjack": "\f1b2",
+  "menu-ResearchTenno": "\f1b3",
+  "menu-ResourceDrone": "\f1b4",
+  "menu-Rifle": "\f1b5",
+  "menu-RifleOff": "\f1b6",
+  "menu-RivenMod": "\f1b7",
+  "menu-RoundVial": "\f1b8",
+  "menu-Salvage": "\f1b9",
+  "menu-Sentinel": "\f1ba",
+  "menu-Shotgun": "\f1bb",
+  "menu-Sigils": "\f1bc",
+  "menu-Simaris": "\f1bd",
+  "menu-Skins": "\f1be",
+  "menu-Solaris": "\f1bf",
+  "menu-SquareVial": "\f1c0",
+  "menu-Stance": "\f1c1",
+  "menu-Strike": "\f1c2",
+  "menu-Swatch": "\f1c3",
+  "menu-Synthetics": "\f1c4",
+  "menu-Synthetics2": "\f1c5",
+  "menu-Tactical": "\f1c6",
+  "menu-Teleport": "\f1c7",
+  "menu-Tenets": "\f1c8",
+  "menu-Utility": "\f1c9",
+  "menu-Utility2": "\f1ca",
+  "menu-VehiclesKdrive": "\f1cb",
+  "menu-Warframe": "\f1cc",
+  "menu-WarframeOff": "\f1cd",
+  "menu-Weapons": "\f1ce",
+  "menu-Wild": "\f1cf",
+  "menu-WoundedInfestedCritter": "\f1d0",
+  "menu-WoundedInfestedPredator": "\f1d1",
+  "nightmare": "\f1d2",
+  "nightwave": "\f1d3",
+  "nightwaves-daily": "\f1d4",
+  "nightwaves-elite": "\f1d5",
+  "nightwaves-weekly": "\f1d6",
+  "ostron": "\f1d7",
+  "sigils-Arbiters-of-Hexis-ArbitersLevel1": "\f1d8",
+  "sigils-Arbiters-of-Hexis-ArbitersLevel2": "\f1d9",
+  "sigils-Arbiters-of-Hexis-ArbitersLevel3": "\f1da",
+  "sigils-Arbiters-of-Hexis-ArbitersLevel4": "\f1db",
+  "sigils-Arbiters-of-Hexis-ArbitersLevel5": "\f1dc",
+  "sigils-Cephalon-Suda-CephalonSudaLevel1": "\f1dd",
+  "sigils-Cephalon-Suda-CephalonSudaLevel2": "\f1de",
+  "sigils-Cephalon-Suda-CephalonSudaLevel3": "\f1df",
+  "sigils-Cephalon-Suda-CephalonSudaLevel4": "\f1e0",
+  "sigils-Cephalon-Suda-CephalonSudaLevel5": "\f1e1",
+  "sigils-Entrati-EntratiLevel1": "\f1e2",
+  "sigils-Entrati-EntratiLevel2": "\f1e3",
+  "sigils-Entrati-EntratiLevel3": "\f1e4",
+  "sigils-Entrati-EntratiLevel4": "\f1e5",
+  "sigils-Entrati-EntratiLevel5": "\f1e6",
+  "sigils-Necraloid-NecraloidLevel1": "\f1e7",
+  "sigils-Necraloid-NecraloidLevel2": "\f1e8",
+  "sigils-Necraloid-NecraloidLevel3": "\f1e9",
+  "sigils-NegativeRank1": "\f1ea",
+  "sigils-NegativeRank2": "\f1eb",
+  "sigils-Neutral": "\f1ec",
+  "sigils-New-Loka-NewLokaLevel1": "\f1ed",
+  "sigils-New-Loka-NewLokaLevel2": "\f1ee",
+  "sigils-New-Loka-NewLokaLevel3": "\f1ef",
+  "sigils-New-Loka-NewLokaLevel4": "\f1f0",
+  "sigils-New-Loka-NewLokaLevel5": "\f1f1",
+  "sigils-Ostron-OstronLevel1": "\f1f2",
+  "sigils-Ostron-OstronLevel2": "\f1f3",
+  "sigils-Ostron-OstronLevel3": "\f1f4",
+  "sigils-Ostron-OstronLevel4": "\f1f5",
+  "sigils-Ostron-OstronLevel5": "\f1f6",
+  "sigils-Red-Veil-RedVeilLevel1": "\f1f7",
+  "sigils-Red-Veil-RedVeilLevel2": "\f1f8",
+  "sigils-Red-Veil-RedVeilLevel3": "\f1f9",
+  "sigils-Red-Veil-RedVeilLevel4": "\f1fa",
+  "sigils-Red-Veil-RedVeilLevel5": "\f1fb",
+  "sigils-Solaris-United-SolarisLevel1": "\f1fc",
+  "sigils-Solaris-United-SolarisLevel2": "\f1fd",
+  "sigils-Solaris-United-SolarisLevel3": "\f1fe",
+  "sigils-Solaris-United-SolarisLevel4": "\f1ff",
+  "sigils-Solaris-United-SolarisLevel5": "\f200",
+  "sigils-Steel-Meridian-SteelMeridianLevel1": "\f201",
+  "sigils-Steel-Meridian-SteelMeridianLevel2": "\f202",
+  "sigils-Steel-Meridian-SteelMeridianLevel3": "\f203",
+  "sigils-Steel-Meridian-SteelMeridianLevel4": "\f204",
+  "sigils-Steel-Meridian-SteelMeridianLevel5": "\f205",
+  "sigils-The-Holdfasts-HoldfastsLevel1": "\f206",
+  "sigils-The-Holdfasts-HoldfastsLevel2": "\f207",
+  "sigils-The-Holdfasts-HoldfastsLevel3": "\f208",
+  "sigils-The-Holdfasts-HoldfastsLevel4": "\f209",
+  "sigils-The-Holdfasts-HoldfastsLevel5": "\f20a",
+  "sigils-The-Perrin-Sequence-PerrinLevel1": "\f20b",
+  "sigils-The-Perrin-Sequence-PerrinLevel2": "\f20c",
+  "sigils-The-Perrin-Sequence-PerrinLevel3": "\f20d",
+  "sigils-The-Perrin-Sequence-PerrinLevel4": "\f20e",
+  "sigils-The-Perrin-Sequence-PerrinLevel5": "\f20f",
+  "sigils-The-Quills-QuillsLevel1": "\f210",
+  "sigils-The-Quills-QuillsLevel2": "\f211",
+  "sigils-The-Quills-QuillsLevel3": "\f212",
+  "sigils-The-Quills-QuillsLevel4": "\f213",
+  "sigils-The-Quills-QuillsLevel5": "\f214",
+  "sigils-VentKids-VentKidsLevel1": "\f215",
+  "sigils-VentKids-VentKidsLevel2": "\f216",
+  "sigils-VentKids-VentKidsLevel3": "\f217",
+  "sigils-VentKids-VentKidsLevel4": "\f218",
+  "sigils-VentKids-VentKidsLevel5": "\f219",
+  "sigils-Vox-Solaris-VoxLevel1": "\f21a",
+  "sigils-Vox-Solaris-VoxLevel2": "\f21b",
+  "sigils-Vox-Solaris-VoxLevel3": "\f21c",
+  "sigils-Vox-Solaris-VoxLevel4": "\f21d",
+  "sigils-Vox-Solaris-VoxLevel5": "\f21e",
+  "simaris": "\f21f",
+  "solaris": "\f220",
+  "sp-logo": "\f221",
+  "standing": "\f222",
+  "wfcd": "\f223",
+)
+
+.icon-arbitrations::before
+  content: map-get($Warframe-symbols-map, "arbitrations")
+.icon-archwing::before
+  content: map-get($Warframe-symbols-map, "archwing")
+.icon-damage-impact::before
+  content: map-get($Warframe-symbols-map, "damage-impact")
+.icon-damage-puncture::before
+  content: map-get($Warframe-symbols-map, "damage-puncture")
+.icon-damage-slash::before
+  content: map-get($Warframe-symbols-map, "damage-slash")
+.icon-entrati::before
+  content: map-get($Warframe-symbols-map, "entrati")
+.icon-factions-corpus::before
+  content: map-get($Warframe-symbols-map, "factions-corpus")
+.icon-factions-corrupted::before
+  content: map-get($Warframe-symbols-map, "factions-corrupted")
+.icon-factions-grineer::before
+  content: map-get($Warframe-symbols-map, "factions-grineer")
+.icon-factions-infested::before
+  content: map-get($Warframe-symbols-map, "factions-infested")
+.icon-factions-murmur::before
+  content: map-get($Warframe-symbols-map, "factions-murmur")
+.icon-factions-narmer::before
+  content: map-get($Warframe-symbols-map, "factions-narmer")
+.icon-factions-narmer2::before
+  content: map-get($Warframe-symbols-map, "factions-narmer2")
+.icon-factions-sentient::before
+  content: map-get($Warframe-symbols-map, "factions-sentient")
+.icon-fissures-axi::before
+  content: map-get($Warframe-symbols-map, "fissures-axi")
+.icon-fissures-lith::before
+  content: map-get($Warframe-symbols-map, "fissures-lith")
+.icon-fissures-meso::before
+  content: map-get($Warframe-symbols-map, "fissures-meso")
+.icon-fissures-neo::before
+  content: map-get($Warframe-symbols-map, "fissures-neo")
+.icon-fissures-requiem::before
+  content: map-get($Warframe-symbols-map, "fissures-requiem")
+.icon-hexis::before
+  content: map-get($Warframe-symbols-map, "hexis")
+.icon-kuva-kuva::before
+  content: map-get($Warframe-symbols-map, "kuva-kuva")
+.icon-kuva-kuvaflood::before
+  content: map-get($Warframe-symbols-map, "kuva-kuvaflood")
+.icon-loading::before
+  content: map-get($Warframe-symbols-map, "loading")
+.icon-menu-All::before
+  content: map-get($Warframe-symbols-map, "menu-All")
+.icon-menu-Amp::before
+  content: map-get($Warframe-symbols-map, "menu-Amp")
+.icon-menu-Arcane::before
+  content: map-get($Warframe-symbols-map, "menu-Arcane")
+.icon-menu-Archwing::before
+  content: map-get($Warframe-symbols-map, "menu-Archwing")
+.icon-menu-ArchwingColour::before
+  content: map-get($Warframe-symbols-map, "menu-ArchwingColour")
+.icon-menu-ArchwingEmblem::before
+  content: map-get($Warframe-symbols-map, "menu-ArchwingEmblem")
+.icon-menu-ArchwingPrimary::before
+  content: map-get($Warframe-symbols-map, "menu-ArchwingPrimary")
+.icon-menu-ArchwingSecondary::before
+  content: map-get($Warframe-symbols-map, "menu-ArchwingSecondary")
+.icon-menu-Armor::before
+  content: map-get($Warframe-symbols-map, "menu-Armor")
+.icon-menu-Augment::before
+  content: map-get($Warframe-symbols-map, "menu-Augment")
+.icon-menu-Aura::before
+  content: map-get($Warframe-symbols-map, "menu-Aura")
+.icon-menu-Avionics::before
+  content: map-get($Warframe-symbols-map, "menu-Avionics")
+.icon-menu-AvionicsDefensive::before
+  content: map-get($Warframe-symbols-map, "menu-AvionicsDefensive")
+.icon-menu-AvionicsOffensive::before
+  content: map-get($Warframe-symbols-map, "menu-AvionicsOffensive")
+.icon-menu-AvionicsSuper::before
+  content: map-get($Warframe-symbols-map, "menu-AvionicsSuper")
+.icon-menu-AvionicsTactical::before
+  content: map-get($Warframe-symbols-map, "menu-AvionicsTactical")
+.icon-menu-Barracks::before
+  content: map-get($Warframe-symbols-map, "menu-Barracks")
+.icon-menu-Bile::before
+  content: map-get($Warframe-symbols-map, "menu-Bile")
+.icon-menu-Biotics::before
+  content: map-get($Warframe-symbols-map, "menu-Biotics")
+.icon-menu-Blueprint::before
+  content: map-get($Warframe-symbols-map, "menu-Blueprint")
+.icon-menu-Build::before
+  content: map-get($Warframe-symbols-map, "menu-Build")
+.icon-menu-Calx::before
+  content: map-get($Warframe-symbols-map, "menu-Calx")
+.icon-menu-Capacity::before
+  content: map-get($Warframe-symbols-map, "menu-Capacity")
+.icon-menu-Cephalon::before
+  content: map-get($Warframe-symbols-map, "menu-Cephalon")
+.icon-menu-CetusElder::before
+  content: map-get($Warframe-symbols-map, "menu-CetusElder")
+.icon-menu-ChangeSkins::before
+  content: map-get($Warframe-symbols-map, "menu-ChangeSkins")
+.icon-menu-ClanObstacleCourse::before
+  content: map-get($Warframe-symbols-map, "menu-ClanObstacleCourse")
+.icon-menu-Command::before
+  content: map-get($Warframe-symbols-map, "menu-Command")
+.icon-menu-Connector::before
+  content: map-get($Warframe-symbols-map, "menu-Connector")
+.icon-menu-Corpus::before
+  content: map-get($Warframe-symbols-map, "menu-Corpus")
+.icon-menu-CraftingAmpBrace::before
+  content: map-get($Warframe-symbols-map, "menu-CraftingAmpBrace")
+.icon-menu-CraftingAmpPrism::before
+  content: map-get($Warframe-symbols-map, "menu-CraftingAmpPrism")
+.icon-menu-CraftingAmpScaffold::before
+  content: map-get($Warframe-symbols-map, "menu-CraftingAmpScaffold")
+.icon-menu-CraftingHoundBody::before
+  content: map-get($Warframe-symbols-map, "menu-CraftingHoundBody")
+.icon-menu-CraftingHoundHead::before
+  content: map-get($Warframe-symbols-map, "menu-CraftingHoundHead")
+.icon-menu-CraftingHoundLegs::before
+  content: map-get($Warframe-symbols-map, "menu-CraftingHoundLegs")
+.icon-menu-CraftingHoundTail::before
+  content: map-get($Warframe-symbols-map, "menu-CraftingHoundTail")
+.icon-menu-CraftingKDriveBoard::before
+  content: map-get($Warframe-symbols-map, "menu-CraftingKDriveBoard")
+.icon-menu-CraftingKDriveJet::before
+  content: map-get($Warframe-symbols-map, "menu-CraftingKDriveJet")
+.icon-menu-CraftingKDriveNose::before
+  content: map-get($Warframe-symbols-map, "menu-CraftingKDriveNose")
+.icon-menu-CraftingKDriveReactor::before
+  content: map-get($Warframe-symbols-map, "menu-CraftingKDriveReactor")
+.icon-menu-CraftingKitgunChamber::before
+  content: map-get($Warframe-symbols-map, "menu-CraftingKitgunChamber")
+.icon-menu-CraftingKitgunGrip::before
+  content: map-get($Warframe-symbols-map, "menu-CraftingKitgunGrip")
+.icon-menu-CraftingKitgunLoader::before
+  content: map-get($Warframe-symbols-map, "menu-CraftingKitgunLoader")
+.icon-menu-CraftingKitgunPrimaryGrip::before
+  content: map-get($Warframe-symbols-map, "menu-CraftingKitgunPrimaryGrip")
+.icon-menu-CraftingMoaBrackets::before
+  content: map-get($Warframe-symbols-map, "menu-CraftingMoaBrackets")
+.icon-menu-CraftingMoaCore::before
+  content: map-get($Warframe-symbols-map, "menu-CraftingMoaCore")
+.icon-menu-CraftingMoaGyro::before
+  content: map-get($Warframe-symbols-map, "menu-CraftingMoaGyro")
+.icon-menu-CraftingMoaModel::before
+  content: map-get($Warframe-symbols-map, "menu-CraftingMoaModel")
+.icon-menu-Displays::before
+  content: map-get($Warframe-symbols-map, "menu-Displays")
+.icon-menu-Drone::before
+  content: map-get($Warframe-symbols-map, "menu-Drone")
+.icon-menu-Duplicate::before
+  content: map-get($Warframe-symbols-map, "menu-Duplicate")
+.icon-menu-Emotes::before
+  content: map-get($Warframe-symbols-map, "menu-Emotes")
+.icon-menu-Energy::before
+  content: map-get($Warframe-symbols-map, "menu-Energy")
+.icon-menu-Engineering::before
+  content: map-get($Warframe-symbols-map, "menu-Engineering")
+.icon-menu-Entrati::before
+  content: map-get($Warframe-symbols-map, "menu-Entrati")
+.icon-menu-Equip::before
+  content: map-get($Warframe-symbols-map, "menu-Equip")
+.icon-menu-Exilus::before
+  content: map-get($Warframe-symbols-map, "menu-Exilus")
+.icon-menu-Favorite::before
+  content: map-get($Warframe-symbols-map, "menu-Favorite")
+.icon-menu-FishLarge::before
+  content: map-get($Warframe-symbols-map, "menu-FishLarge")
+.icon-menu-FishMedium::before
+  content: map-get($Warframe-symbols-map, "menu-FishMedium")
+.icon-menu-FishSmall::before
+  content: map-get($Warframe-symbols-map, "menu-FishSmall")
+.icon-menu-Fusion::before
+  content: map-get($Warframe-symbols-map, "menu-Fusion")
+.icon-menu-Fx::before
+  content: map-get($Warframe-symbols-map, "menu-Fx")
+.icon-menu-Gara::before
+  content: map-get($Warframe-symbols-map, "menu-Gara")
+.icon-menu-Garden::before
+  content: map-get($Warframe-symbols-map, "menu-Garden")
+.icon-menu-Gear::before
+  content: map-get($Warframe-symbols-map, "menu-Gear")
+.icon-menu-GearWheel::before
+  content: map-get($Warframe-symbols-map, "menu-GearWheel")
+.icon-menu-GeneticImprint::before
+  content: map-get($Warframe-symbols-map, "menu-GeneticImprint")
+.icon-menu-Ghouls::before
+  content: map-get($Warframe-symbols-map, "menu-Ghouls")
+.icon-menu-Gift::before
+  content: map-get($Warframe-symbols-map, "menu-Gift")
+.icon-menu-Glyph::before
+  content: map-get($Warframe-symbols-map, "menu-Glyph")
+.icon-menu-Grineer::before
+  content: map-get($Warframe-symbols-map, "menu-Grineer")
+.icon-menu-Grip::before
+  content: map-get($Warframe-symbols-map, "menu-Grip")
+.icon-menu-Gunnery::before
+  content: map-get($Warframe-symbols-map, "menu-Gunnery")
+.icon-menu-Hall::before
+  content: map-get($Warframe-symbols-map, "menu-Hall")
+.icon-menu-Incomplete::before
+  content: map-get($Warframe-symbols-map, "menu-Incomplete")
+.icon-menu-IndividualObstacleCourse::before
+  content: map-get($Warframe-symbols-map, "menu-IndividualObstacleCourse")
+.icon-menu-Infested::before
+  content: map-get($Warframe-symbols-map, "menu-Infested")
+.icon-menu-Kavat::before
+  content: map-get($Warframe-symbols-map, "menu-Kavat")
+.icon-menu-Keys::before
+  content: map-get($Warframe-symbols-map, "menu-Keys")
+.icon-menu-Kubrow::before
+  content: map-get($Warframe-symbols-map, "menu-Kubrow")
+.icon-menu-KuvaLichActive::before
+  content: map-get($Warframe-symbols-map, "menu-KuvaLichActive")
+.icon-menu-KuvaLichConverted::before
+  content: map-get($Warframe-symbols-map, "menu-KuvaLichConverted")
+.icon-menu-KuvaLichTraded::before
+  content: map-get($Warframe-symbols-map, "menu-KuvaLichTraded")
+.icon-menu-KuvaLichVanquished::before
+  content: map-get($Warframe-symbols-map, "menu-KuvaLichVanquished")
+.icon-menu-Lab::before
+  content: map-get($Warframe-symbols-map, "menu-Lab")
+.icon-menu-LichCategory::before
+  content: map-get($Warframe-symbols-map, "menu-LichCategory")
+.icon-menu-LimitedTime::before
+  content: map-get($Warframe-symbols-map, "menu-LimitedTime")
+.icon-menu-Link::before
+  content: map-get($Warframe-symbols-map, "menu-Link")
+.icon-menu-LotusEmblem::before
+  content: map-get($Warframe-symbols-map, "menu-LotusEmblem")
+.icon-menu-ManufacturerLavan::before
+  content: map-get($Warframe-symbols-map, "menu-ManufacturerLavan")
+.icon-menu-ManufacturerSigma::before
+  content: map-get($Warframe-symbols-map, "menu-ManufacturerSigma")
+.icon-menu-ManufacturerVidar::before
+  content: map-get($Warframe-symbols-map, "menu-ManufacturerVidar")
+.icon-menu-ManufacturerZekti::before
+  content: map-get($Warframe-symbols-map, "menu-ManufacturerZekti")
+.icon-menu-Materials::before
+  content: map-get($Warframe-symbols-map, "menu-Materials")
+.icon-menu-MaterialsOff::before
+  content: map-get($Warframe-symbols-map, "menu-MaterialsOff")
+.icon-menu-Mech::before
+  content: map-get($Warframe-symbols-map, "menu-Mech")
+.icon-menu-MechBoard::before
+  content: map-get($Warframe-symbols-map, "menu-MechBoard")
+.icon-menu-Melee::before
+  content: map-get($Warframe-symbols-map, "menu-Melee")
+.icon-menu-Misc::before
+  content: map-get($Warframe-symbols-map, "menu-Misc")
+.icon-menu-MkI::before
+  content: map-get($Warframe-symbols-map, "menu-MkI")
+.icon-menu-MkII::before
+  content: map-get($Warframe-symbols-map, "menu-MkII")
+.icon-menu-MkIII::before
+  content: map-get($Warframe-symbols-map, "menu-MkIII")
+.icon-menu-Mods::before
+  content: map-get($Warframe-symbols-map, "menu-Mods")
+.icon-menu-ModularItem::before
+  content: map-get($Warframe-symbols-map, "menu-ModularItem")
+.icon-menu-Natural::before
+  content: map-get($Warframe-symbols-map, "menu-Natural")
+.icon-menu-Noggles::before
+  content: map-get($Warframe-symbols-map, "menu-Noggles")
+.icon-menu-Operator::before
+  content: map-get($Warframe-symbols-map, "menu-Operator")
+.icon-menu-OrokinOn::before
+  content: map-get($Warframe-symbols-map, "menu-OrokinOn")
+.icon-menu-OwnedBlueprint::before
+  content: map-get($Warframe-symbols-map, "menu-OwnedBlueprint")
+.icon-menu-Oxides::before
+  content: map-get($Warframe-symbols-map, "menu-Oxides")
+.icon-menu-Parazon::before
+  content: map-get($Warframe-symbols-map, "menu-Parazon")
+.icon-menu-ParazonLong::before
+  content: map-get($Warframe-symbols-map, "menu-ParazonLong")
+.icon-menu-ParazonLongShadow::before
+  content: map-get($Warframe-symbols-map, "menu-ParazonLongShadow")
+.icon-menu-ParazonLongShadow2::before
+  content: map-get($Warframe-symbols-map, "menu-ParazonLongShadow2")
+.icon-menu-Pheromones::before
+  content: map-get($Warframe-symbols-map, "menu-Pheromones")
+.icon-menu-Pilot::before
+  content: map-get($Warframe-symbols-map, "menu-Pilot")
+.icon-menu-Pistol::before
+  content: map-get($Warframe-symbols-map, "menu-Pistol")
+.icon-menu-PlayerShip::before
+  content: map-get($Warframe-symbols-map, "menu-PlayerShip")
+.icon-menu-PrexCategory::before
+  content: map-get($Warframe-symbols-map, "menu-PrexCategory")
+.icon-menu-PrimaryWeaponBow::before
+  content: map-get($Warframe-symbols-map, "menu-PrimaryWeaponBow")
+.icon-menu-PrimaryWeaponLauncher::before
+  content: map-get($Warframe-symbols-map, "menu-PrimaryWeaponLauncher")
+.icon-menu-PrimaryWeaponRifle::before
+  content: map-get($Warframe-symbols-map, "menu-PrimaryWeaponRifle")
+.icon-menu-PrimaryWeaponShotgun::before
+  content: map-get($Warframe-symbols-map, "menu-PrimaryWeaponShotgun")
+.icon-menu-PrimaryWeaponSniper::before
+  content: map-get($Warframe-symbols-map, "menu-PrimaryWeaponSniper")
+.icon-menu-PrimaryWeaponSpeargun::before
+  content: map-get($Warframe-symbols-map, "menu-PrimaryWeaponSpeargun")
+.icon-menu-PrimaryWeaponSpecial::before
+  content: map-get($Warframe-symbols-map, "menu-PrimaryWeaponSpecial")
+.icon-menu-PrimeParts::before
+  content: map-get($Warframe-symbols-map, "menu-PrimeParts")
+.icon-menu-Prospector::before
+  content: map-get($Warframe-symbols-map, "menu-Prospector")
+.icon-menu-Purchase::before
+  content: map-get($Warframe-symbols-map, "menu-Purchase")
+.icon-menu-QuestPickerActive::before
+  content: map-get($Warframe-symbols-map, "menu-QuestPickerActive")
+.icon-menu-QuestPickerCompleted::before
+  content: map-get($Warframe-symbols-map, "menu-QuestPickerCompleted")
+.icon-menu-QuestPickerMystery::before
+  content: map-get($Warframe-symbols-map, "menu-QuestPickerMystery")
+.icon-menu-Railjack::before
+  content: map-get($Warframe-symbols-map, "menu-Railjack")
+.icon-menu-Railjack2::before
+  content: map-get($Warframe-symbols-map, "menu-Railjack2")
+.icon-menu-RailjackAbilities::before
+  content: map-get($Warframe-symbols-map, "menu-RailjackAbilities")
+.icon-menu-RailjackCountermeasures::before
+  content: map-get($Warframe-symbols-map, "menu-RailjackCountermeasures")
+.icon-menu-RailjackOrdnance::before
+  content: map-get($Warframe-symbols-map, "menu-RailjackOrdnance")
+.icon-menu-RailjackPilot::before
+  content: map-get($Warframe-symbols-map, "menu-RailjackPilot")
+.icon-menu-RailjackTurrets::before
+  content: map-get($Warframe-symbols-map, "menu-RailjackTurrets")
+.icon-menu-RelatedItems::before
+  content: map-get($Warframe-symbols-map, "menu-RelatedItems")
+.icon-menu-Relic::before
+  content: map-get($Warframe-symbols-map, "menu-Relic")
+.icon-menu-RelicAxi::before
+  content: map-get($Warframe-symbols-map, "menu-RelicAxi")
+.icon-menu-RelicLith::before
+  content: map-get($Warframe-symbols-map, "menu-RelicLith")
+.icon-menu-RelicMeso::before
+  content: map-get($Warframe-symbols-map, "menu-RelicMeso")
+.icon-menu-RelicNeo::before
+  content: map-get($Warframe-symbols-map, "menu-RelicNeo")
+.icon-menu-RequiemMod::before
+  content: map-get($Warframe-symbols-map, "menu-RequiemMod")
+.icon-menu-RequiemRelic::before
+  content: map-get($Warframe-symbols-map, "menu-RequiemRelic")
+.icon-menu-RequirementsMet::before
+  content: map-get($Warframe-symbols-map, "menu-RequirementsMet")
+.icon-menu-ResearchCorpus::before
+  content: map-get($Warframe-symbols-map, "menu-ResearchCorpus")
+.icon-menu-ResearchGrineer::before
+  content: map-get($Warframe-symbols-map, "menu-ResearchGrineer")
+.icon-menu-ResearchInfested::before
+  content: map-get($Warframe-symbols-map, "menu-ResearchInfested")
+.icon-menu-ResearchOrokin::before
+  content: map-get($Warframe-symbols-map, "menu-ResearchOrokin")
+.icon-menu-ResearchRailjack::before
+  content: map-get($Warframe-symbols-map, "menu-ResearchRailjack")
+.icon-menu-ResearchTenno::before
+  content: map-get($Warframe-symbols-map, "menu-ResearchTenno")
+.icon-menu-ResourceDrone::before
+  content: map-get($Warframe-symbols-map, "menu-ResourceDrone")
+.icon-menu-Rifle::before
+  content: map-get($Warframe-symbols-map, "menu-Rifle")
+.icon-menu-RifleOff::before
+  content: map-get($Warframe-symbols-map, "menu-RifleOff")
+.icon-menu-RivenMod::before
+  content: map-get($Warframe-symbols-map, "menu-RivenMod")
+.icon-menu-RoundVial::before
+  content: map-get($Warframe-symbols-map, "menu-RoundVial")
+.icon-menu-Salvage::before
+  content: map-get($Warframe-symbols-map, "menu-Salvage")
+.icon-menu-Sentinel::before
+  content: map-get($Warframe-symbols-map, "menu-Sentinel")
+.icon-menu-Shotgun::before
+  content: map-get($Warframe-symbols-map, "menu-Shotgun")
+.icon-menu-Sigils::before
+  content: map-get($Warframe-symbols-map, "menu-Sigils")
+.icon-menu-Simaris::before
+  content: map-get($Warframe-symbols-map, "menu-Simaris")
+.icon-menu-Skins::before
+  content: map-get($Warframe-symbols-map, "menu-Skins")
+.icon-menu-Solaris::before
+  content: map-get($Warframe-symbols-map, "menu-Solaris")
+.icon-menu-SquareVial::before
+  content: map-get($Warframe-symbols-map, "menu-SquareVial")
+.icon-menu-Stance::before
+  content: map-get($Warframe-symbols-map, "menu-Stance")
+.icon-menu-Strike::before
+  content: map-get($Warframe-symbols-map, "menu-Strike")
+.icon-menu-Swatch::before
+  content: map-get($Warframe-symbols-map, "menu-Swatch")
+.icon-menu-Synthetics::before
+  content: map-get($Warframe-symbols-map, "menu-Synthetics")
+.icon-menu-Synthetics2::before
+  content: map-get($Warframe-symbols-map, "menu-Synthetics2")
+.icon-menu-Tactical::before
+  content: map-get($Warframe-symbols-map, "menu-Tactical")
+.icon-menu-Teleport::before
+  content: map-get($Warframe-symbols-map, "menu-Teleport")
+.icon-menu-Tenets::before
+  content: map-get($Warframe-symbols-map, "menu-Tenets")
+.icon-menu-Utility::before
+  content: map-get($Warframe-symbols-map, "menu-Utility")
+.icon-menu-Utility2::before
+  content: map-get($Warframe-symbols-map, "menu-Utility2")
+.icon-menu-VehiclesKdrive::before
+  content: map-get($Warframe-symbols-map, "menu-VehiclesKdrive")
+.icon-menu-Warframe::before
+  content: map-get($Warframe-symbols-map, "menu-Warframe")
+.icon-menu-WarframeOff::before
+  content: map-get($Warframe-symbols-map, "menu-WarframeOff")
+.icon-menu-Weapons::before
+  content: map-get($Warframe-symbols-map, "menu-Weapons")
+.icon-menu-Wild::before
+  content: map-get($Warframe-symbols-map, "menu-Wild")
+.icon-menu-WoundedInfestedCritter::before
+  content: map-get($Warframe-symbols-map, "menu-WoundedInfestedCritter")
+.icon-menu-WoundedInfestedPredator::before
+  content: map-get($Warframe-symbols-map, "menu-WoundedInfestedPredator")
+.icon-nightmare::before
+  content: map-get($Warframe-symbols-map, "nightmare")
+.icon-nightwave::before
+  content: map-get($Warframe-symbols-map, "nightwave")
+.icon-nightwaves-daily::before
+  content: map-get($Warframe-symbols-map, "nightwaves-daily")
+.icon-nightwaves-elite::before
+  content: map-get($Warframe-symbols-map, "nightwaves-elite")
+.icon-nightwaves-weekly::before
+  content: map-get($Warframe-symbols-map, "nightwaves-weekly")
+.icon-ostron::before
+  content: map-get($Warframe-symbols-map, "ostron")
+.icon-sigils-Arbiters-of-Hexis-ArbitersLevel1::before
+  content: map-get($Warframe-symbols-map, "sigils-Arbiters-of-Hexis-ArbitersLevel1")
+.icon-sigils-Arbiters-of-Hexis-ArbitersLevel2::before
+  content: map-get($Warframe-symbols-map, "sigils-Arbiters-of-Hexis-ArbitersLevel2")
+.icon-sigils-Arbiters-of-Hexis-ArbitersLevel3::before
+  content: map-get($Warframe-symbols-map, "sigils-Arbiters-of-Hexis-ArbitersLevel3")
+.icon-sigils-Arbiters-of-Hexis-ArbitersLevel4::before
+  content: map-get($Warframe-symbols-map, "sigils-Arbiters-of-Hexis-ArbitersLevel4")
+.icon-sigils-Arbiters-of-Hexis-ArbitersLevel5::before
+  content: map-get($Warframe-symbols-map, "sigils-Arbiters-of-Hexis-ArbitersLevel5")
+.icon-sigils-Cephalon-Suda-CephalonSudaLevel1::before
+  content: map-get($Warframe-symbols-map, "sigils-Cephalon-Suda-CephalonSudaLevel1")
+.icon-sigils-Cephalon-Suda-CephalonSudaLevel2::before
+  content: map-get($Warframe-symbols-map, "sigils-Cephalon-Suda-CephalonSudaLevel2")
+.icon-sigils-Cephalon-Suda-CephalonSudaLevel3::before
+  content: map-get($Warframe-symbols-map, "sigils-Cephalon-Suda-CephalonSudaLevel3")
+.icon-sigils-Cephalon-Suda-CephalonSudaLevel4::before
+  content: map-get($Warframe-symbols-map, "sigils-Cephalon-Suda-CephalonSudaLevel4")
+.icon-sigils-Cephalon-Suda-CephalonSudaLevel5::before
+  content: map-get($Warframe-symbols-map, "sigils-Cephalon-Suda-CephalonSudaLevel5")
+.icon-sigils-Entrati-EntratiLevel1::before
+  content: map-get($Warframe-symbols-map, "sigils-Entrati-EntratiLevel1")
+.icon-sigils-Entrati-EntratiLevel2::before
+  content: map-get($Warframe-symbols-map, "sigils-Entrati-EntratiLevel2")
+.icon-sigils-Entrati-EntratiLevel3::before
+  content: map-get($Warframe-symbols-map, "sigils-Entrati-EntratiLevel3")
+.icon-sigils-Entrati-EntratiLevel4::before
+  content: map-get($Warframe-symbols-map, "sigils-Entrati-EntratiLevel4")
+.icon-sigils-Entrati-EntratiLevel5::before
+  content: map-get($Warframe-symbols-map, "sigils-Entrati-EntratiLevel5")
+.icon-sigils-Necraloid-NecraloidLevel1::before
+  content: map-get($Warframe-symbols-map, "sigils-Necraloid-NecraloidLevel1")
+.icon-sigils-Necraloid-NecraloidLevel2::before
+  content: map-get($Warframe-symbols-map, "sigils-Necraloid-NecraloidLevel2")
+.icon-sigils-Necraloid-NecraloidLevel3::before
+  content: map-get($Warframe-symbols-map, "sigils-Necraloid-NecraloidLevel3")
+.icon-sigils-NegativeRank1::before
+  content: map-get($Warframe-symbols-map, "sigils-NegativeRank1")
+.icon-sigils-NegativeRank2::before
+  content: map-get($Warframe-symbols-map, "sigils-NegativeRank2")
+.icon-sigils-Neutral::before
+  content: map-get($Warframe-symbols-map, "sigils-Neutral")
+.icon-sigils-New-Loka-NewLokaLevel1::before
+  content: map-get($Warframe-symbols-map, "sigils-New-Loka-NewLokaLevel1")
+.icon-sigils-New-Loka-NewLokaLevel2::before
+  content: map-get($Warframe-symbols-map, "sigils-New-Loka-NewLokaLevel2")
+.icon-sigils-New-Loka-NewLokaLevel3::before
+  content: map-get($Warframe-symbols-map, "sigils-New-Loka-NewLokaLevel3")
+.icon-sigils-New-Loka-NewLokaLevel4::before
+  content: map-get($Warframe-symbols-map, "sigils-New-Loka-NewLokaLevel4")
+.icon-sigils-New-Loka-NewLokaLevel5::before
+  content: map-get($Warframe-symbols-map, "sigils-New-Loka-NewLokaLevel5")
+.icon-sigils-Ostron-OstronLevel1::before
+  content: map-get($Warframe-symbols-map, "sigils-Ostron-OstronLevel1")
+.icon-sigils-Ostron-OstronLevel2::before
+  content: map-get($Warframe-symbols-map, "sigils-Ostron-OstronLevel2")
+.icon-sigils-Ostron-OstronLevel3::before
+  content: map-get($Warframe-symbols-map, "sigils-Ostron-OstronLevel3")
+.icon-sigils-Ostron-OstronLevel4::before
+  content: map-get($Warframe-symbols-map, "sigils-Ostron-OstronLevel4")
+.icon-sigils-Ostron-OstronLevel5::before
+  content: map-get($Warframe-symbols-map, "sigils-Ostron-OstronLevel5")
+.icon-sigils-Red-Veil-RedVeilLevel1::before
+  content: map-get($Warframe-symbols-map, "sigils-Red-Veil-RedVeilLevel1")
+.icon-sigils-Red-Veil-RedVeilLevel2::before
+  content: map-get($Warframe-symbols-map, "sigils-Red-Veil-RedVeilLevel2")
+.icon-sigils-Red-Veil-RedVeilLevel3::before
+  content: map-get($Warframe-symbols-map, "sigils-Red-Veil-RedVeilLevel3")
+.icon-sigils-Red-Veil-RedVeilLevel4::before
+  content: map-get($Warframe-symbols-map, "sigils-Red-Veil-RedVeilLevel4")
+.icon-sigils-Red-Veil-RedVeilLevel5::before
+  content: map-get($Warframe-symbols-map, "sigils-Red-Veil-RedVeilLevel5")
+.icon-sigils-Solaris-United-SolarisLevel1::before
+  content: map-get($Warframe-symbols-map, "sigils-Solaris-United-SolarisLevel1")
+.icon-sigils-Solaris-United-SolarisLevel2::before
+  content: map-get($Warframe-symbols-map, "sigils-Solaris-United-SolarisLevel2")
+.icon-sigils-Solaris-United-SolarisLevel3::before
+  content: map-get($Warframe-symbols-map, "sigils-Solaris-United-SolarisLevel3")
+.icon-sigils-Solaris-United-SolarisLevel4::before
+  content: map-get($Warframe-symbols-map, "sigils-Solaris-United-SolarisLevel4")
+.icon-sigils-Solaris-United-SolarisLevel5::before
+  content: map-get($Warframe-symbols-map, "sigils-Solaris-United-SolarisLevel5")
+.icon-sigils-Steel-Meridian-SteelMeridianLevel1::before
+  content: map-get($Warframe-symbols-map, "sigils-Steel-Meridian-SteelMeridianLevel1")
+.icon-sigils-Steel-Meridian-SteelMeridianLevel2::before
+  content: map-get($Warframe-symbols-map, "sigils-Steel-Meridian-SteelMeridianLevel2")
+.icon-sigils-Steel-Meridian-SteelMeridianLevel3::before
+  content: map-get($Warframe-symbols-map, "sigils-Steel-Meridian-SteelMeridianLevel3")
+.icon-sigils-Steel-Meridian-SteelMeridianLevel4::before
+  content: map-get($Warframe-symbols-map, "sigils-Steel-Meridian-SteelMeridianLevel4")
+.icon-sigils-Steel-Meridian-SteelMeridianLevel5::before
+  content: map-get($Warframe-symbols-map, "sigils-Steel-Meridian-SteelMeridianLevel5")
+.icon-sigils-The-Holdfasts-HoldfastsLevel1::before
+  content: map-get($Warframe-symbols-map, "sigils-The-Holdfasts-HoldfastsLevel1")
+.icon-sigils-The-Holdfasts-HoldfastsLevel2::before
+  content: map-get($Warframe-symbols-map, "sigils-The-Holdfasts-HoldfastsLevel2")
+.icon-sigils-The-Holdfasts-HoldfastsLevel3::before
+  content: map-get($Warframe-symbols-map, "sigils-The-Holdfasts-HoldfastsLevel3")
+.icon-sigils-The-Holdfasts-HoldfastsLevel4::before
+  content: map-get($Warframe-symbols-map, "sigils-The-Holdfasts-HoldfastsLevel4")
+.icon-sigils-The-Holdfasts-HoldfastsLevel5::before
+  content: map-get($Warframe-symbols-map, "sigils-The-Holdfasts-HoldfastsLevel5")
+.icon-sigils-The-Perrin-Sequence-PerrinLevel1::before
+  content: map-get($Warframe-symbols-map, "sigils-The-Perrin-Sequence-PerrinLevel1")
+.icon-sigils-The-Perrin-Sequence-PerrinLevel2::before
+  content: map-get($Warframe-symbols-map, "sigils-The-Perrin-Sequence-PerrinLevel2")
+.icon-sigils-The-Perrin-Sequence-PerrinLevel3::before
+  content: map-get($Warframe-symbols-map, "sigils-The-Perrin-Sequence-PerrinLevel3")
+.icon-sigils-The-Perrin-Sequence-PerrinLevel4::before
+  content: map-get($Warframe-symbols-map, "sigils-The-Perrin-Sequence-PerrinLevel4")
+.icon-sigils-The-Perrin-Sequence-PerrinLevel5::before
+  content: map-get($Warframe-symbols-map, "sigils-The-Perrin-Sequence-PerrinLevel5")
+.icon-sigils-The-Quills-QuillsLevel1::before
+  content: map-get($Warframe-symbols-map, "sigils-The-Quills-QuillsLevel1")
+.icon-sigils-The-Quills-QuillsLevel2::before
+  content: map-get($Warframe-symbols-map, "sigils-The-Quills-QuillsLevel2")
+.icon-sigils-The-Quills-QuillsLevel3::before
+  content: map-get($Warframe-symbols-map, "sigils-The-Quills-QuillsLevel3")
+.icon-sigils-The-Quills-QuillsLevel4::before
+  content: map-get($Warframe-symbols-map, "sigils-The-Quills-QuillsLevel4")
+.icon-sigils-The-Quills-QuillsLevel5::before
+  content: map-get($Warframe-symbols-map, "sigils-The-Quills-QuillsLevel5")
+.icon-sigils-VentKids-VentKidsLevel1::before
+  content: map-get($Warframe-symbols-map, "sigils-VentKids-VentKidsLevel1")
+.icon-sigils-VentKids-VentKidsLevel2::before
+  content: map-get($Warframe-symbols-map, "sigils-VentKids-VentKidsLevel2")
+.icon-sigils-VentKids-VentKidsLevel3::before
+  content: map-get($Warframe-symbols-map, "sigils-VentKids-VentKidsLevel3")
+.icon-sigils-VentKids-VentKidsLevel4::before
+  content: map-get($Warframe-symbols-map, "sigils-VentKids-VentKidsLevel4")
+.icon-sigils-VentKids-VentKidsLevel5::before
+  content: map-get($Warframe-symbols-map, "sigils-VentKids-VentKidsLevel5")
+.icon-sigils-Vox-Solaris-VoxLevel1::before
+  content: map-get($Warframe-symbols-map, "sigils-Vox-Solaris-VoxLevel1")
+.icon-sigils-Vox-Solaris-VoxLevel2::before
+  content: map-get($Warframe-symbols-map, "sigils-Vox-Solaris-VoxLevel2")
+.icon-sigils-Vox-Solaris-VoxLevel3::before
+  content: map-get($Warframe-symbols-map, "sigils-Vox-Solaris-VoxLevel3")
+.icon-sigils-Vox-Solaris-VoxLevel4::before
+  content: map-get($Warframe-symbols-map, "sigils-Vox-Solaris-VoxLevel4")
+.icon-sigils-Vox-Solaris-VoxLevel5::before
+  content: map-get($Warframe-symbols-map, "sigils-Vox-Solaris-VoxLevel5")
+.icon-simaris::before
+  content: map-get($Warframe-symbols-map, "simaris")
+.icon-solaris::before
+  content: map-get($Warframe-symbols-map, "solaris")
+.icon-sp-logo::before
+  content: map-get($Warframe-symbols-map, "sp-logo")
+.icon-standing::before
+  content: map-get($Warframe-symbols-map, "standing")
+.icon-wfcd::before
+  content: map-get($Warframe-symbols-map, "wfcd")

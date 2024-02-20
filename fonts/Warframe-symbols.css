@@ -1,9 +1,11 @@
 @font-face {
   font-display: block;
   font-family: "Warframe-symbols";
-  src: url("./Warframe-symbols.eot?a33e65803227252a8cc49b6db802022c#iefix") format("embedded-opentype"),
-url("./Warframe-symbols.woff2?a33e65803227252a8cc49b6db802022c") format("woff2"),
-url("./Warframe-symbols.woff?a33e65803227252a8cc49b6db802022c") format("woff");
+  src: url("./Warframe-symbols.eot?95118d1ea420c518a6afb7931a420457#iefix") format("embedded-opentype"),
+url("./Warframe-symbols.woff?95118d1ea420c518a6afb7931a420457") format("woff"),
+url("./Warframe-symbols.woff2?95118d1ea420c518a6afb7931a420457") format("woff2"),
+url("./Warframe-symbols.ttf?95118d1ea420c518a6afb7931a420457") format("truetype"),
+url("./Warframe-symbols.svg?95118d1ea420c518a6afb7931a420457#Warframe-symbols") format("svg");
 }
 
 i[class^="icon-"]::before, i[class*=" icon-"]::before {
@@ -23,291 +25,870 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 .icon-archwing::before {
   content: "\f102";
 }
-.icon-entrati::before {
+.icon-damage-impact::before {
   content: "\f103";
 }
-.icon-factions-corpus::before {
+.icon-damage-puncture::before {
   content: "\f104";
 }
-.icon-factions-corrupted::before {
+.icon-damage-slash::before {
   content: "\f105";
 }
-.icon-factions-grineer::before {
+.icon-entrati::before {
   content: "\f106";
 }
-.icon-factions-infested::before {
+.icon-factions-corpus::before {
   content: "\f107";
 }
-.icon-factions-narmer::before {
+.icon-factions-corrupted::before {
   content: "\f108";
 }
-.icon-factions-narmer2::before {
+.icon-factions-grineer::before {
   content: "\f109";
 }
-.icon-factions-sentient::before {
+.icon-factions-infested::before {
   content: "\f10a";
 }
-.icon-fissures-1::before {
+.icon-factions-murmur::before {
   content: "\f10b";
 }
-.icon-fissures-2::before {
+.icon-factions-narmer::before {
   content: "\f10c";
 }
-.icon-fissures-3::before {
+.icon-factions-narmer2::before {
   content: "\f10d";
 }
-.icon-fissures-4::before {
+.icon-factions-sentient::before {
   content: "\f10e";
 }
-.icon-fissures-5::before {
+.icon-fissures-axi::before {
   content: "\f10f";
 }
-.icon-hexis::before {
+.icon-fissures-lith::before {
   content: "\f110";
 }
-.icon-kuva-kuva::before {
+.icon-fissures-meso::before {
   content: "\f111";
 }
-.icon-kuva-kuvaflood::before {
+.icon-fissures-neo::before {
   content: "\f112";
 }
-.icon-loading::before {
+.icon-fissures-requiem::before {
   content: "\f113";
 }
-.icon-nightmare::before {
+.icon-hexis::before {
   content: "\f114";
 }
-.icon-nightwave::before {
+.icon-kuva-kuva::before {
   content: "\f115";
 }
-.icon-ostron::before {
+.icon-kuva-kuvaflood::before {
   content: "\f116";
 }
-.icon-sigils-Arbiters-of-Hexis-ArbitersLevel1::before {
+.icon-loading::before {
   content: "\f117";
 }
-.icon-sigils-Arbiters-of-Hexis-ArbitersLevel2::before {
+.icon-menu-All::before {
   content: "\f118";
 }
-.icon-sigils-Arbiters-of-Hexis-ArbitersLevel3::before {
+.icon-menu-Amp::before {
   content: "\f119";
 }
-.icon-sigils-Arbiters-of-Hexis-ArbitersLevel4::before {
+.icon-menu-Arcane::before {
   content: "\f11a";
 }
-.icon-sigils-Arbiters-of-Hexis-ArbitersLevel5::before {
+.icon-menu-Archwing::before {
   content: "\f11b";
 }
-.icon-sigils-Cephalon-Suda-CephalonSudaLevel1::before {
+.icon-menu-ArchwingColour::before {
   content: "\f11c";
 }
-.icon-sigils-Cephalon-Suda-CephalonSudaLevel2::before {
+.icon-menu-ArchwingEmblem::before {
   content: "\f11d";
 }
-.icon-sigils-Cephalon-Suda-CephalonSudaLevel3::before {
+.icon-menu-ArchwingPrimary::before {
   content: "\f11e";
 }
-.icon-sigils-Cephalon-Suda-CephalonSudaLevel4::before {
+.icon-menu-ArchwingSecondary::before {
   content: "\f11f";
 }
-.icon-sigils-Cephalon-Suda-CephalonSudaLevel5::before {
+.icon-menu-Armor::before {
   content: "\f120";
 }
-.icon-sigils-Entrati-EntratiLevel1::before {
+.icon-menu-Augment::before {
   content: "\f121";
 }
-.icon-sigils-Entrati-EntratiLevel2::before {
+.icon-menu-Aura::before {
   content: "\f122";
 }
-.icon-sigils-Entrati-EntratiLevel3::before {
+.icon-menu-Avionics::before {
   content: "\f123";
 }
-.icon-sigils-Entrati-EntratiLevel4::before {
+.icon-menu-AvionicsDefensive::before {
   content: "\f124";
 }
-.icon-sigils-Entrati-EntratiLevel5::before {
+.icon-menu-AvionicsOffensive::before {
   content: "\f125";
 }
-.icon-sigils-Necraloid-NecraloidLevel1::before {
+.icon-menu-AvionicsSuper::before {
   content: "\f126";
 }
-.icon-sigils-Necraloid-NecraloidLevel2::before {
+.icon-menu-AvionicsTactical::before {
   content: "\f127";
 }
-.icon-sigils-Necraloid-NecraloidLevel3::before {
+.icon-menu-Barracks::before {
   content: "\f128";
 }
-.icon-sigils-NegativeRank1::before {
+.icon-menu-Bile::before {
   content: "\f129";
 }
-.icon-sigils-NegativeRank2::before {
+.icon-menu-Biotics::before {
   content: "\f12a";
 }
-.icon-sigils-Neutral::before {
+.icon-menu-Blueprint::before {
   content: "\f12b";
 }
-.icon-sigils-New-Loka-NewLokaLevel1::before {
+.icon-menu-Build::before {
   content: "\f12c";
 }
-.icon-sigils-New-Loka-NewLokaLevel2::before {
+.icon-menu-Calx::before {
   content: "\f12d";
 }
-.icon-sigils-New-Loka-NewLokaLevel3::before {
+.icon-menu-Capacity::before {
   content: "\f12e";
 }
-.icon-sigils-New-Loka-NewLokaLevel4::before {
+.icon-menu-Cephalon::before {
   content: "\f12f";
 }
-.icon-sigils-New-Loka-NewLokaLevel5::before {
+.icon-menu-CetusElder::before {
   content: "\f130";
 }
-.icon-sigils-Ostron-OstronLevel1::before {
+.icon-menu-ChangeSkins::before {
   content: "\f131";
 }
-.icon-sigils-Ostron-OstronLevel2::before {
+.icon-menu-ClanObstacleCourse::before {
   content: "\f132";
 }
-.icon-sigils-Ostron-OstronLevel3::before {
+.icon-menu-Command::before {
   content: "\f133";
 }
-.icon-sigils-Ostron-OstronLevel4::before {
+.icon-menu-Connector::before {
   content: "\f134";
 }
-.icon-sigils-Ostron-OstronLevel5::before {
+.icon-menu-Corpus::before {
   content: "\f135";
 }
-.icon-sigils-Red-Veil-RedVeilLevel1::before {
+.icon-menu-CraftingAmpBrace::before {
   content: "\f136";
 }
-.icon-sigils-Red-Veil-RedVeilLevel2::before {
+.icon-menu-CraftingAmpPrism::before {
   content: "\f137";
 }
-.icon-sigils-Red-Veil-RedVeilLevel3::before {
+.icon-menu-CraftingAmpScaffold::before {
   content: "\f138";
 }
-.icon-sigils-Red-Veil-RedVeilLevel4::before {
+.icon-menu-CraftingHoundBody::before {
   content: "\f139";
 }
-.icon-sigils-Red-Veil-RedVeilLevel5::before {
+.icon-menu-CraftingHoundHead::before {
   content: "\f13a";
 }
-.icon-sigils-Solaris-United-SolarisLevel1::before {
+.icon-menu-CraftingHoundLegs::before {
   content: "\f13b";
 }
-.icon-sigils-Solaris-United-SolarisLevel2::before {
+.icon-menu-CraftingHoundTail::before {
   content: "\f13c";
 }
-.icon-sigils-Solaris-United-SolarisLevel3::before {
+.icon-menu-CraftingKDriveBoard::before {
   content: "\f13d";
 }
-.icon-sigils-Solaris-United-SolarisLevel4::before {
+.icon-menu-CraftingKDriveJet::before {
   content: "\f13e";
 }
-.icon-sigils-Solaris-United-SolarisLevel5::before {
+.icon-menu-CraftingKDriveNose::before {
   content: "\f13f";
 }
-.icon-sigils-Steel-Meridian-SteelMeridianLevel1::before {
+.icon-menu-CraftingKDriveReactor::before {
   content: "\f140";
 }
-.icon-sigils-Steel-Meridian-SteelMeridianLevel2::before {
+.icon-menu-CraftingKitgunChamber::before {
   content: "\f141";
 }
-.icon-sigils-Steel-Meridian-SteelMeridianLevel3::before {
+.icon-menu-CraftingKitgunGrip::before {
   content: "\f142";
 }
-.icon-sigils-Steel-Meridian-SteelMeridianLevel4::before {
+.icon-menu-CraftingKitgunLoader::before {
   content: "\f143";
 }
-.icon-sigils-Steel-Meridian-SteelMeridianLevel5::before {
+.icon-menu-CraftingKitgunPrimaryGrip::before {
   content: "\f144";
 }
-.icon-sigils-The-Holdfasts-HoldfastsLevel1::before {
+.icon-menu-CraftingMoaBrackets::before {
   content: "\f145";
 }
-.icon-sigils-The-Holdfasts-HoldfastsLevel2::before {
+.icon-menu-CraftingMoaCore::before {
   content: "\f146";
 }
-.icon-sigils-The-Holdfasts-HoldfastsLevel3::before {
+.icon-menu-CraftingMoaGyro::before {
   content: "\f147";
 }
-.icon-sigils-The-Holdfasts-HoldfastsLevel4::before {
+.icon-menu-CraftingMoaModel::before {
   content: "\f148";
 }
-.icon-sigils-The-Holdfasts-HoldfastsLevel5::before {
+.icon-menu-Displays::before {
   content: "\f149";
 }
-.icon-sigils-The-Perrin-Sequence-PerrinLevel1::before {
+.icon-menu-Drone::before {
   content: "\f14a";
 }
-.icon-sigils-The-Perrin-Sequence-PerrinLevel2::before {
+.icon-menu-Duplicate::before {
   content: "\f14b";
 }
-.icon-sigils-The-Perrin-Sequence-PerrinLevel3::before {
+.icon-menu-Emotes::before {
   content: "\f14c";
 }
-.icon-sigils-The-Perrin-Sequence-PerrinLevel4::before {
+.icon-menu-Energy::before {
   content: "\f14d";
 }
-.icon-sigils-The-Perrin-Sequence-PerrinLevel5::before {
+.icon-menu-Engineering::before {
   content: "\f14e";
 }
-.icon-sigils-The-Quills-QuillsLevel1::before {
+.icon-menu-Entrati::before {
   content: "\f14f";
 }
-.icon-sigils-The-Quills-QuillsLevel2::before {
+.icon-menu-Equip::before {
   content: "\f150";
 }
-.icon-sigils-The-Quills-QuillsLevel3::before {
+.icon-menu-Exilus::before {
   content: "\f151";
 }
-.icon-sigils-The-Quills-QuillsLevel4::before {
+.icon-menu-Favorite::before {
   content: "\f152";
 }
-.icon-sigils-The-Quills-QuillsLevel5::before {
+.icon-menu-FishLarge::before {
   content: "\f153";
 }
-.icon-sigils-VentKids-VentKidsLevel1::before {
+.icon-menu-FishMedium::before {
   content: "\f154";
 }
-.icon-sigils-VentKids-VentKidsLevel2::before {
+.icon-menu-FishSmall::before {
   content: "\f155";
 }
-.icon-sigils-VentKids-VentKidsLevel3::before {
+.icon-menu-Fusion::before {
   content: "\f156";
 }
-.icon-sigils-VentKids-VentKidsLevel4::before {
+.icon-menu-Fx::before {
   content: "\f157";
 }
-.icon-sigils-VentKids-VentKidsLevel5::before {
+.icon-menu-Gara::before {
   content: "\f158";
 }
-.icon-sigils-Vox-Solaris-VoxLevel1::before {
+.icon-menu-Garden::before {
   content: "\f159";
 }
-.icon-sigils-Vox-Solaris-VoxLevel2::before {
+.icon-menu-Gear::before {
   content: "\f15a";
 }
-.icon-sigils-Vox-Solaris-VoxLevel3::before {
+.icon-menu-GearWheel::before {
   content: "\f15b";
 }
-.icon-sigils-Vox-Solaris-VoxLevel4::before {
+.icon-menu-GeneticImprint::before {
   content: "\f15c";
 }
-.icon-sigils-Vox-Solaris-VoxLevel5::before {
+.icon-menu-Ghouls::before {
   content: "\f15d";
 }
-.icon-simaris::before {
+.icon-menu-Gift::before {
   content: "\f15e";
 }
-.icon-solaris::before {
+.icon-menu-Glyph::before {
   content: "\f15f";
 }
-.icon-sp-logo::before {
+.icon-menu-Grineer::before {
   content: "\f160";
 }
-.icon-standing::before {
+.icon-menu-Grip::before {
   content: "\f161";
 }
-.icon-wfcd::before {
+.icon-menu-Gunnery::before {
   content: "\f162";
+}
+.icon-menu-Hall::before {
+  content: "\f163";
+}
+.icon-menu-Incomplete::before {
+  content: "\f164";
+}
+.icon-menu-IndividualObstacleCourse::before {
+  content: "\f165";
+}
+.icon-menu-Infested::before {
+  content: "\f166";
+}
+.icon-menu-Kavat::before {
+  content: "\f167";
+}
+.icon-menu-Keys::before {
+  content: "\f168";
+}
+.icon-menu-Kubrow::before {
+  content: "\f169";
+}
+.icon-menu-KuvaLichActive::before {
+  content: "\f16a";
+}
+.icon-menu-KuvaLichConverted::before {
+  content: "\f16b";
+}
+.icon-menu-KuvaLichTraded::before {
+  content: "\f16c";
+}
+.icon-menu-KuvaLichVanquished::before {
+  content: "\f16d";
+}
+.icon-menu-Lab::before {
+  content: "\f16e";
+}
+.icon-menu-LichCategory::before {
+  content: "\f16f";
+}
+.icon-menu-LimitedTime::before {
+  content: "\f170";
+}
+.icon-menu-Link::before {
+  content: "\f171";
+}
+.icon-menu-LotusEmblem::before {
+  content: "\f172";
+}
+.icon-menu-ManufacturerLavan::before {
+  content: "\f173";
+}
+.icon-menu-ManufacturerSigma::before {
+  content: "\f174";
+}
+.icon-menu-ManufacturerVidar::before {
+  content: "\f175";
+}
+.icon-menu-ManufacturerZekti::before {
+  content: "\f176";
+}
+.icon-menu-Materials::before {
+  content: "\f177";
+}
+.icon-menu-MaterialsOff::before {
+  content: "\f178";
+}
+.icon-menu-Mech::before {
+  content: "\f179";
+}
+.icon-menu-MechBoard::before {
+  content: "\f17a";
+}
+.icon-menu-Melee::before {
+  content: "\f17b";
+}
+.icon-menu-Misc::before {
+  content: "\f17c";
+}
+.icon-menu-MkI::before {
+  content: "\f17d";
+}
+.icon-menu-MkII::before {
+  content: "\f17e";
+}
+.icon-menu-MkIII::before {
+  content: "\f17f";
+}
+.icon-menu-Mods::before {
+  content: "\f180";
+}
+.icon-menu-ModularItem::before {
+  content: "\f181";
+}
+.icon-menu-Natural::before {
+  content: "\f182";
+}
+.icon-menu-Noggles::before {
+  content: "\f183";
+}
+.icon-menu-Operator::before {
+  content: "\f184";
+}
+.icon-menu-OrokinOn::before {
+  content: "\f185";
+}
+.icon-menu-OwnedBlueprint::before {
+  content: "\f186";
+}
+.icon-menu-Oxides::before {
+  content: "\f187";
+}
+.icon-menu-Parazon::before {
+  content: "\f188";
+}
+.icon-menu-ParazonLong::before {
+  content: "\f189";
+}
+.icon-menu-ParazonLongShadow::before {
+  content: "\f18a";
+}
+.icon-menu-ParazonLongShadow2::before {
+  content: "\f18b";
+}
+.icon-menu-Pheromones::before {
+  content: "\f18c";
+}
+.icon-menu-Pilot::before {
+  content: "\f18d";
+}
+.icon-menu-Pistol::before {
+  content: "\f18e";
+}
+.icon-menu-PlayerShip::before {
+  content: "\f18f";
+}
+.icon-menu-PrexCategory::before {
+  content: "\f190";
+}
+.icon-menu-PrimaryWeaponBow::before {
+  content: "\f191";
+}
+.icon-menu-PrimaryWeaponLauncher::before {
+  content: "\f192";
+}
+.icon-menu-PrimaryWeaponRifle::before {
+  content: "\f193";
+}
+.icon-menu-PrimaryWeaponShotgun::before {
+  content: "\f194";
+}
+.icon-menu-PrimaryWeaponSniper::before {
+  content: "\f195";
+}
+.icon-menu-PrimaryWeaponSpeargun::before {
+  content: "\f196";
+}
+.icon-menu-PrimaryWeaponSpecial::before {
+  content: "\f197";
+}
+.icon-menu-PrimeParts::before {
+  content: "\f198";
+}
+.icon-menu-Prospector::before {
+  content: "\f199";
+}
+.icon-menu-Purchase::before {
+  content: "\f19a";
+}
+.icon-menu-QuestPickerActive::before {
+  content: "\f19b";
+}
+.icon-menu-QuestPickerCompleted::before {
+  content: "\f19c";
+}
+.icon-menu-QuestPickerMystery::before {
+  content: "\f19d";
+}
+.icon-menu-Railjack::before {
+  content: "\f19e";
+}
+.icon-menu-Railjack2::before {
+  content: "\f19f";
+}
+.icon-menu-RailjackAbilities::before {
+  content: "\f1a0";
+}
+.icon-menu-RailjackCountermeasures::before {
+  content: "\f1a1";
+}
+.icon-menu-RailjackOrdnance::before {
+  content: "\f1a2";
+}
+.icon-menu-RailjackPilot::before {
+  content: "\f1a3";
+}
+.icon-menu-RailjackTurrets::before {
+  content: "\f1a4";
+}
+.icon-menu-RelatedItems::before {
+  content: "\f1a5";
+}
+.icon-menu-Relic::before {
+  content: "\f1a6";
+}
+.icon-menu-RelicAxi::before {
+  content: "\f1a7";
+}
+.icon-menu-RelicLith::before {
+  content: "\f1a8";
+}
+.icon-menu-RelicMeso::before {
+  content: "\f1a9";
+}
+.icon-menu-RelicNeo::before {
+  content: "\f1aa";
+}
+.icon-menu-RequiemMod::before {
+  content: "\f1ab";
+}
+.icon-menu-RequiemRelic::before {
+  content: "\f1ac";
+}
+.icon-menu-RequirementsMet::before {
+  content: "\f1ad";
+}
+.icon-menu-ResearchCorpus::before {
+  content: "\f1ae";
+}
+.icon-menu-ResearchGrineer::before {
+  content: "\f1af";
+}
+.icon-menu-ResearchInfested::before {
+  content: "\f1b0";
+}
+.icon-menu-ResearchOrokin::before {
+  content: "\f1b1";
+}
+.icon-menu-ResearchRailjack::before {
+  content: "\f1b2";
+}
+.icon-menu-ResearchTenno::before {
+  content: "\f1b3";
+}
+.icon-menu-ResourceDrone::before {
+  content: "\f1b4";
+}
+.icon-menu-Rifle::before {
+  content: "\f1b5";
+}
+.icon-menu-RifleOff::before {
+  content: "\f1b6";
+}
+.icon-menu-RivenMod::before {
+  content: "\f1b7";
+}
+.icon-menu-RoundVial::before {
+  content: "\f1b8";
+}
+.icon-menu-Salvage::before {
+  content: "\f1b9";
+}
+.icon-menu-Sentinel::before {
+  content: "\f1ba";
+}
+.icon-menu-Shotgun::before {
+  content: "\f1bb";
+}
+.icon-menu-Sigils::before {
+  content: "\f1bc";
+}
+.icon-menu-Simaris::before {
+  content: "\f1bd";
+}
+.icon-menu-Skins::before {
+  content: "\f1be";
+}
+.icon-menu-Solaris::before {
+  content: "\f1bf";
+}
+.icon-menu-SquareVial::before {
+  content: "\f1c0";
+}
+.icon-menu-Stance::before {
+  content: "\f1c1";
+}
+.icon-menu-Strike::before {
+  content: "\f1c2";
+}
+.icon-menu-Swatch::before {
+  content: "\f1c3";
+}
+.icon-menu-Synthetics::before {
+  content: "\f1c4";
+}
+.icon-menu-Synthetics2::before {
+  content: "\f1c5";
+}
+.icon-menu-Tactical::before {
+  content: "\f1c6";
+}
+.icon-menu-Teleport::before {
+  content: "\f1c7";
+}
+.icon-menu-Tenets::before {
+  content: "\f1c8";
+}
+.icon-menu-Utility::before {
+  content: "\f1c9";
+}
+.icon-menu-Utility2::before {
+  content: "\f1ca";
+}
+.icon-menu-VehiclesKdrive::before {
+  content: "\f1cb";
+}
+.icon-menu-Warframe::before {
+  content: "\f1cc";
+}
+.icon-menu-WarframeOff::before {
+  content: "\f1cd";
+}
+.icon-menu-Weapons::before {
+  content: "\f1ce";
+}
+.icon-menu-Wild::before {
+  content: "\f1cf";
+}
+.icon-menu-WoundedInfestedCritter::before {
+  content: "\f1d0";
+}
+.icon-menu-WoundedInfestedPredator::before {
+  content: "\f1d1";
+}
+.icon-nightmare::before {
+  content: "\f1d2";
+}
+.icon-nightwave::before {
+  content: "\f1d3";
+}
+.icon-nightwaves-daily::before {
+  content: "\f1d4";
+}
+.icon-nightwaves-elite::before {
+  content: "\f1d5";
+}
+.icon-nightwaves-weekly::before {
+  content: "\f1d6";
+}
+.icon-ostron::before {
+  content: "\f1d7";
+}
+.icon-sigils-Arbiters-of-Hexis-ArbitersLevel1::before {
+  content: "\f1d8";
+}
+.icon-sigils-Arbiters-of-Hexis-ArbitersLevel2::before {
+  content: "\f1d9";
+}
+.icon-sigils-Arbiters-of-Hexis-ArbitersLevel3::before {
+  content: "\f1da";
+}
+.icon-sigils-Arbiters-of-Hexis-ArbitersLevel4::before {
+  content: "\f1db";
+}
+.icon-sigils-Arbiters-of-Hexis-ArbitersLevel5::before {
+  content: "\f1dc";
+}
+.icon-sigils-Cephalon-Suda-CephalonSudaLevel1::before {
+  content: "\f1dd";
+}
+.icon-sigils-Cephalon-Suda-CephalonSudaLevel2::before {
+  content: "\f1de";
+}
+.icon-sigils-Cephalon-Suda-CephalonSudaLevel3::before {
+  content: "\f1df";
+}
+.icon-sigils-Cephalon-Suda-CephalonSudaLevel4::before {
+  content: "\f1e0";
+}
+.icon-sigils-Cephalon-Suda-CephalonSudaLevel5::before {
+  content: "\f1e1";
+}
+.icon-sigils-Entrati-EntratiLevel1::before {
+  content: "\f1e2";
+}
+.icon-sigils-Entrati-EntratiLevel2::before {
+  content: "\f1e3";
+}
+.icon-sigils-Entrati-EntratiLevel3::before {
+  content: "\f1e4";
+}
+.icon-sigils-Entrati-EntratiLevel4::before {
+  content: "\f1e5";
+}
+.icon-sigils-Entrati-EntratiLevel5::before {
+  content: "\f1e6";
+}
+.icon-sigils-Necraloid-NecraloidLevel1::before {
+  content: "\f1e7";
+}
+.icon-sigils-Necraloid-NecraloidLevel2::before {
+  content: "\f1e8";
+}
+.icon-sigils-Necraloid-NecraloidLevel3::before {
+  content: "\f1e9";
+}
+.icon-sigils-NegativeRank1::before {
+  content: "\f1ea";
+}
+.icon-sigils-NegativeRank2::before {
+  content: "\f1eb";
+}
+.icon-sigils-Neutral::before {
+  content: "\f1ec";
+}
+.icon-sigils-New-Loka-NewLokaLevel1::before {
+  content: "\f1ed";
+}
+.icon-sigils-New-Loka-NewLokaLevel2::before {
+  content: "\f1ee";
+}
+.icon-sigils-New-Loka-NewLokaLevel3::before {
+  content: "\f1ef";
+}
+.icon-sigils-New-Loka-NewLokaLevel4::before {
+  content: "\f1f0";
+}
+.icon-sigils-New-Loka-NewLokaLevel5::before {
+  content: "\f1f1";
+}
+.icon-sigils-Ostron-OstronLevel1::before {
+  content: "\f1f2";
+}
+.icon-sigils-Ostron-OstronLevel2::before {
+  content: "\f1f3";
+}
+.icon-sigils-Ostron-OstronLevel3::before {
+  content: "\f1f4";
+}
+.icon-sigils-Ostron-OstronLevel4::before {
+  content: "\f1f5";
+}
+.icon-sigils-Ostron-OstronLevel5::before {
+  content: "\f1f6";
+}
+.icon-sigils-Red-Veil-RedVeilLevel1::before {
+  content: "\f1f7";
+}
+.icon-sigils-Red-Veil-RedVeilLevel2::before {
+  content: "\f1f8";
+}
+.icon-sigils-Red-Veil-RedVeilLevel3::before {
+  content: "\f1f9";
+}
+.icon-sigils-Red-Veil-RedVeilLevel4::before {
+  content: "\f1fa";
+}
+.icon-sigils-Red-Veil-RedVeilLevel5::before {
+  content: "\f1fb";
+}
+.icon-sigils-Solaris-United-SolarisLevel1::before {
+  content: "\f1fc";
+}
+.icon-sigils-Solaris-United-SolarisLevel2::before {
+  content: "\f1fd";
+}
+.icon-sigils-Solaris-United-SolarisLevel3::before {
+  content: "\f1fe";
+}
+.icon-sigils-Solaris-United-SolarisLevel4::before {
+  content: "\f1ff";
+}
+.icon-sigils-Solaris-United-SolarisLevel5::before {
+  content: "\f200";
+}
+.icon-sigils-Steel-Meridian-SteelMeridianLevel1::before {
+  content: "\f201";
+}
+.icon-sigils-Steel-Meridian-SteelMeridianLevel2::before {
+  content: "\f202";
+}
+.icon-sigils-Steel-Meridian-SteelMeridianLevel3::before {
+  content: "\f203";
+}
+.icon-sigils-Steel-Meridian-SteelMeridianLevel4::before {
+  content: "\f204";
+}
+.icon-sigils-Steel-Meridian-SteelMeridianLevel5::before {
+  content: "\f205";
+}
+.icon-sigils-The-Holdfasts-HoldfastsLevel1::before {
+  content: "\f206";
+}
+.icon-sigils-The-Holdfasts-HoldfastsLevel2::before {
+  content: "\f207";
+}
+.icon-sigils-The-Holdfasts-HoldfastsLevel3::before {
+  content: "\f208";
+}
+.icon-sigils-The-Holdfasts-HoldfastsLevel4::before {
+  content: "\f209";
+}
+.icon-sigils-The-Holdfasts-HoldfastsLevel5::before {
+  content: "\f20a";
+}
+.icon-sigils-The-Perrin-Sequence-PerrinLevel1::before {
+  content: "\f20b";
+}
+.icon-sigils-The-Perrin-Sequence-PerrinLevel2::before {
+  content: "\f20c";
+}
+.icon-sigils-The-Perrin-Sequence-PerrinLevel3::before {
+  content: "\f20d";
+}
+.icon-sigils-The-Perrin-Sequence-PerrinLevel4::before {
+  content: "\f20e";
+}
+.icon-sigils-The-Perrin-Sequence-PerrinLevel5::before {
+  content: "\f20f";
+}
+.icon-sigils-The-Quills-QuillsLevel1::before {
+  content: "\f210";
+}
+.icon-sigils-The-Quills-QuillsLevel2::before {
+  content: "\f211";
+}
+.icon-sigils-The-Quills-QuillsLevel3::before {
+  content: "\f212";
+}
+.icon-sigils-The-Quills-QuillsLevel4::before {
+  content: "\f213";
+}
+.icon-sigils-The-Quills-QuillsLevel5::before {
+  content: "\f214";
+}
+.icon-sigils-VentKids-VentKidsLevel1::before {
+  content: "\f215";
+}
+.icon-sigils-VentKids-VentKidsLevel2::before {
+  content: "\f216";
+}
+.icon-sigils-VentKids-VentKidsLevel3::before {
+  content: "\f217";
+}
+.icon-sigils-VentKids-VentKidsLevel4::before {
+  content: "\f218";
+}
+.icon-sigils-VentKids-VentKidsLevel5::before {
+  content: "\f219";
+}
+.icon-sigils-Vox-Solaris-VoxLevel1::before {
+  content: "\f21a";
+}
+.icon-sigils-Vox-Solaris-VoxLevel2::before {
+  content: "\f21b";
+}
+.icon-sigils-Vox-Solaris-VoxLevel3::before {
+  content: "\f21c";
+}
+.icon-sigils-Vox-Solaris-VoxLevel4::before {
+  content: "\f21d";
+}
+.icon-sigils-Vox-Solaris-VoxLevel5::before {
+  content: "\f21e";
+}
+.icon-simaris::before {
+  content: "\f21f";
+}
+.icon-solaris::before {
+  content: "\f220";
+}
+.icon-sp-logo::before {
+  content: "\f221";
+}
+.icon-standing::before {
+  content: "\f222";
+}
+.icon-wfcd::before {
+  content: "\f223";
 }
