@@ -18,192 +18,192 @@ export type WarframeSymbolsId =
   | "kuva-kuva"
   | "kuva-kuvaflood"
   | "loading"
-  | "menu-categories-ArchwingEmblemIcon"
-  | "menu-categories-GearWheelIcon"
-  | "menu-categories-IconAll"
-  | "menu-categories-IconAmp"
-  | "menu-categories-IconArcane"
-  | "menu-categories-IconArchwing"
-  | "menu-categories-IconArchwingColour"
-  | "menu-categories-IconArchwingPrimary"
-  | "menu-categories-IconArchwingSecondary"
-  | "menu-categories-IconArmor"
-  | "menu-categories-IconAugment"
-  | "menu-categories-IconAura"
-  | "menu-categories-IconAvionics"
-  | "menu-categories-IconAvionicsDefensive"
-  | "menu-categories-IconAvionicsOffensive"
-  | "menu-categories-IconAvionicsSuper"
-  | "menu-categories-IconAvionicsTactical"
-  | "menu-categories-IconBarracks"
-  | "menu-categories-IconBile"
-  | "menu-categories-IconBiotics"
-  | "menu-categories-IconBlueprint"
-  | "menu-categories-IconBuild"
-  | "menu-categories-IconCalx"
-  | "menu-categories-IconCapacity"
-  | "menu-categories-IconCephalon"
-  | "menu-categories-IconCetusElder"
-  | "menu-categories-IconChangeSkins"
-  | "menu-categories-IconClanObstacleCourse"
-  | "menu-categories-IconCommand"
-  | "menu-categories-IconConnector"
-  | "menu-categories-IconCorpus"
-  | "menu-categories-IconCraftingAmpBrace"
-  | "menu-categories-IconCraftingAmpPrism"
-  | "menu-categories-IconCraftingAmpScaffold"
-  | "menu-categories-IconCraftingHoundBody"
-  | "menu-categories-IconCraftingHoundHead"
-  | "menu-categories-IconCraftingHoundLegs"
-  | "menu-categories-IconCraftingHoundTail"
-  | "menu-categories-IconCraftingKDriveBoard"
-  | "menu-categories-IconCraftingKDriveJet"
-  | "menu-categories-IconCraftingKDriveNose"
-  | "menu-categories-IconCraftingKDriveReactor"
-  | "menu-categories-IconCraftingKitgunChamber"
-  | "menu-categories-IconCraftingKitgunGrip"
-  | "menu-categories-IconCraftingKitgunLoader"
-  | "menu-categories-IconCraftingKitgunPrimaryGrip"
-  | "menu-categories-IconCraftingMoaBrackets"
-  | "menu-categories-IconCraftingMoaCore"
-  | "menu-categories-IconCraftingMoaGyro"
-  | "menu-categories-IconCraftingMoaModel"
-  | "menu-categories-IconDisplays"
-  | "menu-categories-IconDrone"
-  | "menu-categories-IconDuplicate"
-  | "menu-categories-IconEmotes"
-  | "menu-categories-IconEnergy"
-  | "menu-categories-IconEngineering"
-  | "menu-categories-IconEntrati"
-  | "menu-categories-IconEquip"
-  | "menu-categories-IconExilus"
-  | "menu-categories-IconFavorite"
-  | "menu-categories-IconFishLarge"
-  | "menu-categories-IconFishMedium"
-  | "menu-categories-IconFishSmall"
-  | "menu-categories-IconFusion"
-  | "menu-categories-IconFx"
-  | "menu-categories-IconGara"
-  | "menu-categories-IconGarden"
-  | "menu-categories-IconGear"
-  | "menu-categories-IconGeneticImprint"
-  | "menu-categories-IconGhouls"
-  | "menu-categories-IconGift"
-  | "menu-categories-IconGlyph"
-  | "menu-categories-IconGrineer"
-  | "menu-categories-IconGrip"
-  | "menu-categories-IconGunnery"
-  | "menu-categories-IconHall"
-  | "menu-categories-IconIndividualObstacleCourse"
-  | "menu-categories-IconInfested"
-  | "menu-categories-IconKavat"
-  | "menu-categories-IconKeys"
-  | "menu-categories-IconKubrow"
-  | "menu-categories-IconKuvaLichActive"
-  | "menu-categories-IconKuvaLichConverted"
-  | "menu-categories-IconKuvaLichTraded"
-  | "menu-categories-IconKuvaLichVanquished"
-  | "menu-categories-IconLab"
-  | "menu-categories-IconLichCategory"
-  | "menu-categories-IconLimitedTime"
-  | "menu-categories-IconLink"
-  | "menu-categories-IconManufacturerLavan"
-  | "menu-categories-IconManufacturerSigma"
-  | "menu-categories-IconManufacturerVidar"
-  | "menu-categories-IconManufacturerZekti"
-  | "menu-categories-IconMaterials"
-  | "menu-categories-IconMaterialsOff"
-  | "menu-categories-IconMech"
-  | "menu-categories-IconMelee"
-  | "menu-categories-IconMisc"
-  | "menu-categories-IconMkI"
-  | "menu-categories-IconMkII"
-  | "menu-categories-IconMkIII"
-  | "menu-categories-IconMods"
-  | "menu-categories-IconModularItem"
-  | "menu-categories-IconNoggles"
-  | "menu-categories-IconOperator"
-  | "menu-categories-IconOrokinOn"
-  | "menu-categories-IconOxides"
-  | "menu-categories-IconPheromones"
-  | "menu-categories-IconPilot"
-  | "menu-categories-IconPistol"
-  | "menu-categories-IconPlayerShip"
-  | "menu-categories-IconPrimaryWeaponBow"
-  | "menu-categories-IconPrimaryWeaponLauncher"
-  | "menu-categories-IconPrimaryWeaponRifle"
-  | "menu-categories-IconPrimaryWeaponShotgun"
-  | "menu-categories-IconPrimaryWeaponSniper"
-  | "menu-categories-IconPrimaryWeaponSpeargun"
-  | "menu-categories-IconPrimaryWeaponSpecial"
-  | "menu-categories-IconPrimeParts"
-  | "menu-categories-IconProspector"
-  | "menu-categories-IconPurchase"
-  | "menu-categories-IconRailjack"
-  | "menu-categories-IconRailjack2"
-  | "menu-categories-IconRailjackAbilities"
-  | "menu-categories-IconRailjackCountermeasures"
-  | "menu-categories-IconRailjackOrdnance"
-  | "menu-categories-IconRailjackPilot"
-  | "menu-categories-IconRailjackTurrets"
-  | "menu-categories-IconRelatedItems"
-  | "menu-categories-IconRelic"
-  | "menu-categories-IconRelicAxi"
-  | "menu-categories-IconRelicLith"
-  | "menu-categories-IconRelicMeso"
-  | "menu-categories-IconRelicNeo"
-  | "menu-categories-IconResourceDrone"
-  | "menu-categories-IconRifle"
-  | "menu-categories-IconRifleOff"
-  | "menu-categories-IconRivenMod"
-  | "menu-categories-IconSalvage"
-  | "menu-categories-IconSentinel"
-  | "menu-categories-IconShotgun"
-  | "menu-categories-IconSigils"
-  | "menu-categories-IconSimaris"
-  | "menu-categories-IconSkins"
-  | "menu-categories-IconSolaris"
-  | "menu-categories-IconStance"
-  | "menu-categories-IconStrike"
-  | "menu-categories-IconSwatch"
-  | "menu-categories-IconSynthetics"
-  | "menu-categories-IconSynthetics2"
-  | "menu-categories-IconTactical"
-  | "menu-categories-IconTenets"
-  | "menu-categories-IconUtility"
-  | "menu-categories-IconUtility2"
-  | "menu-categories-IconWarframe"
-  | "menu-categories-IconWarframeOff"
-  | "menu-categories-IconWeapons"
-  | "menu-categories-IconWild"
-  | "menu-categories-IncompleteIcon"
-  | "menu-categories-LotusEmblemIcon"
-  | "menu-categories-MechBoardIcon"
-  | "menu-categories-NaturalIcon"
-  | "menu-categories-OwnedBlueprintIcon"
-  | "menu-categories-ParazonIcon"
-  | "menu-categories-ParazonIconLong"
-  | "menu-categories-ParazonIconLongShadow"
-  | "menu-categories-ParazonIconLongShadow2"
-  | "menu-categories-PrexCategoryIcon"
-  | "menu-categories-QuestPickerActive"
-  | "menu-categories-QuestPickerCompleted"
-  | "menu-categories-QuestPickerMystery"
-  | "menu-categories-RequiemModIcon"
-  | "menu-categories-RequiemRelicIcon"
-  | "menu-categories-RequirementsMetIcon"
-  | "menu-categories-ResearchCorpus"
-  | "menu-categories-ResearchGrineer"
-  | "menu-categories-ResearchInfested"
-  | "menu-categories-ResearchOrokin"
-  | "menu-categories-ResearchRailjack"
-  | "menu-categories-ResearchTenno"
-  | "menu-categories-RoundVialIcon"
-  | "menu-categories-SquareVialIcon"
-  | "menu-categories-TeleportIcon"
-  | "menu-categories-VehiclesKdrive"
-  | "menu-categories-WoundedInfestedCritter"
-  | "menu-categories-WoundedInfestedPredator"
+  | "menu-All"
+  | "menu-Amp"
+  | "menu-Arcane"
+  | "menu-Archwing"
+  | "menu-ArchwingColour"
+  | "menu-ArchwingEmblem"
+  | "menu-ArchwingPrimary"
+  | "menu-ArchwingSecondary"
+  | "menu-Armor"
+  | "menu-Augment"
+  | "menu-Aura"
+  | "menu-Avionics"
+  | "menu-AvionicsDefensive"
+  | "menu-AvionicsOffensive"
+  | "menu-AvionicsSuper"
+  | "menu-AvionicsTactical"
+  | "menu-Barracks"
+  | "menu-Bile"
+  | "menu-Biotics"
+  | "menu-Blueprint"
+  | "menu-Build"
+  | "menu-Calx"
+  | "menu-Capacity"
+  | "menu-Cephalon"
+  | "menu-CetusElder"
+  | "menu-ChangeSkins"
+  | "menu-ClanObstacleCourse"
+  | "menu-Command"
+  | "menu-Connector"
+  | "menu-Corpus"
+  | "menu-CraftingAmpBrace"
+  | "menu-CraftingAmpPrism"
+  | "menu-CraftingAmpScaffold"
+  | "menu-CraftingHoundBody"
+  | "menu-CraftingHoundHead"
+  | "menu-CraftingHoundLegs"
+  | "menu-CraftingHoundTail"
+  | "menu-CraftingKDriveBoard"
+  | "menu-CraftingKDriveJet"
+  | "menu-CraftingKDriveNose"
+  | "menu-CraftingKDriveReactor"
+  | "menu-CraftingKitgunChamber"
+  | "menu-CraftingKitgunGrip"
+  | "menu-CraftingKitgunLoader"
+  | "menu-CraftingKitgunPrimaryGrip"
+  | "menu-CraftingMoaBrackets"
+  | "menu-CraftingMoaCore"
+  | "menu-CraftingMoaGyro"
+  | "menu-CraftingMoaModel"
+  | "menu-Displays"
+  | "menu-Drone"
+  | "menu-Duplicate"
+  | "menu-Emotes"
+  | "menu-Energy"
+  | "menu-Engineering"
+  | "menu-Entrati"
+  | "menu-Equip"
+  | "menu-Exilus"
+  | "menu-Favorite"
+  | "menu-FishLarge"
+  | "menu-FishMedium"
+  | "menu-FishSmall"
+  | "menu-Fusion"
+  | "menu-Fx"
+  | "menu-Gara"
+  | "menu-Garden"
+  | "menu-Gear"
+  | "menu-GearWheel"
+  | "menu-GeneticImprint"
+  | "menu-Ghouls"
+  | "menu-Gift"
+  | "menu-Glyph"
+  | "menu-Grineer"
+  | "menu-Grip"
+  | "menu-Gunnery"
+  | "menu-Hall"
+  | "menu-Incomplete"
+  | "menu-IndividualObstacleCourse"
+  | "menu-Infested"
+  | "menu-Kavat"
+  | "menu-Keys"
+  | "menu-Kubrow"
+  | "menu-KuvaLichActive"
+  | "menu-KuvaLichConverted"
+  | "menu-KuvaLichTraded"
+  | "menu-KuvaLichVanquished"
+  | "menu-Lab"
+  | "menu-LichCategory"
+  | "menu-LimitedTime"
+  | "menu-Link"
+  | "menu-LotusEmblem"
+  | "menu-ManufacturerLavan"
+  | "menu-ManufacturerSigma"
+  | "menu-ManufacturerVidar"
+  | "menu-ManufacturerZekti"
+  | "menu-Materials"
+  | "menu-MaterialsOff"
+  | "menu-Mech"
+  | "menu-MechBoard"
+  | "menu-Melee"
+  | "menu-Misc"
+  | "menu-MkI"
+  | "menu-MkII"
+  | "menu-MkIII"
+  | "menu-Mods"
+  | "menu-ModularItem"
+  | "menu-Natural"
+  | "menu-Noggles"
+  | "menu-Operator"
+  | "menu-OrokinOn"
+  | "menu-OwnedBlueprint"
+  | "menu-Oxides"
+  | "menu-Parazon"
+  | "menu-ParazonLong"
+  | "menu-ParazonLongShadow"
+  | "menu-ParazonLongShadow2"
+  | "menu-Pheromones"
+  | "menu-Pilot"
+  | "menu-Pistol"
+  | "menu-PlayerShip"
+  | "menu-PrexCategory"
+  | "menu-PrimaryWeaponBow"
+  | "menu-PrimaryWeaponLauncher"
+  | "menu-PrimaryWeaponRifle"
+  | "menu-PrimaryWeaponShotgun"
+  | "menu-PrimaryWeaponSniper"
+  | "menu-PrimaryWeaponSpeargun"
+  | "menu-PrimaryWeaponSpecial"
+  | "menu-PrimeParts"
+  | "menu-Prospector"
+  | "menu-Purchase"
+  | "menu-QuestPickerActive"
+  | "menu-QuestPickerCompleted"
+  | "menu-QuestPickerMystery"
+  | "menu-Railjack"
+  | "menu-Railjack2"
+  | "menu-RailjackAbilities"
+  | "menu-RailjackCountermeasures"
+  | "menu-RailjackOrdnance"
+  | "menu-RailjackPilot"
+  | "menu-RailjackTurrets"
+  | "menu-RelatedItems"
+  | "menu-Relic"
+  | "menu-RelicAxi"
+  | "menu-RelicLith"
+  | "menu-RelicMeso"
+  | "menu-RelicNeo"
+  | "menu-RequiemMod"
+  | "menu-RequiemRelic"
+  | "menu-RequirementsMet"
+  | "menu-ResearchCorpus"
+  | "menu-ResearchGrineer"
+  | "menu-ResearchInfested"
+  | "menu-ResearchOrokin"
+  | "menu-ResearchRailjack"
+  | "menu-ResearchTenno"
+  | "menu-ResourceDrone"
+  | "menu-Rifle"
+  | "menu-RifleOff"
+  | "menu-RivenMod"
+  | "menu-RoundVial"
+  | "menu-Salvage"
+  | "menu-Sentinel"
+  | "menu-Shotgun"
+  | "menu-Sigils"
+  | "menu-Simaris"
+  | "menu-Skins"
+  | "menu-Solaris"
+  | "menu-SquareVial"
+  | "menu-Stance"
+  | "menu-Strike"
+  | "menu-Swatch"
+  | "menu-Synthetics"
+  | "menu-Synthetics2"
+  | "menu-Tactical"
+  | "menu-Teleport"
+  | "menu-Tenets"
+  | "menu-Utility"
+  | "menu-Utility2"
+  | "menu-VehiclesKdrive"
+  | "menu-Warframe"
+  | "menu-WarframeOff"
+  | "menu-Weapons"
+  | "menu-Wild"
+  | "menu-WoundedInfestedCritter"
+  | "menu-WoundedInfestedPredator"
   | "nightmare"
   | "nightwave"
   | "ostron"
@@ -304,192 +304,192 @@ export type WarframeSymbolsKey =
   | "KuvaKuva"
   | "KuvaKuvaflood"
   | "Loading"
-  | "MenuCategoriesArchwingEmblemIcon"
-  | "MenuCategoriesGearWheelIcon"
-  | "MenuCategoriesIconAll"
-  | "MenuCategoriesIconAmp"
-  | "MenuCategoriesIconArcane"
-  | "MenuCategoriesIconArchwing"
-  | "MenuCategoriesIconArchwingColour"
-  | "MenuCategoriesIconArchwingPrimary"
-  | "MenuCategoriesIconArchwingSecondary"
-  | "MenuCategoriesIconArmor"
-  | "MenuCategoriesIconAugment"
-  | "MenuCategoriesIconAura"
-  | "MenuCategoriesIconAvionics"
-  | "MenuCategoriesIconAvionicsDefensive"
-  | "MenuCategoriesIconAvionicsOffensive"
-  | "MenuCategoriesIconAvionicsSuper"
-  | "MenuCategoriesIconAvionicsTactical"
-  | "MenuCategoriesIconBarracks"
-  | "MenuCategoriesIconBile"
-  | "MenuCategoriesIconBiotics"
-  | "MenuCategoriesIconBlueprint"
-  | "MenuCategoriesIconBuild"
-  | "MenuCategoriesIconCalx"
-  | "MenuCategoriesIconCapacity"
-  | "MenuCategoriesIconCephalon"
-  | "MenuCategoriesIconCetusElder"
-  | "MenuCategoriesIconChangeSkins"
-  | "MenuCategoriesIconClanObstacleCourse"
-  | "MenuCategoriesIconCommand"
-  | "MenuCategoriesIconConnector"
-  | "MenuCategoriesIconCorpus"
-  | "MenuCategoriesIconCraftingAmpBrace"
-  | "MenuCategoriesIconCraftingAmpPrism"
-  | "MenuCategoriesIconCraftingAmpScaffold"
-  | "MenuCategoriesIconCraftingHoundBody"
-  | "MenuCategoriesIconCraftingHoundHead"
-  | "MenuCategoriesIconCraftingHoundLegs"
-  | "MenuCategoriesIconCraftingHoundTail"
-  | "MenuCategoriesIconCraftingKDriveBoard"
-  | "MenuCategoriesIconCraftingKDriveJet"
-  | "MenuCategoriesIconCraftingKDriveNose"
-  | "MenuCategoriesIconCraftingKDriveReactor"
-  | "MenuCategoriesIconCraftingKitgunChamber"
-  | "MenuCategoriesIconCraftingKitgunGrip"
-  | "MenuCategoriesIconCraftingKitgunLoader"
-  | "MenuCategoriesIconCraftingKitgunPrimaryGrip"
-  | "MenuCategoriesIconCraftingMoaBrackets"
-  | "MenuCategoriesIconCraftingMoaCore"
-  | "MenuCategoriesIconCraftingMoaGyro"
-  | "MenuCategoriesIconCraftingMoaModel"
-  | "MenuCategoriesIconDisplays"
-  | "MenuCategoriesIconDrone"
-  | "MenuCategoriesIconDuplicate"
-  | "MenuCategoriesIconEmotes"
-  | "MenuCategoriesIconEnergy"
-  | "MenuCategoriesIconEngineering"
-  | "MenuCategoriesIconEntrati"
-  | "MenuCategoriesIconEquip"
-  | "MenuCategoriesIconExilus"
-  | "MenuCategoriesIconFavorite"
-  | "MenuCategoriesIconFishLarge"
-  | "MenuCategoriesIconFishMedium"
-  | "MenuCategoriesIconFishSmall"
-  | "MenuCategoriesIconFusion"
-  | "MenuCategoriesIconFx"
-  | "MenuCategoriesIconGara"
-  | "MenuCategoriesIconGarden"
-  | "MenuCategoriesIconGear"
-  | "MenuCategoriesIconGeneticImprint"
-  | "MenuCategoriesIconGhouls"
-  | "MenuCategoriesIconGift"
-  | "MenuCategoriesIconGlyph"
-  | "MenuCategoriesIconGrineer"
-  | "MenuCategoriesIconGrip"
-  | "MenuCategoriesIconGunnery"
-  | "MenuCategoriesIconHall"
-  | "MenuCategoriesIconIndividualObstacleCourse"
-  | "MenuCategoriesIconInfested"
-  | "MenuCategoriesIconKavat"
-  | "MenuCategoriesIconKeys"
-  | "MenuCategoriesIconKubrow"
-  | "MenuCategoriesIconKuvaLichActive"
-  | "MenuCategoriesIconKuvaLichConverted"
-  | "MenuCategoriesIconKuvaLichTraded"
-  | "MenuCategoriesIconKuvaLichVanquished"
-  | "MenuCategoriesIconLab"
-  | "MenuCategoriesIconLichCategory"
-  | "MenuCategoriesIconLimitedTime"
-  | "MenuCategoriesIconLink"
-  | "MenuCategoriesIconManufacturerLavan"
-  | "MenuCategoriesIconManufacturerSigma"
-  | "MenuCategoriesIconManufacturerVidar"
-  | "MenuCategoriesIconManufacturerZekti"
-  | "MenuCategoriesIconMaterials"
-  | "MenuCategoriesIconMaterialsOff"
-  | "MenuCategoriesIconMech"
-  | "MenuCategoriesIconMelee"
-  | "MenuCategoriesIconMisc"
-  | "MenuCategoriesIconMkI"
-  | "MenuCategoriesIconMkIi"
-  | "MenuCategoriesIconMkIii"
-  | "MenuCategoriesIconMods"
-  | "MenuCategoriesIconModularItem"
-  | "MenuCategoriesIconNoggles"
-  | "MenuCategoriesIconOperator"
-  | "MenuCategoriesIconOrokinOn"
-  | "MenuCategoriesIconOxides"
-  | "MenuCategoriesIconPheromones"
-  | "MenuCategoriesIconPilot"
-  | "MenuCategoriesIconPistol"
-  | "MenuCategoriesIconPlayerShip"
-  | "MenuCategoriesIconPrimaryWeaponBow"
-  | "MenuCategoriesIconPrimaryWeaponLauncher"
-  | "MenuCategoriesIconPrimaryWeaponRifle"
-  | "MenuCategoriesIconPrimaryWeaponShotgun"
-  | "MenuCategoriesIconPrimaryWeaponSniper"
-  | "MenuCategoriesIconPrimaryWeaponSpeargun"
-  | "MenuCategoriesIconPrimaryWeaponSpecial"
-  | "MenuCategoriesIconPrimeParts"
-  | "MenuCategoriesIconProspector"
-  | "MenuCategoriesIconPurchase"
-  | "MenuCategoriesIconRailjack"
-  | "MenuCategoriesIconRailjack2"
-  | "MenuCategoriesIconRailjackAbilities"
-  | "MenuCategoriesIconRailjackCountermeasures"
-  | "MenuCategoriesIconRailjackOrdnance"
-  | "MenuCategoriesIconRailjackPilot"
-  | "MenuCategoriesIconRailjackTurrets"
-  | "MenuCategoriesIconRelatedItems"
-  | "MenuCategoriesIconRelic"
-  | "MenuCategoriesIconRelicAxi"
-  | "MenuCategoriesIconRelicLith"
-  | "MenuCategoriesIconRelicMeso"
-  | "MenuCategoriesIconRelicNeo"
-  | "MenuCategoriesIconResourceDrone"
-  | "MenuCategoriesIconRifle"
-  | "MenuCategoriesIconRifleOff"
-  | "MenuCategoriesIconRivenMod"
-  | "MenuCategoriesIconSalvage"
-  | "MenuCategoriesIconSentinel"
-  | "MenuCategoriesIconShotgun"
-  | "MenuCategoriesIconSigils"
-  | "MenuCategoriesIconSimaris"
-  | "MenuCategoriesIconSkins"
-  | "MenuCategoriesIconSolaris"
-  | "MenuCategoriesIconStance"
-  | "MenuCategoriesIconStrike"
-  | "MenuCategoriesIconSwatch"
-  | "MenuCategoriesIconSynthetics"
-  | "MenuCategoriesIconSynthetics2"
-  | "MenuCategoriesIconTactical"
-  | "MenuCategoriesIconTenets"
-  | "MenuCategoriesIconUtility"
-  | "MenuCategoriesIconUtility2"
-  | "MenuCategoriesIconWarframe"
-  | "MenuCategoriesIconWarframeOff"
-  | "MenuCategoriesIconWeapons"
-  | "MenuCategoriesIconWild"
-  | "MenuCategoriesIncompleteIcon"
-  | "MenuCategoriesLotusEmblemIcon"
-  | "MenuCategoriesMechBoardIcon"
-  | "MenuCategoriesNaturalIcon"
-  | "MenuCategoriesOwnedBlueprintIcon"
-  | "MenuCategoriesParazonIcon"
-  | "MenuCategoriesParazonIconLong"
-  | "MenuCategoriesParazonIconLongShadow"
-  | "MenuCategoriesParazonIconLongShadow2"
-  | "MenuCategoriesPrexCategoryIcon"
-  | "MenuCategoriesQuestPickerActive"
-  | "MenuCategoriesQuestPickerCompleted"
-  | "MenuCategoriesQuestPickerMystery"
-  | "MenuCategoriesRequiemModIcon"
-  | "MenuCategoriesRequiemRelicIcon"
-  | "MenuCategoriesRequirementsMetIcon"
-  | "MenuCategoriesResearchCorpus"
-  | "MenuCategoriesResearchGrineer"
-  | "MenuCategoriesResearchInfested"
-  | "MenuCategoriesResearchOrokin"
-  | "MenuCategoriesResearchRailjack"
-  | "MenuCategoriesResearchTenno"
-  | "MenuCategoriesRoundVialIcon"
-  | "MenuCategoriesSquareVialIcon"
-  | "MenuCategoriesTeleportIcon"
-  | "MenuCategoriesVehiclesKdrive"
-  | "MenuCategoriesWoundedInfestedCritter"
-  | "MenuCategoriesWoundedInfestedPredator"
+  | "MenuAll"
+  | "MenuAmp"
+  | "MenuArcane"
+  | "MenuArchwing"
+  | "MenuArchwingColour"
+  | "MenuArchwingEmblem"
+  | "MenuArchwingPrimary"
+  | "MenuArchwingSecondary"
+  | "MenuArmor"
+  | "MenuAugment"
+  | "MenuAura"
+  | "MenuAvionics"
+  | "MenuAvionicsDefensive"
+  | "MenuAvionicsOffensive"
+  | "MenuAvionicsSuper"
+  | "MenuAvionicsTactical"
+  | "MenuBarracks"
+  | "MenuBile"
+  | "MenuBiotics"
+  | "MenuBlueprint"
+  | "MenuBuild"
+  | "MenuCalx"
+  | "MenuCapacity"
+  | "MenuCephalon"
+  | "MenuCetusElder"
+  | "MenuChangeSkins"
+  | "MenuClanObstacleCourse"
+  | "MenuCommand"
+  | "MenuConnector"
+  | "MenuCorpus"
+  | "MenuCraftingAmpBrace"
+  | "MenuCraftingAmpPrism"
+  | "MenuCraftingAmpScaffold"
+  | "MenuCraftingHoundBody"
+  | "MenuCraftingHoundHead"
+  | "MenuCraftingHoundLegs"
+  | "MenuCraftingHoundTail"
+  | "MenuCraftingKDriveBoard"
+  | "MenuCraftingKDriveJet"
+  | "MenuCraftingKDriveNose"
+  | "MenuCraftingKDriveReactor"
+  | "MenuCraftingKitgunChamber"
+  | "MenuCraftingKitgunGrip"
+  | "MenuCraftingKitgunLoader"
+  | "MenuCraftingKitgunPrimaryGrip"
+  | "MenuCraftingMoaBrackets"
+  | "MenuCraftingMoaCore"
+  | "MenuCraftingMoaGyro"
+  | "MenuCraftingMoaModel"
+  | "MenuDisplays"
+  | "MenuDrone"
+  | "MenuDuplicate"
+  | "MenuEmotes"
+  | "MenuEnergy"
+  | "MenuEngineering"
+  | "MenuEntrati"
+  | "MenuEquip"
+  | "MenuExilus"
+  | "MenuFavorite"
+  | "MenuFishLarge"
+  | "MenuFishMedium"
+  | "MenuFishSmall"
+  | "MenuFusion"
+  | "MenuFx"
+  | "MenuGara"
+  | "MenuGarden"
+  | "MenuGear"
+  | "MenuGearWheel"
+  | "MenuGeneticImprint"
+  | "MenuGhouls"
+  | "MenuGift"
+  | "MenuGlyph"
+  | "MenuGrineer"
+  | "MenuGrip"
+  | "MenuGunnery"
+  | "MenuHall"
+  | "MenuIncomplete"
+  | "MenuIndividualObstacleCourse"
+  | "MenuInfested"
+  | "MenuKavat"
+  | "MenuKeys"
+  | "MenuKubrow"
+  | "MenuKuvaLichActive"
+  | "MenuKuvaLichConverted"
+  | "MenuKuvaLichTraded"
+  | "MenuKuvaLichVanquished"
+  | "MenuLab"
+  | "MenuLichCategory"
+  | "MenuLimitedTime"
+  | "MenuLink"
+  | "MenuLotusEmblem"
+  | "MenuManufacturerLavan"
+  | "MenuManufacturerSigma"
+  | "MenuManufacturerVidar"
+  | "MenuManufacturerZekti"
+  | "MenuMaterials"
+  | "MenuMaterialsOff"
+  | "MenuMech"
+  | "MenuMechBoard"
+  | "MenuMelee"
+  | "MenuMisc"
+  | "MenuMkI"
+  | "MenuMkIi"
+  | "MenuMkIii"
+  | "MenuMods"
+  | "MenuModularItem"
+  | "MenuNatural"
+  | "MenuNoggles"
+  | "MenuOperator"
+  | "MenuOrokinOn"
+  | "MenuOwnedBlueprint"
+  | "MenuOxides"
+  | "MenuParazon"
+  | "MenuParazonLong"
+  | "MenuParazonLongShadow"
+  | "MenuParazonLongShadow2"
+  | "MenuPheromones"
+  | "MenuPilot"
+  | "MenuPistol"
+  | "MenuPlayerShip"
+  | "MenuPrexCategory"
+  | "MenuPrimaryWeaponBow"
+  | "MenuPrimaryWeaponLauncher"
+  | "MenuPrimaryWeaponRifle"
+  | "MenuPrimaryWeaponShotgun"
+  | "MenuPrimaryWeaponSniper"
+  | "MenuPrimaryWeaponSpeargun"
+  | "MenuPrimaryWeaponSpecial"
+  | "MenuPrimeParts"
+  | "MenuProspector"
+  | "MenuPurchase"
+  | "MenuQuestPickerActive"
+  | "MenuQuestPickerCompleted"
+  | "MenuQuestPickerMystery"
+  | "MenuRailjack"
+  | "MenuRailjack2"
+  | "MenuRailjackAbilities"
+  | "MenuRailjackCountermeasures"
+  | "MenuRailjackOrdnance"
+  | "MenuRailjackPilot"
+  | "MenuRailjackTurrets"
+  | "MenuRelatedItems"
+  | "MenuRelic"
+  | "MenuRelicAxi"
+  | "MenuRelicLith"
+  | "MenuRelicMeso"
+  | "MenuRelicNeo"
+  | "MenuRequiemMod"
+  | "MenuRequiemRelic"
+  | "MenuRequirementsMet"
+  | "MenuResearchCorpus"
+  | "MenuResearchGrineer"
+  | "MenuResearchInfested"
+  | "MenuResearchOrokin"
+  | "MenuResearchRailjack"
+  | "MenuResearchTenno"
+  | "MenuResourceDrone"
+  | "MenuRifle"
+  | "MenuRifleOff"
+  | "MenuRivenMod"
+  | "MenuRoundVial"
+  | "MenuSalvage"
+  | "MenuSentinel"
+  | "MenuShotgun"
+  | "MenuSigils"
+  | "MenuSimaris"
+  | "MenuSkins"
+  | "MenuSolaris"
+  | "MenuSquareVial"
+  | "MenuStance"
+  | "MenuStrike"
+  | "MenuSwatch"
+  | "MenuSynthetics"
+  | "MenuSynthetics2"
+  | "MenuTactical"
+  | "MenuTeleport"
+  | "MenuTenets"
+  | "MenuUtility"
+  | "MenuUtility2"
+  | "MenuVehiclesKdrive"
+  | "MenuWarframe"
+  | "MenuWarframeOff"
+  | "MenuWeapons"
+  | "MenuWild"
+  | "MenuWoundedInfestedCritter"
+  | "MenuWoundedInfestedPredator"
   | "Nightmare"
   | "Nightwave"
   | "Ostron"
@@ -590,192 +590,192 @@ export enum WarframeSymbols {
   KuvaKuva = "kuva-kuva",
   KuvaKuvaflood = "kuva-kuvaflood",
   Loading = "loading",
-  MenuCategoriesArchwingEmblemIcon = "menu-categories-ArchwingEmblemIcon",
-  MenuCategoriesGearWheelIcon = "menu-categories-GearWheelIcon",
-  MenuCategoriesIconAll = "menu-categories-IconAll",
-  MenuCategoriesIconAmp = "menu-categories-IconAmp",
-  MenuCategoriesIconArcane = "menu-categories-IconArcane",
-  MenuCategoriesIconArchwing = "menu-categories-IconArchwing",
-  MenuCategoriesIconArchwingColour = "menu-categories-IconArchwingColour",
-  MenuCategoriesIconArchwingPrimary = "menu-categories-IconArchwingPrimary",
-  MenuCategoriesIconArchwingSecondary = "menu-categories-IconArchwingSecondary",
-  MenuCategoriesIconArmor = "menu-categories-IconArmor",
-  MenuCategoriesIconAugment = "menu-categories-IconAugment",
-  MenuCategoriesIconAura = "menu-categories-IconAura",
-  MenuCategoriesIconAvionics = "menu-categories-IconAvionics",
-  MenuCategoriesIconAvionicsDefensive = "menu-categories-IconAvionicsDefensive",
-  MenuCategoriesIconAvionicsOffensive = "menu-categories-IconAvionicsOffensive",
-  MenuCategoriesIconAvionicsSuper = "menu-categories-IconAvionicsSuper",
-  MenuCategoriesIconAvionicsTactical = "menu-categories-IconAvionicsTactical",
-  MenuCategoriesIconBarracks = "menu-categories-IconBarracks",
-  MenuCategoriesIconBile = "menu-categories-IconBile",
-  MenuCategoriesIconBiotics = "menu-categories-IconBiotics",
-  MenuCategoriesIconBlueprint = "menu-categories-IconBlueprint",
-  MenuCategoriesIconBuild = "menu-categories-IconBuild",
-  MenuCategoriesIconCalx = "menu-categories-IconCalx",
-  MenuCategoriesIconCapacity = "menu-categories-IconCapacity",
-  MenuCategoriesIconCephalon = "menu-categories-IconCephalon",
-  MenuCategoriesIconCetusElder = "menu-categories-IconCetusElder",
-  MenuCategoriesIconChangeSkins = "menu-categories-IconChangeSkins",
-  MenuCategoriesIconClanObstacleCourse = "menu-categories-IconClanObstacleCourse",
-  MenuCategoriesIconCommand = "menu-categories-IconCommand",
-  MenuCategoriesIconConnector = "menu-categories-IconConnector",
-  MenuCategoriesIconCorpus = "menu-categories-IconCorpus",
-  MenuCategoriesIconCraftingAmpBrace = "menu-categories-IconCraftingAmpBrace",
-  MenuCategoriesIconCraftingAmpPrism = "menu-categories-IconCraftingAmpPrism",
-  MenuCategoriesIconCraftingAmpScaffold = "menu-categories-IconCraftingAmpScaffold",
-  MenuCategoriesIconCraftingHoundBody = "menu-categories-IconCraftingHoundBody",
-  MenuCategoriesIconCraftingHoundHead = "menu-categories-IconCraftingHoundHead",
-  MenuCategoriesIconCraftingHoundLegs = "menu-categories-IconCraftingHoundLegs",
-  MenuCategoriesIconCraftingHoundTail = "menu-categories-IconCraftingHoundTail",
-  MenuCategoriesIconCraftingKDriveBoard = "menu-categories-IconCraftingKDriveBoard",
-  MenuCategoriesIconCraftingKDriveJet = "menu-categories-IconCraftingKDriveJet",
-  MenuCategoriesIconCraftingKDriveNose = "menu-categories-IconCraftingKDriveNose",
-  MenuCategoriesIconCraftingKDriveReactor = "menu-categories-IconCraftingKDriveReactor",
-  MenuCategoriesIconCraftingKitgunChamber = "menu-categories-IconCraftingKitgunChamber",
-  MenuCategoriesIconCraftingKitgunGrip = "menu-categories-IconCraftingKitgunGrip",
-  MenuCategoriesIconCraftingKitgunLoader = "menu-categories-IconCraftingKitgunLoader",
-  MenuCategoriesIconCraftingKitgunPrimaryGrip = "menu-categories-IconCraftingKitgunPrimaryGrip",
-  MenuCategoriesIconCraftingMoaBrackets = "menu-categories-IconCraftingMoaBrackets",
-  MenuCategoriesIconCraftingMoaCore = "menu-categories-IconCraftingMoaCore",
-  MenuCategoriesIconCraftingMoaGyro = "menu-categories-IconCraftingMoaGyro",
-  MenuCategoriesIconCraftingMoaModel = "menu-categories-IconCraftingMoaModel",
-  MenuCategoriesIconDisplays = "menu-categories-IconDisplays",
-  MenuCategoriesIconDrone = "menu-categories-IconDrone",
-  MenuCategoriesIconDuplicate = "menu-categories-IconDuplicate",
-  MenuCategoriesIconEmotes = "menu-categories-IconEmotes",
-  MenuCategoriesIconEnergy = "menu-categories-IconEnergy",
-  MenuCategoriesIconEngineering = "menu-categories-IconEngineering",
-  MenuCategoriesIconEntrati = "menu-categories-IconEntrati",
-  MenuCategoriesIconEquip = "menu-categories-IconEquip",
-  MenuCategoriesIconExilus = "menu-categories-IconExilus",
-  MenuCategoriesIconFavorite = "menu-categories-IconFavorite",
-  MenuCategoriesIconFishLarge = "menu-categories-IconFishLarge",
-  MenuCategoriesIconFishMedium = "menu-categories-IconFishMedium",
-  MenuCategoriesIconFishSmall = "menu-categories-IconFishSmall",
-  MenuCategoriesIconFusion = "menu-categories-IconFusion",
-  MenuCategoriesIconFx = "menu-categories-IconFx",
-  MenuCategoriesIconGara = "menu-categories-IconGara",
-  MenuCategoriesIconGarden = "menu-categories-IconGarden",
-  MenuCategoriesIconGear = "menu-categories-IconGear",
-  MenuCategoriesIconGeneticImprint = "menu-categories-IconGeneticImprint",
-  MenuCategoriesIconGhouls = "menu-categories-IconGhouls",
-  MenuCategoriesIconGift = "menu-categories-IconGift",
-  MenuCategoriesIconGlyph = "menu-categories-IconGlyph",
-  MenuCategoriesIconGrineer = "menu-categories-IconGrineer",
-  MenuCategoriesIconGrip = "menu-categories-IconGrip",
-  MenuCategoriesIconGunnery = "menu-categories-IconGunnery",
-  MenuCategoriesIconHall = "menu-categories-IconHall",
-  MenuCategoriesIconIndividualObstacleCourse = "menu-categories-IconIndividualObstacleCourse",
-  MenuCategoriesIconInfested = "menu-categories-IconInfested",
-  MenuCategoriesIconKavat = "menu-categories-IconKavat",
-  MenuCategoriesIconKeys = "menu-categories-IconKeys",
-  MenuCategoriesIconKubrow = "menu-categories-IconKubrow",
-  MenuCategoriesIconKuvaLichActive = "menu-categories-IconKuvaLichActive",
-  MenuCategoriesIconKuvaLichConverted = "menu-categories-IconKuvaLichConverted",
-  MenuCategoriesIconKuvaLichTraded = "menu-categories-IconKuvaLichTraded",
-  MenuCategoriesIconKuvaLichVanquished = "menu-categories-IconKuvaLichVanquished",
-  MenuCategoriesIconLab = "menu-categories-IconLab",
-  MenuCategoriesIconLichCategory = "menu-categories-IconLichCategory",
-  MenuCategoriesIconLimitedTime = "menu-categories-IconLimitedTime",
-  MenuCategoriesIconLink = "menu-categories-IconLink",
-  MenuCategoriesIconManufacturerLavan = "menu-categories-IconManufacturerLavan",
-  MenuCategoriesIconManufacturerSigma = "menu-categories-IconManufacturerSigma",
-  MenuCategoriesIconManufacturerVidar = "menu-categories-IconManufacturerVidar",
-  MenuCategoriesIconManufacturerZekti = "menu-categories-IconManufacturerZekti",
-  MenuCategoriesIconMaterials = "menu-categories-IconMaterials",
-  MenuCategoriesIconMaterialsOff = "menu-categories-IconMaterialsOff",
-  MenuCategoriesIconMech = "menu-categories-IconMech",
-  MenuCategoriesIconMelee = "menu-categories-IconMelee",
-  MenuCategoriesIconMisc = "menu-categories-IconMisc",
-  MenuCategoriesIconMkI = "menu-categories-IconMkI",
-  MenuCategoriesIconMkIi = "menu-categories-IconMkII",
-  MenuCategoriesIconMkIii = "menu-categories-IconMkIII",
-  MenuCategoriesIconMods = "menu-categories-IconMods",
-  MenuCategoriesIconModularItem = "menu-categories-IconModularItem",
-  MenuCategoriesIconNoggles = "menu-categories-IconNoggles",
-  MenuCategoriesIconOperator = "menu-categories-IconOperator",
-  MenuCategoriesIconOrokinOn = "menu-categories-IconOrokinOn",
-  MenuCategoriesIconOxides = "menu-categories-IconOxides",
-  MenuCategoriesIconPheromones = "menu-categories-IconPheromones",
-  MenuCategoriesIconPilot = "menu-categories-IconPilot",
-  MenuCategoriesIconPistol = "menu-categories-IconPistol",
-  MenuCategoriesIconPlayerShip = "menu-categories-IconPlayerShip",
-  MenuCategoriesIconPrimaryWeaponBow = "menu-categories-IconPrimaryWeaponBow",
-  MenuCategoriesIconPrimaryWeaponLauncher = "menu-categories-IconPrimaryWeaponLauncher",
-  MenuCategoriesIconPrimaryWeaponRifle = "menu-categories-IconPrimaryWeaponRifle",
-  MenuCategoriesIconPrimaryWeaponShotgun = "menu-categories-IconPrimaryWeaponShotgun",
-  MenuCategoriesIconPrimaryWeaponSniper = "menu-categories-IconPrimaryWeaponSniper",
-  MenuCategoriesIconPrimaryWeaponSpeargun = "menu-categories-IconPrimaryWeaponSpeargun",
-  MenuCategoriesIconPrimaryWeaponSpecial = "menu-categories-IconPrimaryWeaponSpecial",
-  MenuCategoriesIconPrimeParts = "menu-categories-IconPrimeParts",
-  MenuCategoriesIconProspector = "menu-categories-IconProspector",
-  MenuCategoriesIconPurchase = "menu-categories-IconPurchase",
-  MenuCategoriesIconRailjack = "menu-categories-IconRailjack",
-  MenuCategoriesIconRailjack2 = "menu-categories-IconRailjack2",
-  MenuCategoriesIconRailjackAbilities = "menu-categories-IconRailjackAbilities",
-  MenuCategoriesIconRailjackCountermeasures = "menu-categories-IconRailjackCountermeasures",
-  MenuCategoriesIconRailjackOrdnance = "menu-categories-IconRailjackOrdnance",
-  MenuCategoriesIconRailjackPilot = "menu-categories-IconRailjackPilot",
-  MenuCategoriesIconRailjackTurrets = "menu-categories-IconRailjackTurrets",
-  MenuCategoriesIconRelatedItems = "menu-categories-IconRelatedItems",
-  MenuCategoriesIconRelic = "menu-categories-IconRelic",
-  MenuCategoriesIconRelicAxi = "menu-categories-IconRelicAxi",
-  MenuCategoriesIconRelicLith = "menu-categories-IconRelicLith",
-  MenuCategoriesIconRelicMeso = "menu-categories-IconRelicMeso",
-  MenuCategoriesIconRelicNeo = "menu-categories-IconRelicNeo",
-  MenuCategoriesIconResourceDrone = "menu-categories-IconResourceDrone",
-  MenuCategoriesIconRifle = "menu-categories-IconRifle",
-  MenuCategoriesIconRifleOff = "menu-categories-IconRifleOff",
-  MenuCategoriesIconRivenMod = "menu-categories-IconRivenMod",
-  MenuCategoriesIconSalvage = "menu-categories-IconSalvage",
-  MenuCategoriesIconSentinel = "menu-categories-IconSentinel",
-  MenuCategoriesIconShotgun = "menu-categories-IconShotgun",
-  MenuCategoriesIconSigils = "menu-categories-IconSigils",
-  MenuCategoriesIconSimaris = "menu-categories-IconSimaris",
-  MenuCategoriesIconSkins = "menu-categories-IconSkins",
-  MenuCategoriesIconSolaris = "menu-categories-IconSolaris",
-  MenuCategoriesIconStance = "menu-categories-IconStance",
-  MenuCategoriesIconStrike = "menu-categories-IconStrike",
-  MenuCategoriesIconSwatch = "menu-categories-IconSwatch",
-  MenuCategoriesIconSynthetics = "menu-categories-IconSynthetics",
-  MenuCategoriesIconSynthetics2 = "menu-categories-IconSynthetics2",
-  MenuCategoriesIconTactical = "menu-categories-IconTactical",
-  MenuCategoriesIconTenets = "menu-categories-IconTenets",
-  MenuCategoriesIconUtility = "menu-categories-IconUtility",
-  MenuCategoriesIconUtility2 = "menu-categories-IconUtility2",
-  MenuCategoriesIconWarframe = "menu-categories-IconWarframe",
-  MenuCategoriesIconWarframeOff = "menu-categories-IconWarframeOff",
-  MenuCategoriesIconWeapons = "menu-categories-IconWeapons",
-  MenuCategoriesIconWild = "menu-categories-IconWild",
-  MenuCategoriesIncompleteIcon = "menu-categories-IncompleteIcon",
-  MenuCategoriesLotusEmblemIcon = "menu-categories-LotusEmblemIcon",
-  MenuCategoriesMechBoardIcon = "menu-categories-MechBoardIcon",
-  MenuCategoriesNaturalIcon = "menu-categories-NaturalIcon",
-  MenuCategoriesOwnedBlueprintIcon = "menu-categories-OwnedBlueprintIcon",
-  MenuCategoriesParazonIcon = "menu-categories-ParazonIcon",
-  MenuCategoriesParazonIconLong = "menu-categories-ParazonIconLong",
-  MenuCategoriesParazonIconLongShadow = "menu-categories-ParazonIconLongShadow",
-  MenuCategoriesParazonIconLongShadow2 = "menu-categories-ParazonIconLongShadow2",
-  MenuCategoriesPrexCategoryIcon = "menu-categories-PrexCategoryIcon",
-  MenuCategoriesQuestPickerActive = "menu-categories-QuestPickerActive",
-  MenuCategoriesQuestPickerCompleted = "menu-categories-QuestPickerCompleted",
-  MenuCategoriesQuestPickerMystery = "menu-categories-QuestPickerMystery",
-  MenuCategoriesRequiemModIcon = "menu-categories-RequiemModIcon",
-  MenuCategoriesRequiemRelicIcon = "menu-categories-RequiemRelicIcon",
-  MenuCategoriesRequirementsMetIcon = "menu-categories-RequirementsMetIcon",
-  MenuCategoriesResearchCorpus = "menu-categories-ResearchCorpus",
-  MenuCategoriesResearchGrineer = "menu-categories-ResearchGrineer",
-  MenuCategoriesResearchInfested = "menu-categories-ResearchInfested",
-  MenuCategoriesResearchOrokin = "menu-categories-ResearchOrokin",
-  MenuCategoriesResearchRailjack = "menu-categories-ResearchRailjack",
-  MenuCategoriesResearchTenno = "menu-categories-ResearchTenno",
-  MenuCategoriesRoundVialIcon = "menu-categories-RoundVialIcon",
-  MenuCategoriesSquareVialIcon = "menu-categories-SquareVialIcon",
-  MenuCategoriesTeleportIcon = "menu-categories-TeleportIcon",
-  MenuCategoriesVehiclesKdrive = "menu-categories-VehiclesKdrive",
-  MenuCategoriesWoundedInfestedCritter = "menu-categories-WoundedInfestedCritter",
-  MenuCategoriesWoundedInfestedPredator = "menu-categories-WoundedInfestedPredator",
+  MenuAll = "menu-All",
+  MenuAmp = "menu-Amp",
+  MenuArcane = "menu-Arcane",
+  MenuArchwing = "menu-Archwing",
+  MenuArchwingColour = "menu-ArchwingColour",
+  MenuArchwingEmblem = "menu-ArchwingEmblem",
+  MenuArchwingPrimary = "menu-ArchwingPrimary",
+  MenuArchwingSecondary = "menu-ArchwingSecondary",
+  MenuArmor = "menu-Armor",
+  MenuAugment = "menu-Augment",
+  MenuAura = "menu-Aura",
+  MenuAvionics = "menu-Avionics",
+  MenuAvionicsDefensive = "menu-AvionicsDefensive",
+  MenuAvionicsOffensive = "menu-AvionicsOffensive",
+  MenuAvionicsSuper = "menu-AvionicsSuper",
+  MenuAvionicsTactical = "menu-AvionicsTactical",
+  MenuBarracks = "menu-Barracks",
+  MenuBile = "menu-Bile",
+  MenuBiotics = "menu-Biotics",
+  MenuBlueprint = "menu-Blueprint",
+  MenuBuild = "menu-Build",
+  MenuCalx = "menu-Calx",
+  MenuCapacity = "menu-Capacity",
+  MenuCephalon = "menu-Cephalon",
+  MenuCetusElder = "menu-CetusElder",
+  MenuChangeSkins = "menu-ChangeSkins",
+  MenuClanObstacleCourse = "menu-ClanObstacleCourse",
+  MenuCommand = "menu-Command",
+  MenuConnector = "menu-Connector",
+  MenuCorpus = "menu-Corpus",
+  MenuCraftingAmpBrace = "menu-CraftingAmpBrace",
+  MenuCraftingAmpPrism = "menu-CraftingAmpPrism",
+  MenuCraftingAmpScaffold = "menu-CraftingAmpScaffold",
+  MenuCraftingHoundBody = "menu-CraftingHoundBody",
+  MenuCraftingHoundHead = "menu-CraftingHoundHead",
+  MenuCraftingHoundLegs = "menu-CraftingHoundLegs",
+  MenuCraftingHoundTail = "menu-CraftingHoundTail",
+  MenuCraftingKDriveBoard = "menu-CraftingKDriveBoard",
+  MenuCraftingKDriveJet = "menu-CraftingKDriveJet",
+  MenuCraftingKDriveNose = "menu-CraftingKDriveNose",
+  MenuCraftingKDriveReactor = "menu-CraftingKDriveReactor",
+  MenuCraftingKitgunChamber = "menu-CraftingKitgunChamber",
+  MenuCraftingKitgunGrip = "menu-CraftingKitgunGrip",
+  MenuCraftingKitgunLoader = "menu-CraftingKitgunLoader",
+  MenuCraftingKitgunPrimaryGrip = "menu-CraftingKitgunPrimaryGrip",
+  MenuCraftingMoaBrackets = "menu-CraftingMoaBrackets",
+  MenuCraftingMoaCore = "menu-CraftingMoaCore",
+  MenuCraftingMoaGyro = "menu-CraftingMoaGyro",
+  MenuCraftingMoaModel = "menu-CraftingMoaModel",
+  MenuDisplays = "menu-Displays",
+  MenuDrone = "menu-Drone",
+  MenuDuplicate = "menu-Duplicate",
+  MenuEmotes = "menu-Emotes",
+  MenuEnergy = "menu-Energy",
+  MenuEngineering = "menu-Engineering",
+  MenuEntrati = "menu-Entrati",
+  MenuEquip = "menu-Equip",
+  MenuExilus = "menu-Exilus",
+  MenuFavorite = "menu-Favorite",
+  MenuFishLarge = "menu-FishLarge",
+  MenuFishMedium = "menu-FishMedium",
+  MenuFishSmall = "menu-FishSmall",
+  MenuFusion = "menu-Fusion",
+  MenuFx = "menu-Fx",
+  MenuGara = "menu-Gara",
+  MenuGarden = "menu-Garden",
+  MenuGear = "menu-Gear",
+  MenuGearWheel = "menu-GearWheel",
+  MenuGeneticImprint = "menu-GeneticImprint",
+  MenuGhouls = "menu-Ghouls",
+  MenuGift = "menu-Gift",
+  MenuGlyph = "menu-Glyph",
+  MenuGrineer = "menu-Grineer",
+  MenuGrip = "menu-Grip",
+  MenuGunnery = "menu-Gunnery",
+  MenuHall = "menu-Hall",
+  MenuIncomplete = "menu-Incomplete",
+  MenuIndividualObstacleCourse = "menu-IndividualObstacleCourse",
+  MenuInfested = "menu-Infested",
+  MenuKavat = "menu-Kavat",
+  MenuKeys = "menu-Keys",
+  MenuKubrow = "menu-Kubrow",
+  MenuKuvaLichActive = "menu-KuvaLichActive",
+  MenuKuvaLichConverted = "menu-KuvaLichConverted",
+  MenuKuvaLichTraded = "menu-KuvaLichTraded",
+  MenuKuvaLichVanquished = "menu-KuvaLichVanquished",
+  MenuLab = "menu-Lab",
+  MenuLichCategory = "menu-LichCategory",
+  MenuLimitedTime = "menu-LimitedTime",
+  MenuLink = "menu-Link",
+  MenuLotusEmblem = "menu-LotusEmblem",
+  MenuManufacturerLavan = "menu-ManufacturerLavan",
+  MenuManufacturerSigma = "menu-ManufacturerSigma",
+  MenuManufacturerVidar = "menu-ManufacturerVidar",
+  MenuManufacturerZekti = "menu-ManufacturerZekti",
+  MenuMaterials = "menu-Materials",
+  MenuMaterialsOff = "menu-MaterialsOff",
+  MenuMech = "menu-Mech",
+  MenuMechBoard = "menu-MechBoard",
+  MenuMelee = "menu-Melee",
+  MenuMisc = "menu-Misc",
+  MenuMkI = "menu-MkI",
+  MenuMkIi = "menu-MkII",
+  MenuMkIii = "menu-MkIII",
+  MenuMods = "menu-Mods",
+  MenuModularItem = "menu-ModularItem",
+  MenuNatural = "menu-Natural",
+  MenuNoggles = "menu-Noggles",
+  MenuOperator = "menu-Operator",
+  MenuOrokinOn = "menu-OrokinOn",
+  MenuOwnedBlueprint = "menu-OwnedBlueprint",
+  MenuOxides = "menu-Oxides",
+  MenuParazon = "menu-Parazon",
+  MenuParazonLong = "menu-ParazonLong",
+  MenuParazonLongShadow = "menu-ParazonLongShadow",
+  MenuParazonLongShadow2 = "menu-ParazonLongShadow2",
+  MenuPheromones = "menu-Pheromones",
+  MenuPilot = "menu-Pilot",
+  MenuPistol = "menu-Pistol",
+  MenuPlayerShip = "menu-PlayerShip",
+  MenuPrexCategory = "menu-PrexCategory",
+  MenuPrimaryWeaponBow = "menu-PrimaryWeaponBow",
+  MenuPrimaryWeaponLauncher = "menu-PrimaryWeaponLauncher",
+  MenuPrimaryWeaponRifle = "menu-PrimaryWeaponRifle",
+  MenuPrimaryWeaponShotgun = "menu-PrimaryWeaponShotgun",
+  MenuPrimaryWeaponSniper = "menu-PrimaryWeaponSniper",
+  MenuPrimaryWeaponSpeargun = "menu-PrimaryWeaponSpeargun",
+  MenuPrimaryWeaponSpecial = "menu-PrimaryWeaponSpecial",
+  MenuPrimeParts = "menu-PrimeParts",
+  MenuProspector = "menu-Prospector",
+  MenuPurchase = "menu-Purchase",
+  MenuQuestPickerActive = "menu-QuestPickerActive",
+  MenuQuestPickerCompleted = "menu-QuestPickerCompleted",
+  MenuQuestPickerMystery = "menu-QuestPickerMystery",
+  MenuRailjack = "menu-Railjack",
+  MenuRailjack2 = "menu-Railjack2",
+  MenuRailjackAbilities = "menu-RailjackAbilities",
+  MenuRailjackCountermeasures = "menu-RailjackCountermeasures",
+  MenuRailjackOrdnance = "menu-RailjackOrdnance",
+  MenuRailjackPilot = "menu-RailjackPilot",
+  MenuRailjackTurrets = "menu-RailjackTurrets",
+  MenuRelatedItems = "menu-RelatedItems",
+  MenuRelic = "menu-Relic",
+  MenuRelicAxi = "menu-RelicAxi",
+  MenuRelicLith = "menu-RelicLith",
+  MenuRelicMeso = "menu-RelicMeso",
+  MenuRelicNeo = "menu-RelicNeo",
+  MenuRequiemMod = "menu-RequiemMod",
+  MenuRequiemRelic = "menu-RequiemRelic",
+  MenuRequirementsMet = "menu-RequirementsMet",
+  MenuResearchCorpus = "menu-ResearchCorpus",
+  MenuResearchGrineer = "menu-ResearchGrineer",
+  MenuResearchInfested = "menu-ResearchInfested",
+  MenuResearchOrokin = "menu-ResearchOrokin",
+  MenuResearchRailjack = "menu-ResearchRailjack",
+  MenuResearchTenno = "menu-ResearchTenno",
+  MenuResourceDrone = "menu-ResourceDrone",
+  MenuRifle = "menu-Rifle",
+  MenuRifleOff = "menu-RifleOff",
+  MenuRivenMod = "menu-RivenMod",
+  MenuRoundVial = "menu-RoundVial",
+  MenuSalvage = "menu-Salvage",
+  MenuSentinel = "menu-Sentinel",
+  MenuShotgun = "menu-Shotgun",
+  MenuSigils = "menu-Sigils",
+  MenuSimaris = "menu-Simaris",
+  MenuSkins = "menu-Skins",
+  MenuSolaris = "menu-Solaris",
+  MenuSquareVial = "menu-SquareVial",
+  MenuStance = "menu-Stance",
+  MenuStrike = "menu-Strike",
+  MenuSwatch = "menu-Swatch",
+  MenuSynthetics = "menu-Synthetics",
+  MenuSynthetics2 = "menu-Synthetics2",
+  MenuTactical = "menu-Tactical",
+  MenuTeleport = "menu-Teleport",
+  MenuTenets = "menu-Tenets",
+  MenuUtility = "menu-Utility",
+  MenuUtility2 = "menu-Utility2",
+  MenuVehiclesKdrive = "menu-VehiclesKdrive",
+  MenuWarframe = "menu-Warframe",
+  MenuWarframeOff = "menu-WarframeOff",
+  MenuWeapons = "menu-Weapons",
+  MenuWild = "menu-Wild",
+  MenuWoundedInfestedCritter = "menu-WoundedInfestedCritter",
+  MenuWoundedInfestedPredator = "menu-WoundedInfestedPredator",
   Nightmare = "nightmare",
   Nightwave = "nightwave",
   Ostron = "ostron",
@@ -877,192 +877,192 @@ export const WARFRAME_SYMBOLS_CODEPOINTS: { [key in WarframeSymbols]: string } =
   [WarframeSymbols.KuvaKuva]: "61713",
   [WarframeSymbols.KuvaKuvaflood]: "61714",
   [WarframeSymbols.Loading]: "61715",
-  [WarframeSymbols.MenuCategoriesArchwingEmblemIcon]: "61716",
-  [WarframeSymbols.MenuCategoriesGearWheelIcon]: "61717",
-  [WarframeSymbols.MenuCategoriesIconAll]: "61718",
-  [WarframeSymbols.MenuCategoriesIconAmp]: "61719",
-  [WarframeSymbols.MenuCategoriesIconArcane]: "61720",
-  [WarframeSymbols.MenuCategoriesIconArchwing]: "61721",
-  [WarframeSymbols.MenuCategoriesIconArchwingColour]: "61722",
-  [WarframeSymbols.MenuCategoriesIconArchwingPrimary]: "61723",
-  [WarframeSymbols.MenuCategoriesIconArchwingSecondary]: "61724",
-  [WarframeSymbols.MenuCategoriesIconArmor]: "61725",
-  [WarframeSymbols.MenuCategoriesIconAugment]: "61726",
-  [WarframeSymbols.MenuCategoriesIconAura]: "61727",
-  [WarframeSymbols.MenuCategoriesIconAvionics]: "61728",
-  [WarframeSymbols.MenuCategoriesIconAvionicsDefensive]: "61729",
-  [WarframeSymbols.MenuCategoriesIconAvionicsOffensive]: "61730",
-  [WarframeSymbols.MenuCategoriesIconAvionicsSuper]: "61731",
-  [WarframeSymbols.MenuCategoriesIconAvionicsTactical]: "61732",
-  [WarframeSymbols.MenuCategoriesIconBarracks]: "61733",
-  [WarframeSymbols.MenuCategoriesIconBile]: "61734",
-  [WarframeSymbols.MenuCategoriesIconBiotics]: "61735",
-  [WarframeSymbols.MenuCategoriesIconBlueprint]: "61736",
-  [WarframeSymbols.MenuCategoriesIconBuild]: "61737",
-  [WarframeSymbols.MenuCategoriesIconCalx]: "61738",
-  [WarframeSymbols.MenuCategoriesIconCapacity]: "61739",
-  [WarframeSymbols.MenuCategoriesIconCephalon]: "61740",
-  [WarframeSymbols.MenuCategoriesIconCetusElder]: "61741",
-  [WarframeSymbols.MenuCategoriesIconChangeSkins]: "61742",
-  [WarframeSymbols.MenuCategoriesIconClanObstacleCourse]: "61743",
-  [WarframeSymbols.MenuCategoriesIconCommand]: "61744",
-  [WarframeSymbols.MenuCategoriesIconConnector]: "61745",
-  [WarframeSymbols.MenuCategoriesIconCorpus]: "61746",
-  [WarframeSymbols.MenuCategoriesIconCraftingAmpBrace]: "61747",
-  [WarframeSymbols.MenuCategoriesIconCraftingAmpPrism]: "61748",
-  [WarframeSymbols.MenuCategoriesIconCraftingAmpScaffold]: "61749",
-  [WarframeSymbols.MenuCategoriesIconCraftingHoundBody]: "61750",
-  [WarframeSymbols.MenuCategoriesIconCraftingHoundHead]: "61751",
-  [WarframeSymbols.MenuCategoriesIconCraftingHoundLegs]: "61752",
-  [WarframeSymbols.MenuCategoriesIconCraftingHoundTail]: "61753",
-  [WarframeSymbols.MenuCategoriesIconCraftingKDriveBoard]: "61754",
-  [WarframeSymbols.MenuCategoriesIconCraftingKDriveJet]: "61755",
-  [WarframeSymbols.MenuCategoriesIconCraftingKDriveNose]: "61756",
-  [WarframeSymbols.MenuCategoriesIconCraftingKDriveReactor]: "61757",
-  [WarframeSymbols.MenuCategoriesIconCraftingKitgunChamber]: "61758",
-  [WarframeSymbols.MenuCategoriesIconCraftingKitgunGrip]: "61759",
-  [WarframeSymbols.MenuCategoriesIconCraftingKitgunLoader]: "61760",
-  [WarframeSymbols.MenuCategoriesIconCraftingKitgunPrimaryGrip]: "61761",
-  [WarframeSymbols.MenuCategoriesIconCraftingMoaBrackets]: "61762",
-  [WarframeSymbols.MenuCategoriesIconCraftingMoaCore]: "61763",
-  [WarframeSymbols.MenuCategoriesIconCraftingMoaGyro]: "61764",
-  [WarframeSymbols.MenuCategoriesIconCraftingMoaModel]: "61765",
-  [WarframeSymbols.MenuCategoriesIconDisplays]: "61766",
-  [WarframeSymbols.MenuCategoriesIconDrone]: "61767",
-  [WarframeSymbols.MenuCategoriesIconDuplicate]: "61768",
-  [WarframeSymbols.MenuCategoriesIconEmotes]: "61769",
-  [WarframeSymbols.MenuCategoriesIconEnergy]: "61770",
-  [WarframeSymbols.MenuCategoriesIconEngineering]: "61771",
-  [WarframeSymbols.MenuCategoriesIconEntrati]: "61772",
-  [WarframeSymbols.MenuCategoriesIconEquip]: "61773",
-  [WarframeSymbols.MenuCategoriesIconExilus]: "61774",
-  [WarframeSymbols.MenuCategoriesIconFavorite]: "61775",
-  [WarframeSymbols.MenuCategoriesIconFishLarge]: "61776",
-  [WarframeSymbols.MenuCategoriesIconFishMedium]: "61777",
-  [WarframeSymbols.MenuCategoriesIconFishSmall]: "61778",
-  [WarframeSymbols.MenuCategoriesIconFusion]: "61779",
-  [WarframeSymbols.MenuCategoriesIconFx]: "61780",
-  [WarframeSymbols.MenuCategoriesIconGara]: "61781",
-  [WarframeSymbols.MenuCategoriesIconGarden]: "61782",
-  [WarframeSymbols.MenuCategoriesIconGear]: "61783",
-  [WarframeSymbols.MenuCategoriesIconGeneticImprint]: "61784",
-  [WarframeSymbols.MenuCategoriesIconGhouls]: "61785",
-  [WarframeSymbols.MenuCategoriesIconGift]: "61786",
-  [WarframeSymbols.MenuCategoriesIconGlyph]: "61787",
-  [WarframeSymbols.MenuCategoriesIconGrineer]: "61788",
-  [WarframeSymbols.MenuCategoriesIconGrip]: "61789",
-  [WarframeSymbols.MenuCategoriesIconGunnery]: "61790",
-  [WarframeSymbols.MenuCategoriesIconHall]: "61791",
-  [WarframeSymbols.MenuCategoriesIconIndividualObstacleCourse]: "61792",
-  [WarframeSymbols.MenuCategoriesIconInfested]: "61793",
-  [WarframeSymbols.MenuCategoriesIconKavat]: "61794",
-  [WarframeSymbols.MenuCategoriesIconKeys]: "61795",
-  [WarframeSymbols.MenuCategoriesIconKubrow]: "61796",
-  [WarframeSymbols.MenuCategoriesIconKuvaLichActive]: "61797",
-  [WarframeSymbols.MenuCategoriesIconKuvaLichConverted]: "61798",
-  [WarframeSymbols.MenuCategoriesIconKuvaLichTraded]: "61799",
-  [WarframeSymbols.MenuCategoriesIconKuvaLichVanquished]: "61800",
-  [WarframeSymbols.MenuCategoriesIconLab]: "61801",
-  [WarframeSymbols.MenuCategoriesIconLichCategory]: "61802",
-  [WarframeSymbols.MenuCategoriesIconLimitedTime]: "61803",
-  [WarframeSymbols.MenuCategoriesIconLink]: "61804",
-  [WarframeSymbols.MenuCategoriesIconManufacturerLavan]: "61805",
-  [WarframeSymbols.MenuCategoriesIconManufacturerSigma]: "61806",
-  [WarframeSymbols.MenuCategoriesIconManufacturerVidar]: "61807",
-  [WarframeSymbols.MenuCategoriesIconManufacturerZekti]: "61808",
-  [WarframeSymbols.MenuCategoriesIconMaterials]: "61809",
-  [WarframeSymbols.MenuCategoriesIconMaterialsOff]: "61810",
-  [WarframeSymbols.MenuCategoriesIconMech]: "61811",
-  [WarframeSymbols.MenuCategoriesIconMelee]: "61812",
-  [WarframeSymbols.MenuCategoriesIconMisc]: "61813",
-  [WarframeSymbols.MenuCategoriesIconMkI]: "61814",
-  [WarframeSymbols.MenuCategoriesIconMkIi]: "61815",
-  [WarframeSymbols.MenuCategoriesIconMkIii]: "61816",
-  [WarframeSymbols.MenuCategoriesIconMods]: "61817",
-  [WarframeSymbols.MenuCategoriesIconModularItem]: "61818",
-  [WarframeSymbols.MenuCategoriesIconNoggles]: "61819",
-  [WarframeSymbols.MenuCategoriesIconOperator]: "61820",
-  [WarframeSymbols.MenuCategoriesIconOrokinOn]: "61821",
-  [WarframeSymbols.MenuCategoriesIconOxides]: "61822",
-  [WarframeSymbols.MenuCategoriesIconPheromones]: "61823",
-  [WarframeSymbols.MenuCategoriesIconPilot]: "61824",
-  [WarframeSymbols.MenuCategoriesIconPistol]: "61825",
-  [WarframeSymbols.MenuCategoriesIconPlayerShip]: "61826",
-  [WarframeSymbols.MenuCategoriesIconPrimaryWeaponBow]: "61827",
-  [WarframeSymbols.MenuCategoriesIconPrimaryWeaponLauncher]: "61828",
-  [WarframeSymbols.MenuCategoriesIconPrimaryWeaponRifle]: "61829",
-  [WarframeSymbols.MenuCategoriesIconPrimaryWeaponShotgun]: "61830",
-  [WarframeSymbols.MenuCategoriesIconPrimaryWeaponSniper]: "61831",
-  [WarframeSymbols.MenuCategoriesIconPrimaryWeaponSpeargun]: "61832",
-  [WarframeSymbols.MenuCategoriesIconPrimaryWeaponSpecial]: "61833",
-  [WarframeSymbols.MenuCategoriesIconPrimeParts]: "61834",
-  [WarframeSymbols.MenuCategoriesIconProspector]: "61835",
-  [WarframeSymbols.MenuCategoriesIconPurchase]: "61836",
-  [WarframeSymbols.MenuCategoriesIconRailjack]: "61837",
-  [WarframeSymbols.MenuCategoriesIconRailjack2]: "61838",
-  [WarframeSymbols.MenuCategoriesIconRailjackAbilities]: "61839",
-  [WarframeSymbols.MenuCategoriesIconRailjackCountermeasures]: "61840",
-  [WarframeSymbols.MenuCategoriesIconRailjackOrdnance]: "61841",
-  [WarframeSymbols.MenuCategoriesIconRailjackPilot]: "61842",
-  [WarframeSymbols.MenuCategoriesIconRailjackTurrets]: "61843",
-  [WarframeSymbols.MenuCategoriesIconRelatedItems]: "61844",
-  [WarframeSymbols.MenuCategoriesIconRelic]: "61845",
-  [WarframeSymbols.MenuCategoriesIconRelicAxi]: "61846",
-  [WarframeSymbols.MenuCategoriesIconRelicLith]: "61847",
-  [WarframeSymbols.MenuCategoriesIconRelicMeso]: "61848",
-  [WarframeSymbols.MenuCategoriesIconRelicNeo]: "61849",
-  [WarframeSymbols.MenuCategoriesIconResourceDrone]: "61850",
-  [WarframeSymbols.MenuCategoriesIconRifle]: "61851",
-  [WarframeSymbols.MenuCategoriesIconRifleOff]: "61852",
-  [WarframeSymbols.MenuCategoriesIconRivenMod]: "61853",
-  [WarframeSymbols.MenuCategoriesIconSalvage]: "61854",
-  [WarframeSymbols.MenuCategoriesIconSentinel]: "61855",
-  [WarframeSymbols.MenuCategoriesIconShotgun]: "61856",
-  [WarframeSymbols.MenuCategoriesIconSigils]: "61857",
-  [WarframeSymbols.MenuCategoriesIconSimaris]: "61858",
-  [WarframeSymbols.MenuCategoriesIconSkins]: "61859",
-  [WarframeSymbols.MenuCategoriesIconSolaris]: "61860",
-  [WarframeSymbols.MenuCategoriesIconStance]: "61861",
-  [WarframeSymbols.MenuCategoriesIconStrike]: "61862",
-  [WarframeSymbols.MenuCategoriesIconSwatch]: "61863",
-  [WarframeSymbols.MenuCategoriesIconSynthetics]: "61864",
-  [WarframeSymbols.MenuCategoriesIconSynthetics2]: "61865",
-  [WarframeSymbols.MenuCategoriesIconTactical]: "61866",
-  [WarframeSymbols.MenuCategoriesIconTenets]: "61867",
-  [WarframeSymbols.MenuCategoriesIconUtility]: "61868",
-  [WarframeSymbols.MenuCategoriesIconUtility2]: "61869",
-  [WarframeSymbols.MenuCategoriesIconWarframe]: "61870",
-  [WarframeSymbols.MenuCategoriesIconWarframeOff]: "61871",
-  [WarframeSymbols.MenuCategoriesIconWeapons]: "61872",
-  [WarframeSymbols.MenuCategoriesIconWild]: "61873",
-  [WarframeSymbols.MenuCategoriesIncompleteIcon]: "61874",
-  [WarframeSymbols.MenuCategoriesLotusEmblemIcon]: "61875",
-  [WarframeSymbols.MenuCategoriesMechBoardIcon]: "61876",
-  [WarframeSymbols.MenuCategoriesNaturalIcon]: "61877",
-  [WarframeSymbols.MenuCategoriesOwnedBlueprintIcon]: "61878",
-  [WarframeSymbols.MenuCategoriesParazonIcon]: "61879",
-  [WarframeSymbols.MenuCategoriesParazonIconLong]: "61880",
-  [WarframeSymbols.MenuCategoriesParazonIconLongShadow]: "61881",
-  [WarframeSymbols.MenuCategoriesParazonIconLongShadow2]: "61882",
-  [WarframeSymbols.MenuCategoriesPrexCategoryIcon]: "61883",
-  [WarframeSymbols.MenuCategoriesQuestPickerActive]: "61884",
-  [WarframeSymbols.MenuCategoriesQuestPickerCompleted]: "61885",
-  [WarframeSymbols.MenuCategoriesQuestPickerMystery]: "61886",
-  [WarframeSymbols.MenuCategoriesRequiemModIcon]: "61887",
-  [WarframeSymbols.MenuCategoriesRequiemRelicIcon]: "61888",
-  [WarframeSymbols.MenuCategoriesRequirementsMetIcon]: "61889",
-  [WarframeSymbols.MenuCategoriesResearchCorpus]: "61890",
-  [WarframeSymbols.MenuCategoriesResearchGrineer]: "61891",
-  [WarframeSymbols.MenuCategoriesResearchInfested]: "61892",
-  [WarframeSymbols.MenuCategoriesResearchOrokin]: "61893",
-  [WarframeSymbols.MenuCategoriesResearchRailjack]: "61894",
-  [WarframeSymbols.MenuCategoriesResearchTenno]: "61895",
-  [WarframeSymbols.MenuCategoriesRoundVialIcon]: "61896",
-  [WarframeSymbols.MenuCategoriesSquareVialIcon]: "61897",
-  [WarframeSymbols.MenuCategoriesTeleportIcon]: "61898",
-  [WarframeSymbols.MenuCategoriesVehiclesKdrive]: "61899",
-  [WarframeSymbols.MenuCategoriesWoundedInfestedCritter]: "61900",
-  [WarframeSymbols.MenuCategoriesWoundedInfestedPredator]: "61901",
+  [WarframeSymbols.MenuAll]: "61716",
+  [WarframeSymbols.MenuAmp]: "61717",
+  [WarframeSymbols.MenuArcane]: "61718",
+  [WarframeSymbols.MenuArchwing]: "61719",
+  [WarframeSymbols.MenuArchwingColour]: "61720",
+  [WarframeSymbols.MenuArchwingEmblem]: "61721",
+  [WarframeSymbols.MenuArchwingPrimary]: "61722",
+  [WarframeSymbols.MenuArchwingSecondary]: "61723",
+  [WarframeSymbols.MenuArmor]: "61724",
+  [WarframeSymbols.MenuAugment]: "61725",
+  [WarframeSymbols.MenuAura]: "61726",
+  [WarframeSymbols.MenuAvionics]: "61727",
+  [WarframeSymbols.MenuAvionicsDefensive]: "61728",
+  [WarframeSymbols.MenuAvionicsOffensive]: "61729",
+  [WarframeSymbols.MenuAvionicsSuper]: "61730",
+  [WarframeSymbols.MenuAvionicsTactical]: "61731",
+  [WarframeSymbols.MenuBarracks]: "61732",
+  [WarframeSymbols.MenuBile]: "61733",
+  [WarframeSymbols.MenuBiotics]: "61734",
+  [WarframeSymbols.MenuBlueprint]: "61735",
+  [WarframeSymbols.MenuBuild]: "61736",
+  [WarframeSymbols.MenuCalx]: "61737",
+  [WarframeSymbols.MenuCapacity]: "61738",
+  [WarframeSymbols.MenuCephalon]: "61739",
+  [WarframeSymbols.MenuCetusElder]: "61740",
+  [WarframeSymbols.MenuChangeSkins]: "61741",
+  [WarframeSymbols.MenuClanObstacleCourse]: "61742",
+  [WarframeSymbols.MenuCommand]: "61743",
+  [WarframeSymbols.MenuConnector]: "61744",
+  [WarframeSymbols.MenuCorpus]: "61745",
+  [WarframeSymbols.MenuCraftingAmpBrace]: "61746",
+  [WarframeSymbols.MenuCraftingAmpPrism]: "61747",
+  [WarframeSymbols.MenuCraftingAmpScaffold]: "61748",
+  [WarframeSymbols.MenuCraftingHoundBody]: "61749",
+  [WarframeSymbols.MenuCraftingHoundHead]: "61750",
+  [WarframeSymbols.MenuCraftingHoundLegs]: "61751",
+  [WarframeSymbols.MenuCraftingHoundTail]: "61752",
+  [WarframeSymbols.MenuCraftingKDriveBoard]: "61753",
+  [WarframeSymbols.MenuCraftingKDriveJet]: "61754",
+  [WarframeSymbols.MenuCraftingKDriveNose]: "61755",
+  [WarframeSymbols.MenuCraftingKDriveReactor]: "61756",
+  [WarframeSymbols.MenuCraftingKitgunChamber]: "61757",
+  [WarframeSymbols.MenuCraftingKitgunGrip]: "61758",
+  [WarframeSymbols.MenuCraftingKitgunLoader]: "61759",
+  [WarframeSymbols.MenuCraftingKitgunPrimaryGrip]: "61760",
+  [WarframeSymbols.MenuCraftingMoaBrackets]: "61761",
+  [WarframeSymbols.MenuCraftingMoaCore]: "61762",
+  [WarframeSymbols.MenuCraftingMoaGyro]: "61763",
+  [WarframeSymbols.MenuCraftingMoaModel]: "61764",
+  [WarframeSymbols.MenuDisplays]: "61765",
+  [WarframeSymbols.MenuDrone]: "61766",
+  [WarframeSymbols.MenuDuplicate]: "61767",
+  [WarframeSymbols.MenuEmotes]: "61768",
+  [WarframeSymbols.MenuEnergy]: "61769",
+  [WarframeSymbols.MenuEngineering]: "61770",
+  [WarframeSymbols.MenuEntrati]: "61771",
+  [WarframeSymbols.MenuEquip]: "61772",
+  [WarframeSymbols.MenuExilus]: "61773",
+  [WarframeSymbols.MenuFavorite]: "61774",
+  [WarframeSymbols.MenuFishLarge]: "61775",
+  [WarframeSymbols.MenuFishMedium]: "61776",
+  [WarframeSymbols.MenuFishSmall]: "61777",
+  [WarframeSymbols.MenuFusion]: "61778",
+  [WarframeSymbols.MenuFx]: "61779",
+  [WarframeSymbols.MenuGara]: "61780",
+  [WarframeSymbols.MenuGarden]: "61781",
+  [WarframeSymbols.MenuGear]: "61782",
+  [WarframeSymbols.MenuGearWheel]: "61783",
+  [WarframeSymbols.MenuGeneticImprint]: "61784",
+  [WarframeSymbols.MenuGhouls]: "61785",
+  [WarframeSymbols.MenuGift]: "61786",
+  [WarframeSymbols.MenuGlyph]: "61787",
+  [WarframeSymbols.MenuGrineer]: "61788",
+  [WarframeSymbols.MenuGrip]: "61789",
+  [WarframeSymbols.MenuGunnery]: "61790",
+  [WarframeSymbols.MenuHall]: "61791",
+  [WarframeSymbols.MenuIncomplete]: "61792",
+  [WarframeSymbols.MenuIndividualObstacleCourse]: "61793",
+  [WarframeSymbols.MenuInfested]: "61794",
+  [WarframeSymbols.MenuKavat]: "61795",
+  [WarframeSymbols.MenuKeys]: "61796",
+  [WarframeSymbols.MenuKubrow]: "61797",
+  [WarframeSymbols.MenuKuvaLichActive]: "61798",
+  [WarframeSymbols.MenuKuvaLichConverted]: "61799",
+  [WarframeSymbols.MenuKuvaLichTraded]: "61800",
+  [WarframeSymbols.MenuKuvaLichVanquished]: "61801",
+  [WarframeSymbols.MenuLab]: "61802",
+  [WarframeSymbols.MenuLichCategory]: "61803",
+  [WarframeSymbols.MenuLimitedTime]: "61804",
+  [WarframeSymbols.MenuLink]: "61805",
+  [WarframeSymbols.MenuLotusEmblem]: "61806",
+  [WarframeSymbols.MenuManufacturerLavan]: "61807",
+  [WarframeSymbols.MenuManufacturerSigma]: "61808",
+  [WarframeSymbols.MenuManufacturerVidar]: "61809",
+  [WarframeSymbols.MenuManufacturerZekti]: "61810",
+  [WarframeSymbols.MenuMaterials]: "61811",
+  [WarframeSymbols.MenuMaterialsOff]: "61812",
+  [WarframeSymbols.MenuMech]: "61813",
+  [WarframeSymbols.MenuMechBoard]: "61814",
+  [WarframeSymbols.MenuMelee]: "61815",
+  [WarframeSymbols.MenuMisc]: "61816",
+  [WarframeSymbols.MenuMkI]: "61817",
+  [WarframeSymbols.MenuMkIi]: "61818",
+  [WarframeSymbols.MenuMkIii]: "61819",
+  [WarframeSymbols.MenuMods]: "61820",
+  [WarframeSymbols.MenuModularItem]: "61821",
+  [WarframeSymbols.MenuNatural]: "61822",
+  [WarframeSymbols.MenuNoggles]: "61823",
+  [WarframeSymbols.MenuOperator]: "61824",
+  [WarframeSymbols.MenuOrokinOn]: "61825",
+  [WarframeSymbols.MenuOwnedBlueprint]: "61826",
+  [WarframeSymbols.MenuOxides]: "61827",
+  [WarframeSymbols.MenuParazon]: "61828",
+  [WarframeSymbols.MenuParazonLong]: "61829",
+  [WarframeSymbols.MenuParazonLongShadow]: "61830",
+  [WarframeSymbols.MenuParazonLongShadow2]: "61831",
+  [WarframeSymbols.MenuPheromones]: "61832",
+  [WarframeSymbols.MenuPilot]: "61833",
+  [WarframeSymbols.MenuPistol]: "61834",
+  [WarframeSymbols.MenuPlayerShip]: "61835",
+  [WarframeSymbols.MenuPrexCategory]: "61836",
+  [WarframeSymbols.MenuPrimaryWeaponBow]: "61837",
+  [WarframeSymbols.MenuPrimaryWeaponLauncher]: "61838",
+  [WarframeSymbols.MenuPrimaryWeaponRifle]: "61839",
+  [WarframeSymbols.MenuPrimaryWeaponShotgun]: "61840",
+  [WarframeSymbols.MenuPrimaryWeaponSniper]: "61841",
+  [WarframeSymbols.MenuPrimaryWeaponSpeargun]: "61842",
+  [WarframeSymbols.MenuPrimaryWeaponSpecial]: "61843",
+  [WarframeSymbols.MenuPrimeParts]: "61844",
+  [WarframeSymbols.MenuProspector]: "61845",
+  [WarframeSymbols.MenuPurchase]: "61846",
+  [WarframeSymbols.MenuQuestPickerActive]: "61847",
+  [WarframeSymbols.MenuQuestPickerCompleted]: "61848",
+  [WarframeSymbols.MenuQuestPickerMystery]: "61849",
+  [WarframeSymbols.MenuRailjack]: "61850",
+  [WarframeSymbols.MenuRailjack2]: "61851",
+  [WarframeSymbols.MenuRailjackAbilities]: "61852",
+  [WarframeSymbols.MenuRailjackCountermeasures]: "61853",
+  [WarframeSymbols.MenuRailjackOrdnance]: "61854",
+  [WarframeSymbols.MenuRailjackPilot]: "61855",
+  [WarframeSymbols.MenuRailjackTurrets]: "61856",
+  [WarframeSymbols.MenuRelatedItems]: "61857",
+  [WarframeSymbols.MenuRelic]: "61858",
+  [WarframeSymbols.MenuRelicAxi]: "61859",
+  [WarframeSymbols.MenuRelicLith]: "61860",
+  [WarframeSymbols.MenuRelicMeso]: "61861",
+  [WarframeSymbols.MenuRelicNeo]: "61862",
+  [WarframeSymbols.MenuRequiemMod]: "61863",
+  [WarframeSymbols.MenuRequiemRelic]: "61864",
+  [WarframeSymbols.MenuRequirementsMet]: "61865",
+  [WarframeSymbols.MenuResearchCorpus]: "61866",
+  [WarframeSymbols.MenuResearchGrineer]: "61867",
+  [WarframeSymbols.MenuResearchInfested]: "61868",
+  [WarframeSymbols.MenuResearchOrokin]: "61869",
+  [WarframeSymbols.MenuResearchRailjack]: "61870",
+  [WarframeSymbols.MenuResearchTenno]: "61871",
+  [WarframeSymbols.MenuResourceDrone]: "61872",
+  [WarframeSymbols.MenuRifle]: "61873",
+  [WarframeSymbols.MenuRifleOff]: "61874",
+  [WarframeSymbols.MenuRivenMod]: "61875",
+  [WarframeSymbols.MenuRoundVial]: "61876",
+  [WarframeSymbols.MenuSalvage]: "61877",
+  [WarframeSymbols.MenuSentinel]: "61878",
+  [WarframeSymbols.MenuShotgun]: "61879",
+  [WarframeSymbols.MenuSigils]: "61880",
+  [WarframeSymbols.MenuSimaris]: "61881",
+  [WarframeSymbols.MenuSkins]: "61882",
+  [WarframeSymbols.MenuSolaris]: "61883",
+  [WarframeSymbols.MenuSquareVial]: "61884",
+  [WarframeSymbols.MenuStance]: "61885",
+  [WarframeSymbols.MenuStrike]: "61886",
+  [WarframeSymbols.MenuSwatch]: "61887",
+  [WarframeSymbols.MenuSynthetics]: "61888",
+  [WarframeSymbols.MenuSynthetics2]: "61889",
+  [WarframeSymbols.MenuTactical]: "61890",
+  [WarframeSymbols.MenuTeleport]: "61891",
+  [WarframeSymbols.MenuTenets]: "61892",
+  [WarframeSymbols.MenuUtility]: "61893",
+  [WarframeSymbols.MenuUtility2]: "61894",
+  [WarframeSymbols.MenuVehiclesKdrive]: "61895",
+  [WarframeSymbols.MenuWarframe]: "61896",
+  [WarframeSymbols.MenuWarframeOff]: "61897",
+  [WarframeSymbols.MenuWeapons]: "61898",
+  [WarframeSymbols.MenuWild]: "61899",
+  [WarframeSymbols.MenuWoundedInfestedCritter]: "61900",
+  [WarframeSymbols.MenuWoundedInfestedPredator]: "61901",
   [WarframeSymbols.Nightmare]: "61902",
   [WarframeSymbols.Nightwave]: "61903",
   [WarframeSymbols.Ostron]: "61904",

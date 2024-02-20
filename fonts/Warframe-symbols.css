@@ -1,9 +1,9 @@
 @font-face {
   font-display: block;
   font-family: "Warframe-symbols";
-  src: url("./Warframe-symbols.eot?ce1cae039d18d4e966554eb3c836ff28#iefix") format("embedded-opentype"),
-url("./Warframe-symbols.woff2?ce1cae039d18d4e966554eb3c836ff28") format("woff2"),
-url("./Warframe-symbols.woff?ce1cae039d18d4e966554eb3c836ff28") format("woff");
+  src: url("./Warframe-symbols.eot?7e84280720d8a714b180c5b1000e743b#iefix") format("embedded-opentype"),
+url("./Warframe-symbols.woff2?7e84280720d8a714b180c5b1000e743b") format("woff2"),
+url("./Warframe-symbols.woff?7e84280720d8a714b180c5b1000e743b") format("woff");
 }
 
 i[class^="icon-"]::before, i[class*=" icon-"]::before {
@@ -74,562 +74,562 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 .icon-loading::before {
   content: "\f113";
 }
-.icon-menu-categories-ArchwingEmblemIcon::before {
+.icon-menu-All::before {
   content: "\f114";
 }
-.icon-menu-categories-GearWheelIcon::before {
+.icon-menu-Amp::before {
   content: "\f115";
 }
-.icon-menu-categories-IconAll::before {
+.icon-menu-Arcane::before {
   content: "\f116";
 }
-.icon-menu-categories-IconAmp::before {
+.icon-menu-Archwing::before {
   content: "\f117";
 }
-.icon-menu-categories-IconArcane::before {
+.icon-menu-ArchwingColour::before {
   content: "\f118";
 }
-.icon-menu-categories-IconArchwing::before {
+.icon-menu-ArchwingEmblem::before {
   content: "\f119";
 }
-.icon-menu-categories-IconArchwingColour::before {
+.icon-menu-ArchwingPrimary::before {
   content: "\f11a";
 }
-.icon-menu-categories-IconArchwingPrimary::before {
+.icon-menu-ArchwingSecondary::before {
   content: "\f11b";
 }
-.icon-menu-categories-IconArchwingSecondary::before {
+.icon-menu-Armor::before {
   content: "\f11c";
 }
-.icon-menu-categories-IconArmor::before {
+.icon-menu-Augment::before {
   content: "\f11d";
 }
-.icon-menu-categories-IconAugment::before {
+.icon-menu-Aura::before {
   content: "\f11e";
 }
-.icon-menu-categories-IconAura::before {
+.icon-menu-Avionics::before {
   content: "\f11f";
 }
-.icon-menu-categories-IconAvionics::before {
+.icon-menu-AvionicsDefensive::before {
   content: "\f120";
 }
-.icon-menu-categories-IconAvionicsDefensive::before {
+.icon-menu-AvionicsOffensive::before {
   content: "\f121";
 }
-.icon-menu-categories-IconAvionicsOffensive::before {
+.icon-menu-AvionicsSuper::before {
   content: "\f122";
 }
-.icon-menu-categories-IconAvionicsSuper::before {
+.icon-menu-AvionicsTactical::before {
   content: "\f123";
 }
-.icon-menu-categories-IconAvionicsTactical::before {
+.icon-menu-Barracks::before {
   content: "\f124";
 }
-.icon-menu-categories-IconBarracks::before {
+.icon-menu-Bile::before {
   content: "\f125";
 }
-.icon-menu-categories-IconBile::before {
+.icon-menu-Biotics::before {
   content: "\f126";
 }
-.icon-menu-categories-IconBiotics::before {
+.icon-menu-Blueprint::before {
   content: "\f127";
 }
-.icon-menu-categories-IconBlueprint::before {
+.icon-menu-Build::before {
   content: "\f128";
 }
-.icon-menu-categories-IconBuild::before {
+.icon-menu-Calx::before {
   content: "\f129";
 }
-.icon-menu-categories-IconCalx::before {
+.icon-menu-Capacity::before {
   content: "\f12a";
 }
-.icon-menu-categories-IconCapacity::before {
+.icon-menu-Cephalon::before {
   content: "\f12b";
 }
-.icon-menu-categories-IconCephalon::before {
+.icon-menu-CetusElder::before {
   content: "\f12c";
 }
-.icon-menu-categories-IconCetusElder::before {
+.icon-menu-ChangeSkins::before {
   content: "\f12d";
 }
-.icon-menu-categories-IconChangeSkins::before {
+.icon-menu-ClanObstacleCourse::before {
   content: "\f12e";
 }
-.icon-menu-categories-IconClanObstacleCourse::before {
+.icon-menu-Command::before {
   content: "\f12f";
 }
-.icon-menu-categories-IconCommand::before {
+.icon-menu-Connector::before {
   content: "\f130";
 }
-.icon-menu-categories-IconConnector::before {
+.icon-menu-Corpus::before {
   content: "\f131";
 }
-.icon-menu-categories-IconCorpus::before {
+.icon-menu-CraftingAmpBrace::before {
   content: "\f132";
 }
-.icon-menu-categories-IconCraftingAmpBrace::before {
+.icon-menu-CraftingAmpPrism::before {
   content: "\f133";
 }
-.icon-menu-categories-IconCraftingAmpPrism::before {
+.icon-menu-CraftingAmpScaffold::before {
   content: "\f134";
 }
-.icon-menu-categories-IconCraftingAmpScaffold::before {
+.icon-menu-CraftingHoundBody::before {
   content: "\f135";
 }
-.icon-menu-categories-IconCraftingHoundBody::before {
+.icon-menu-CraftingHoundHead::before {
   content: "\f136";
 }
-.icon-menu-categories-IconCraftingHoundHead::before {
+.icon-menu-CraftingHoundLegs::before {
   content: "\f137";
 }
-.icon-menu-categories-IconCraftingHoundLegs::before {
+.icon-menu-CraftingHoundTail::before {
   content: "\f138";
 }
-.icon-menu-categories-IconCraftingHoundTail::before {
+.icon-menu-CraftingKDriveBoard::before {
   content: "\f139";
 }
-.icon-menu-categories-IconCraftingKDriveBoard::before {
+.icon-menu-CraftingKDriveJet::before {
   content: "\f13a";
 }
-.icon-menu-categories-IconCraftingKDriveJet::before {
+.icon-menu-CraftingKDriveNose::before {
   content: "\f13b";
 }
-.icon-menu-categories-IconCraftingKDriveNose::before {
+.icon-menu-CraftingKDriveReactor::before {
   content: "\f13c";
 }
-.icon-menu-categories-IconCraftingKDriveReactor::before {
+.icon-menu-CraftingKitgunChamber::before {
   content: "\f13d";
 }
-.icon-menu-categories-IconCraftingKitgunChamber::before {
+.icon-menu-CraftingKitgunGrip::before {
   content: "\f13e";
 }
-.icon-menu-categories-IconCraftingKitgunGrip::before {
+.icon-menu-CraftingKitgunLoader::before {
   content: "\f13f";
 }
-.icon-menu-categories-IconCraftingKitgunLoader::before {
+.icon-menu-CraftingKitgunPrimaryGrip::before {
   content: "\f140";
 }
-.icon-menu-categories-IconCraftingKitgunPrimaryGrip::before {
+.icon-menu-CraftingMoaBrackets::before {
   content: "\f141";
 }
-.icon-menu-categories-IconCraftingMoaBrackets::before {
+.icon-menu-CraftingMoaCore::before {
   content: "\f142";
 }
-.icon-menu-categories-IconCraftingMoaCore::before {
+.icon-menu-CraftingMoaGyro::before {
   content: "\f143";
 }
-.icon-menu-categories-IconCraftingMoaGyro::before {
+.icon-menu-CraftingMoaModel::before {
   content: "\f144";
 }
-.icon-menu-categories-IconCraftingMoaModel::before {
+.icon-menu-Displays::before {
   content: "\f145";
 }
-.icon-menu-categories-IconDisplays::before {
+.icon-menu-Drone::before {
   content: "\f146";
 }
-.icon-menu-categories-IconDrone::before {
+.icon-menu-Duplicate::before {
   content: "\f147";
 }
-.icon-menu-categories-IconDuplicate::before {
+.icon-menu-Emotes::before {
   content: "\f148";
 }
-.icon-menu-categories-IconEmotes::before {
+.icon-menu-Energy::before {
   content: "\f149";
 }
-.icon-menu-categories-IconEnergy::before {
+.icon-menu-Engineering::before {
   content: "\f14a";
 }
-.icon-menu-categories-IconEngineering::before {
+.icon-menu-Entrati::before {
   content: "\f14b";
 }
-.icon-menu-categories-IconEntrati::before {
+.icon-menu-Equip::before {
   content: "\f14c";
 }
-.icon-menu-categories-IconEquip::before {
+.icon-menu-Exilus::before {
   content: "\f14d";
 }
-.icon-menu-categories-IconExilus::before {
+.icon-menu-Favorite::before {
   content: "\f14e";
 }
-.icon-menu-categories-IconFavorite::before {
+.icon-menu-FishLarge::before {
   content: "\f14f";
 }
-.icon-menu-categories-IconFishLarge::before {
+.icon-menu-FishMedium::before {
   content: "\f150";
 }
-.icon-menu-categories-IconFishMedium::before {
+.icon-menu-FishSmall::before {
   content: "\f151";
 }
-.icon-menu-categories-IconFishSmall::before {
+.icon-menu-Fusion::before {
   content: "\f152";
 }
-.icon-menu-categories-IconFusion::before {
+.icon-menu-Fx::before {
   content: "\f153";
 }
-.icon-menu-categories-IconFx::before {
+.icon-menu-Gara::before {
   content: "\f154";
 }
-.icon-menu-categories-IconGara::before {
+.icon-menu-Garden::before {
   content: "\f155";
 }
-.icon-menu-categories-IconGarden::before {
+.icon-menu-Gear::before {
   content: "\f156";
 }
-.icon-menu-categories-IconGear::before {
+.icon-menu-GearWheel::before {
   content: "\f157";
 }
-.icon-menu-categories-IconGeneticImprint::before {
+.icon-menu-GeneticImprint::before {
   content: "\f158";
 }
-.icon-menu-categories-IconGhouls::before {
+.icon-menu-Ghouls::before {
   content: "\f159";
 }
-.icon-menu-categories-IconGift::before {
+.icon-menu-Gift::before {
   content: "\f15a";
 }
-.icon-menu-categories-IconGlyph::before {
+.icon-menu-Glyph::before {
   content: "\f15b";
 }
-.icon-menu-categories-IconGrineer::before {
+.icon-menu-Grineer::before {
   content: "\f15c";
 }
-.icon-menu-categories-IconGrip::before {
+.icon-menu-Grip::before {
   content: "\f15d";
 }
-.icon-menu-categories-IconGunnery::before {
+.icon-menu-Gunnery::before {
   content: "\f15e";
 }
-.icon-menu-categories-IconHall::before {
+.icon-menu-Hall::before {
   content: "\f15f";
 }
-.icon-menu-categories-IconIndividualObstacleCourse::before {
+.icon-menu-Incomplete::before {
   content: "\f160";
 }
-.icon-menu-categories-IconInfested::before {
+.icon-menu-IndividualObstacleCourse::before {
   content: "\f161";
 }
-.icon-menu-categories-IconKavat::before {
+.icon-menu-Infested::before {
   content: "\f162";
 }
-.icon-menu-categories-IconKeys::before {
+.icon-menu-Kavat::before {
   content: "\f163";
 }
-.icon-menu-categories-IconKubrow::before {
+.icon-menu-Keys::before {
   content: "\f164";
 }
-.icon-menu-categories-IconKuvaLichActive::before {
+.icon-menu-Kubrow::before {
   content: "\f165";
 }
-.icon-menu-categories-IconKuvaLichConverted::before {
+.icon-menu-KuvaLichActive::before {
   content: "\f166";
 }
-.icon-menu-categories-IconKuvaLichTraded::before {
+.icon-menu-KuvaLichConverted::before {
   content: "\f167";
 }
-.icon-menu-categories-IconKuvaLichVanquished::before {
+.icon-menu-KuvaLichTraded::before {
   content: "\f168";
 }
-.icon-menu-categories-IconLab::before {
+.icon-menu-KuvaLichVanquished::before {
   content: "\f169";
 }
-.icon-menu-categories-IconLichCategory::before {
+.icon-menu-Lab::before {
   content: "\f16a";
 }
-.icon-menu-categories-IconLimitedTime::before {
+.icon-menu-LichCategory::before {
   content: "\f16b";
 }
-.icon-menu-categories-IconLink::before {
+.icon-menu-LimitedTime::before {
   content: "\f16c";
 }
-.icon-menu-categories-IconManufacturerLavan::before {
+.icon-menu-Link::before {
   content: "\f16d";
 }
-.icon-menu-categories-IconManufacturerSigma::before {
+.icon-menu-LotusEmblem::before {
   content: "\f16e";
 }
-.icon-menu-categories-IconManufacturerVidar::before {
+.icon-menu-ManufacturerLavan::before {
   content: "\f16f";
 }
-.icon-menu-categories-IconManufacturerZekti::before {
+.icon-menu-ManufacturerSigma::before {
   content: "\f170";
 }
-.icon-menu-categories-IconMaterials::before {
+.icon-menu-ManufacturerVidar::before {
   content: "\f171";
 }
-.icon-menu-categories-IconMaterialsOff::before {
+.icon-menu-ManufacturerZekti::before {
   content: "\f172";
 }
-.icon-menu-categories-IconMech::before {
+.icon-menu-Materials::before {
   content: "\f173";
 }
-.icon-menu-categories-IconMelee::before {
+.icon-menu-MaterialsOff::before {
   content: "\f174";
 }
-.icon-menu-categories-IconMisc::before {
+.icon-menu-Mech::before {
   content: "\f175";
 }
-.icon-menu-categories-IconMkI::before {
+.icon-menu-MechBoard::before {
   content: "\f176";
 }
-.icon-menu-categories-IconMkII::before {
+.icon-menu-Melee::before {
   content: "\f177";
 }
-.icon-menu-categories-IconMkIII::before {
+.icon-menu-Misc::before {
   content: "\f178";
 }
-.icon-menu-categories-IconMods::before {
+.icon-menu-MkI::before {
   content: "\f179";
 }
-.icon-menu-categories-IconModularItem::before {
+.icon-menu-MkII::before {
   content: "\f17a";
 }
-.icon-menu-categories-IconNoggles::before {
+.icon-menu-MkIII::before {
   content: "\f17b";
 }
-.icon-menu-categories-IconOperator::before {
+.icon-menu-Mods::before {
   content: "\f17c";
 }
-.icon-menu-categories-IconOrokinOn::before {
+.icon-menu-ModularItem::before {
   content: "\f17d";
 }
-.icon-menu-categories-IconOxides::before {
+.icon-menu-Natural::before {
   content: "\f17e";
 }
-.icon-menu-categories-IconPheromones::before {
+.icon-menu-Noggles::before {
   content: "\f17f";
 }
-.icon-menu-categories-IconPilot::before {
+.icon-menu-Operator::before {
   content: "\f180";
 }
-.icon-menu-categories-IconPistol::before {
+.icon-menu-OrokinOn::before {
   content: "\f181";
 }
-.icon-menu-categories-IconPlayerShip::before {
+.icon-menu-OwnedBlueprint::before {
   content: "\f182";
 }
-.icon-menu-categories-IconPrimaryWeaponBow::before {
+.icon-menu-Oxides::before {
   content: "\f183";
 }
-.icon-menu-categories-IconPrimaryWeaponLauncher::before {
+.icon-menu-Parazon::before {
   content: "\f184";
 }
-.icon-menu-categories-IconPrimaryWeaponRifle::before {
+.icon-menu-ParazonLong::before {
   content: "\f185";
 }
-.icon-menu-categories-IconPrimaryWeaponShotgun::before {
+.icon-menu-ParazonLongShadow::before {
   content: "\f186";
 }
-.icon-menu-categories-IconPrimaryWeaponSniper::before {
+.icon-menu-ParazonLongShadow2::before {
   content: "\f187";
 }
-.icon-menu-categories-IconPrimaryWeaponSpeargun::before {
+.icon-menu-Pheromones::before {
   content: "\f188";
 }
-.icon-menu-categories-IconPrimaryWeaponSpecial::before {
+.icon-menu-Pilot::before {
   content: "\f189";
 }
-.icon-menu-categories-IconPrimeParts::before {
+.icon-menu-Pistol::before {
   content: "\f18a";
 }
-.icon-menu-categories-IconProspector::before {
+.icon-menu-PlayerShip::before {
   content: "\f18b";
 }
-.icon-menu-categories-IconPurchase::before {
+.icon-menu-PrexCategory::before {
   content: "\f18c";
 }
-.icon-menu-categories-IconRailjack::before {
+.icon-menu-PrimaryWeaponBow::before {
   content: "\f18d";
 }
-.icon-menu-categories-IconRailjack2::before {
+.icon-menu-PrimaryWeaponLauncher::before {
   content: "\f18e";
 }
-.icon-menu-categories-IconRailjackAbilities::before {
+.icon-menu-PrimaryWeaponRifle::before {
   content: "\f18f";
 }
-.icon-menu-categories-IconRailjackCountermeasures::before {
+.icon-menu-PrimaryWeaponShotgun::before {
   content: "\f190";
 }
-.icon-menu-categories-IconRailjackOrdnance::before {
+.icon-menu-PrimaryWeaponSniper::before {
   content: "\f191";
 }
-.icon-menu-categories-IconRailjackPilot::before {
+.icon-menu-PrimaryWeaponSpeargun::before {
   content: "\f192";
 }
-.icon-menu-categories-IconRailjackTurrets::before {
+.icon-menu-PrimaryWeaponSpecial::before {
   content: "\f193";
 }
-.icon-menu-categories-IconRelatedItems::before {
+.icon-menu-PrimeParts::before {
   content: "\f194";
 }
-.icon-menu-categories-IconRelic::before {
+.icon-menu-Prospector::before {
   content: "\f195";
 }
-.icon-menu-categories-IconRelicAxi::before {
+.icon-menu-Purchase::before {
   content: "\f196";
 }
-.icon-menu-categories-IconRelicLith::before {
+.icon-menu-QuestPickerActive::before {
   content: "\f197";
 }
-.icon-menu-categories-IconRelicMeso::before {
+.icon-menu-QuestPickerCompleted::before {
   content: "\f198";
 }
-.icon-menu-categories-IconRelicNeo::before {
+.icon-menu-QuestPickerMystery::before {
   content: "\f199";
 }
-.icon-menu-categories-IconResourceDrone::before {
+.icon-menu-Railjack::before {
   content: "\f19a";
 }
-.icon-menu-categories-IconRifle::before {
+.icon-menu-Railjack2::before {
   content: "\f19b";
 }
-.icon-menu-categories-IconRifleOff::before {
+.icon-menu-RailjackAbilities::before {
   content: "\f19c";
 }
-.icon-menu-categories-IconRivenMod::before {
+.icon-menu-RailjackCountermeasures::before {
   content: "\f19d";
 }
-.icon-menu-categories-IconSalvage::before {
+.icon-menu-RailjackOrdnance::before {
   content: "\f19e";
 }
-.icon-menu-categories-IconSentinel::before {
+.icon-menu-RailjackPilot::before {
   content: "\f19f";
 }
-.icon-menu-categories-IconShotgun::before {
+.icon-menu-RailjackTurrets::before {
   content: "\f1a0";
 }
-.icon-menu-categories-IconSigils::before {
+.icon-menu-RelatedItems::before {
   content: "\f1a1";
 }
-.icon-menu-categories-IconSimaris::before {
+.icon-menu-Relic::before {
   content: "\f1a2";
 }
-.icon-menu-categories-IconSkins::before {
+.icon-menu-RelicAxi::before {
   content: "\f1a3";
 }
-.icon-menu-categories-IconSolaris::before {
+.icon-menu-RelicLith::before {
   content: "\f1a4";
 }
-.icon-menu-categories-IconStance::before {
+.icon-menu-RelicMeso::before {
   content: "\f1a5";
 }
-.icon-menu-categories-IconStrike::before {
+.icon-menu-RelicNeo::before {
   content: "\f1a6";
 }
-.icon-menu-categories-IconSwatch::before {
+.icon-menu-RequiemMod::before {
   content: "\f1a7";
 }
-.icon-menu-categories-IconSynthetics::before {
+.icon-menu-RequiemRelic::before {
   content: "\f1a8";
 }
-.icon-menu-categories-IconSynthetics2::before {
+.icon-menu-RequirementsMet::before {
   content: "\f1a9";
 }
-.icon-menu-categories-IconTactical::before {
+.icon-menu-ResearchCorpus::before {
   content: "\f1aa";
 }
-.icon-menu-categories-IconTenets::before {
+.icon-menu-ResearchGrineer::before {
   content: "\f1ab";
 }
-.icon-menu-categories-IconUtility::before {
+.icon-menu-ResearchInfested::before {
   content: "\f1ac";
 }
-.icon-menu-categories-IconUtility2::before {
+.icon-menu-ResearchOrokin::before {
   content: "\f1ad";
 }
-.icon-menu-categories-IconWarframe::before {
+.icon-menu-ResearchRailjack::before {
   content: "\f1ae";
 }
-.icon-menu-categories-IconWarframeOff::before {
+.icon-menu-ResearchTenno::before {
   content: "\f1af";
 }
-.icon-menu-categories-IconWeapons::before {
+.icon-menu-ResourceDrone::before {
   content: "\f1b0";
 }
-.icon-menu-categories-IconWild::before {
+.icon-menu-Rifle::before {
   content: "\f1b1";
 }
-.icon-menu-categories-IncompleteIcon::before {
+.icon-menu-RifleOff::before {
   content: "\f1b2";
 }
-.icon-menu-categories-LotusEmblemIcon::before {
+.icon-menu-RivenMod::before {
   content: "\f1b3";
 }
-.icon-menu-categories-MechBoardIcon::before {
+.icon-menu-RoundVial::before {
   content: "\f1b4";
 }
-.icon-menu-categories-NaturalIcon::before {
+.icon-menu-Salvage::before {
   content: "\f1b5";
 }
-.icon-menu-categories-OwnedBlueprintIcon::before {
+.icon-menu-Sentinel::before {
   content: "\f1b6";
 }
-.icon-menu-categories-ParazonIcon::before {
+.icon-menu-Shotgun::before {
   content: "\f1b7";
 }
-.icon-menu-categories-ParazonIconLong::before {
+.icon-menu-Sigils::before {
   content: "\f1b8";
 }
-.icon-menu-categories-ParazonIconLongShadow::before {
+.icon-menu-Simaris::before {
   content: "\f1b9";
 }
-.icon-menu-categories-ParazonIconLongShadow2::before {
+.icon-menu-Skins::before {
   content: "\f1ba";
 }
-.icon-menu-categories-PrexCategoryIcon::before {
+.icon-menu-Solaris::before {
   content: "\f1bb";
 }
-.icon-menu-categories-QuestPickerActive::before {
+.icon-menu-SquareVial::before {
   content: "\f1bc";
 }
-.icon-menu-categories-QuestPickerCompleted::before {
+.icon-menu-Stance::before {
   content: "\f1bd";
 }
-.icon-menu-categories-QuestPickerMystery::before {
+.icon-menu-Strike::before {
   content: "\f1be";
 }
-.icon-menu-categories-RequiemModIcon::before {
+.icon-menu-Swatch::before {
   content: "\f1bf";
 }
-.icon-menu-categories-RequiemRelicIcon::before {
+.icon-menu-Synthetics::before {
   content: "\f1c0";
 }
-.icon-menu-categories-RequirementsMetIcon::before {
+.icon-menu-Synthetics2::before {
   content: "\f1c1";
 }
-.icon-menu-categories-ResearchCorpus::before {
+.icon-menu-Tactical::before {
   content: "\f1c2";
 }
-.icon-menu-categories-ResearchGrineer::before {
+.icon-menu-Teleport::before {
   content: "\f1c3";
 }
-.icon-menu-categories-ResearchInfested::before {
+.icon-menu-Tenets::before {
   content: "\f1c4";
 }
-.icon-menu-categories-ResearchOrokin::before {
+.icon-menu-Utility::before {
   content: "\f1c5";
 }
-.icon-menu-categories-ResearchRailjack::before {
+.icon-menu-Utility2::before {
   content: "\f1c6";
 }
-.icon-menu-categories-ResearchTenno::before {
+.icon-menu-VehiclesKdrive::before {
   content: "\f1c7";
 }
-.icon-menu-categories-RoundVialIcon::before {
+.icon-menu-Warframe::before {
   content: "\f1c8";
 }
-.icon-menu-categories-SquareVialIcon::before {
+.icon-menu-WarframeOff::before {
   content: "\f1c9";
 }
-.icon-menu-categories-TeleportIcon::before {
+.icon-menu-Weapons::before {
   content: "\f1ca";
 }
-.icon-menu-categories-VehiclesKdrive::before {
+.icon-menu-Wild::before {
   content: "\f1cb";
 }
-.icon-menu-categories-WoundedInfestedCritter::before {
+.icon-menu-WoundedInfestedCritter::before {
   content: "\f1cc";
 }
-.icon-menu-categories-WoundedInfestedPredator::before {
+.icon-menu-WoundedInfestedPredator::before {
   content: "\f1cd";
 }
 .icon-nightmare::before {
