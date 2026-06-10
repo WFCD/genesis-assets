@@ -1,1214 +1,333 @@
 $Warframe-symbols-font: "Warframe-symbols";
 
 @font-face {
-  font-display: block;
-  font-family: $Warframe-symbols-font;
-  src: url("./Warframe-symbols.eot?912bd11150a8014816fb4d20280beccc#iefix") format("embedded-opentype"),
-url("./Warframe-symbols.woff?912bd11150a8014816fb4d20280beccc") format("woff"),
-url("./Warframe-symbols.woff2?912bd11150a8014816fb4d20280beccc") format("woff2"),
-url("./Warframe-symbols.ttf?912bd11150a8014816fb4d20280beccc") format("truetype"),
-url("./Warframe-symbols.svg?912bd11150a8014816fb4d20280beccc#Warframe-symbols") format("svg");
+    font-family: $Warframe-symbols-font;
+    src: url("./Warframe-symbols.eot?35144b5c113511a18e4992dd625ce91d#iefix") format("embedded-opentype"),
+url("./Warframe-symbols.woff?35144b5c113511a18e4992dd625ce91d") format("woff"),
+url("./Warframe-symbols.woff2?35144b5c113511a18e4992dd625ce91d") format("woff2"),
+url("./Warframe-symbols.ttf?35144b5c113511a18e4992dd625ce91d") format("truetype"),
+url("./Warframe-symbols.svg?35144b5c113511a18e4992dd625ce91d#Warframe-symbols") format("svg");
 }
 
-i[class^="icon-"]::before, i[class*=" icon-"]::before {
-  font-family: Warframe-symbols !important;
-  font-style: normal;
-  font-weight: normal !important;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: Warframe-symbols !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 $Warframe-symbols-map: (
-  "arbitrations": "\f101",
-  "archwing": "\f102",
-  "damage-impact": "\f103",
-  "damage-puncture": "\f104",
-  "damage-slash": "\f105",
-  "entrati": "\f106",
-  "factions-corpus": "\f107",
-  "factions-corrupted": "\f108",
-  "factions-grineer": "\f109",
-  "factions-infested": "\f10a",
-  "factions-murmur": "\f10b",
-  "factions-narmer": "\f10c",
-  "factions-narmer2": "\f10d",
-  "factions-sentient": "\f10e",
-  "fissures-1": "\f10f",
-  "fissures-2": "\f110",
-  "fissures-3": "\f111",
-  "fissures-4": "\f112",
-  "fissures-5": "\f113",
-  "fissures-axi": "\f114",
-  "fissures-lith": "\f115",
-  "fissures-meso": "\f116",
-  "fissures-neo": "\f117",
-  "fissures-requiem": "\f118",
-  "hexis": "\f119",
-  "kuva-kuva": "\f11a",
-  "kuva-kuvaflood": "\f11b",
-  "loading": "\f11c",
-  "menu-All": "\f11d",
-  "menu-Amp": "\f11e",
-  "menu-Arcane": "\f11f",
-  "menu-Archwing": "\f120",
-  "menu-ArchwingColour": "\f121",
-  "menu-ArchwingEmblem": "\f122",
-  "menu-ArchwingPrimary": "\f123",
-  "menu-ArchwingSecondary": "\f124",
-  "menu-Armor": "\f125",
-  "menu-Augment": "\f126",
-  "menu-Aura": "\f127",
-  "menu-Avionics": "\f128",
-  "menu-AvionicsDefensive": "\f129",
-  "menu-AvionicsOffensive": "\f12a",
-  "menu-AvionicsSuper": "\f12b",
-  "menu-AvionicsTactical": "\f12c",
-  "menu-Barracks": "\f12d",
-  "menu-Bile": "\f12e",
-  "menu-Biotics": "\f12f",
-  "menu-Blueprint": "\f130",
-  "menu-Build": "\f131",
-  "menu-Calx": "\f132",
-  "menu-Capacity": "\f133",
-  "menu-Cephalon": "\f134",
-  "menu-CetusElder": "\f135",
-  "menu-ChangeSkins": "\f136",
-  "menu-ClanObstacleCourse": "\f137",
-  "menu-Command": "\f138",
-  "menu-Connector": "\f139",
-  "menu-Corpus": "\f13a",
-  "menu-CraftingAmpBrace": "\f13b",
-  "menu-CraftingAmpPrism": "\f13c",
-  "menu-CraftingAmpScaffold": "\f13d",
-  "menu-CraftingHoundBody": "\f13e",
-  "menu-CraftingHoundHead": "\f13f",
-  "menu-CraftingHoundLegs": "\f140",
-  "menu-CraftingHoundTail": "\f141",
-  "menu-CraftingKDriveBoard": "\f142",
-  "menu-CraftingKDriveJet": "\f143",
-  "menu-CraftingKDriveNose": "\f144",
-  "menu-CraftingKDriveReactor": "\f145",
-  "menu-CraftingKitgunChamber": "\f146",
-  "menu-CraftingKitgunGrip": "\f147",
-  "menu-CraftingKitgunLoader": "\f148",
-  "menu-CraftingKitgunPrimaryGrip": "\f149",
-  "menu-CraftingMoaBrackets": "\f14a",
-  "menu-CraftingMoaCore": "\f14b",
-  "menu-CraftingMoaGyro": "\f14c",
-  "menu-CraftingMoaModel": "\f14d",
-  "menu-Displays": "\f14e",
-  "menu-Drone": "\f14f",
-  "menu-Duplicate": "\f150",
-  "menu-Emotes": "\f151",
-  "menu-Energy": "\f152",
-  "menu-Engineering": "\f153",
-  "menu-Entrati": "\f154",
-  "menu-Equip": "\f155",
-  "menu-Exilus": "\f156",
-  "menu-Favorite": "\f157",
-  "menu-FishLarge": "\f158",
-  "menu-FishMedium": "\f159",
-  "menu-FishSmall": "\f15a",
-  "menu-Fusion": "\f15b",
-  "menu-Fx": "\f15c",
-  "menu-Gara": "\f15d",
-  "menu-Garden": "\f15e",
-  "menu-Gear": "\f15f",
-  "menu-GearWheel": "\f160",
-  "menu-GeneticImprint": "\f161",
-  "menu-Ghouls": "\f162",
-  "menu-Gift": "\f163",
-  "menu-Glyph": "\f164",
-  "menu-Grineer": "\f165",
-  "menu-Grip": "\f166",
-  "menu-Gunnery": "\f167",
-  "menu-Hall": "\f168",
-  "menu-Incomplete": "\f169",
-  "menu-IndividualObstacleCourse": "\f16a",
-  "menu-Infested": "\f16b",
-  "menu-Kavat": "\f16c",
-  "menu-Keys": "\f16d",
-  "menu-Kubrow": "\f16e",
-  "menu-KuvaLichActive": "\f16f",
-  "menu-KuvaLichConverted": "\f170",
-  "menu-KuvaLichTraded": "\f171",
-  "menu-KuvaLichVanquished": "\f172",
-  "menu-Lab": "\f173",
-  "menu-LichCategory": "\f174",
-  "menu-LimitedTime": "\f175",
-  "menu-Link": "\f176",
-  "menu-LotusEmblem": "\f177",
-  "menu-ManufacturerLavan": "\f178",
-  "menu-ManufacturerSigma": "\f179",
-  "menu-ManufacturerVidar": "\f17a",
-  "menu-ManufacturerZekti": "\f17b",
-  "menu-Materials": "\f17c",
-  "menu-MaterialsOff": "\f17d",
-  "menu-Mech": "\f17e",
-  "menu-MechBoard": "\f17f",
-  "menu-Melee": "\f180",
-  "menu-Misc": "\f181",
-  "menu-MkI": "\f182",
-  "menu-MkII": "\f183",
-  "menu-MkIII": "\f184",
-  "menu-Mods": "\f185",
-  "menu-ModularItem": "\f186",
-  "menu-Natural": "\f187",
-  "menu-Noggles": "\f188",
-  "menu-Operator": "\f189",
-  "menu-OrokinOn": "\f18a",
-  "menu-OwnedBlueprint": "\f18b",
-  "menu-Oxides": "\f18c",
-  "menu-Parazon": "\f18d",
-  "menu-ParazonLong": "\f18e",
-  "menu-ParazonLongShadow": "\f18f",
-  "menu-ParazonLongShadow2": "\f190",
-  "menu-Pheromones": "\f191",
-  "menu-Pilot": "\f192",
-  "menu-Pistol": "\f193",
-  "menu-PlayerShip": "\f194",
-  "menu-PrexCategory": "\f195",
-  "menu-PrimaryWeaponBow": "\f196",
-  "menu-PrimaryWeaponLauncher": "\f197",
-  "menu-PrimaryWeaponRifle": "\f198",
-  "menu-PrimaryWeaponShotgun": "\f199",
-  "menu-PrimaryWeaponSniper": "\f19a",
-  "menu-PrimaryWeaponSpeargun": "\f19b",
-  "menu-PrimaryWeaponSpecial": "\f19c",
-  "menu-PrimeParts": "\f19d",
-  "menu-Prospector": "\f19e",
-  "menu-Purchase": "\f19f",
-  "menu-QuestPickerActive": "\f1a0",
-  "menu-QuestPickerCompleted": "\f1a1",
-  "menu-QuestPickerMystery": "\f1a2",
-  "menu-Railjack": "\f1a3",
-  "menu-Railjack2": "\f1a4",
-  "menu-RailjackAbilities": "\f1a5",
-  "menu-RailjackCountermeasures": "\f1a6",
-  "menu-RailjackOrdnance": "\f1a7",
-  "menu-RailjackPilot": "\f1a8",
-  "menu-RailjackTurrets": "\f1a9",
-  "menu-RelatedItems": "\f1aa",
-  "menu-Relic": "\f1ab",
-  "menu-RelicAxi": "\f1ac",
-  "menu-RelicLith": "\f1ad",
-  "menu-RelicMeso": "\f1ae",
-  "menu-RelicNeo": "\f1af",
-  "menu-RequiemMod": "\f1b0",
-  "menu-RequiemRelic": "\f1b1",
-  "menu-RequirementsMet": "\f1b2",
-  "menu-ResearchCorpus": "\f1b3",
-  "menu-ResearchGrineer": "\f1b4",
-  "menu-ResearchInfested": "\f1b5",
-  "menu-ResearchOrokin": "\f1b6",
-  "menu-ResearchRailjack": "\f1b7",
-  "menu-ResearchTenno": "\f1b8",
-  "menu-ResourceDrone": "\f1b9",
-  "menu-Rifle": "\f1ba",
-  "menu-RifleOff": "\f1bb",
-  "menu-RivenMod": "\f1bc",
-  "menu-RoundVial": "\f1bd",
-  "menu-Salvage": "\f1be",
-  "menu-Sentinel": "\f1bf",
-  "menu-Shotgun": "\f1c0",
-  "menu-Sigils": "\f1c1",
-  "menu-Simaris": "\f1c2",
-  "menu-Skins": "\f1c3",
-  "menu-Solaris": "\f1c4",
-  "menu-SquareVial": "\f1c5",
-  "menu-Stance": "\f1c6",
-  "menu-Strike": "\f1c7",
-  "menu-Swatch": "\f1c8",
-  "menu-Synthetics": "\f1c9",
-  "menu-Synthetics2": "\f1ca",
-  "menu-Tactical": "\f1cb",
-  "menu-Teleport": "\f1cc",
-  "menu-Tenets": "\f1cd",
-  "menu-Utility": "\f1ce",
-  "menu-Utility2": "\f1cf",
-  "menu-VehiclesKdrive": "\f1d0",
-  "menu-Warframe": "\f1d1",
-  "menu-WarframeOff": "\f1d2",
-  "menu-Weapons": "\f1d3",
-  "menu-Wild": "\f1d4",
-  "menu-WoundedInfestedCritter": "\f1d5",
-  "menu-WoundedInfestedPredator": "\f1d6",
-  "nightmare": "\f1d7",
-  "nightwave": "\f1d8",
-  "nightwaves-daily": "\f1d9",
-  "nightwaves-elite": "\f1da",
-  "nightwaves-weekly": "\f1db",
-  "ostron": "\f1dc",
-  "sigils-Arbiters-of-Hexis-ArbitersLevel1": "\f1dd",
-  "sigils-Arbiters-of-Hexis-ArbitersLevel2": "\f1de",
-  "sigils-Arbiters-of-Hexis-ArbitersLevel3": "\f1df",
-  "sigils-Arbiters-of-Hexis-ArbitersLevel4": "\f1e0",
-  "sigils-Arbiters-of-Hexis-ArbitersLevel5": "\f1e1",
-  "sigils-Cephalon-Suda-CephalonSudaLevel1": "\f1e2",
-  "sigils-Cephalon-Suda-CephalonSudaLevel2": "\f1e3",
-  "sigils-Cephalon-Suda-CephalonSudaLevel3": "\f1e4",
-  "sigils-Cephalon-Suda-CephalonSudaLevel4": "\f1e5",
-  "sigils-Cephalon-Suda-CephalonSudaLevel5": "\f1e6",
-  "sigils-Entrati-EntratiLevel1": "\f1e7",
-  "sigils-Entrati-EntratiLevel2": "\f1e8",
-  "sigils-Entrati-EntratiLevel3": "\f1e9",
-  "sigils-Entrati-EntratiLevel4": "\f1ea",
-  "sigils-Entrati-EntratiLevel5": "\f1eb",
-  "sigils-Necraloid-NecraloidLevel1": "\f1ec",
-  "sigils-Necraloid-NecraloidLevel2": "\f1ed",
-  "sigils-Necraloid-NecraloidLevel3": "\f1ee",
-  "sigils-NegativeRank1": "\f1ef",
-  "sigils-NegativeRank2": "\f1f0",
-  "sigils-Neutral": "\f1f1",
-  "sigils-New-Loka-NewLokaLevel1": "\f1f2",
-  "sigils-New-Loka-NewLokaLevel2": "\f1f3",
-  "sigils-New-Loka-NewLokaLevel3": "\f1f4",
-  "sigils-New-Loka-NewLokaLevel4": "\f1f5",
-  "sigils-New-Loka-NewLokaLevel5": "\f1f6",
-  "sigils-Ostron-OstronLevel1": "\f1f7",
-  "sigils-Ostron-OstronLevel2": "\f1f8",
-  "sigils-Ostron-OstronLevel3": "\f1f9",
-  "sigils-Ostron-OstronLevel4": "\f1fa",
-  "sigils-Ostron-OstronLevel5": "\f1fb",
-  "sigils-Red-Veil-RedVeilLevel1": "\f1fc",
-  "sigils-Red-Veil-RedVeilLevel2": "\f1fd",
-  "sigils-Red-Veil-RedVeilLevel3": "\f1fe",
-  "sigils-Red-Veil-RedVeilLevel4": "\f1ff",
-  "sigils-Red-Veil-RedVeilLevel5": "\f200",
-  "sigils-Solaris-United-SolarisLevel1": "\f201",
-  "sigils-Solaris-United-SolarisLevel2": "\f202",
-  "sigils-Solaris-United-SolarisLevel3": "\f203",
-  "sigils-Solaris-United-SolarisLevel4": "\f204",
-  "sigils-Solaris-United-SolarisLevel5": "\f205",
-  "sigils-Steel-Meridian-SteelMeridianLevel1": "\f206",
-  "sigils-Steel-Meridian-SteelMeridianLevel2": "\f207",
-  "sigils-Steel-Meridian-SteelMeridianLevel3": "\f208",
-  "sigils-Steel-Meridian-SteelMeridianLevel4": "\f209",
-  "sigils-Steel-Meridian-SteelMeridianLevel5": "\f20a",
-  "sigils-The-Holdfasts-HoldfastsLevel1": "\f20b",
-  "sigils-The-Holdfasts-HoldfastsLevel2": "\f20c",
-  "sigils-The-Holdfasts-HoldfastsLevel3": "\f20d",
-  "sigils-The-Holdfasts-HoldfastsLevel4": "\f20e",
-  "sigils-The-Holdfasts-HoldfastsLevel5": "\f20f",
-  "sigils-The-Perrin-Sequence-PerrinLevel1": "\f210",
-  "sigils-The-Perrin-Sequence-PerrinLevel2": "\f211",
-  "sigils-The-Perrin-Sequence-PerrinLevel3": "\f212",
-  "sigils-The-Perrin-Sequence-PerrinLevel4": "\f213",
-  "sigils-The-Perrin-Sequence-PerrinLevel5": "\f214",
-  "sigils-The-Quills-QuillsLevel1": "\f215",
-  "sigils-The-Quills-QuillsLevel2": "\f216",
-  "sigils-The-Quills-QuillsLevel3": "\f217",
-  "sigils-The-Quills-QuillsLevel4": "\f218",
-  "sigils-The-Quills-QuillsLevel5": "\f219",
-  "sigils-VentKids-VentKidsLevel1": "\f21a",
-  "sigils-VentKids-VentKidsLevel2": "\f21b",
-  "sigils-VentKids-VentKidsLevel3": "\f21c",
-  "sigils-VentKids-VentKidsLevel4": "\f21d",
-  "sigils-VentKids-VentKidsLevel5": "\f21e",
-  "sigils-Vox-Solaris-VoxLevel1": "\f21f",
-  "sigils-Vox-Solaris-VoxLevel2": "\f220",
-  "sigils-Vox-Solaris-VoxLevel3": "\f221",
-  "sigils-Vox-Solaris-VoxLevel4": "\f222",
-  "sigils-Vox-Solaris-VoxLevel5": "\f223",
-  "simaris": "\f224",
-  "solaris": "\f225",
-  "sp-logo": "\f226",
-  "standing": "\f227",
-  "the_hex": "\f228",
-  "wfcd": "\f229",
+    "wfcd": "\f101",
+    "the_hex": "\f102",
+    "standing": "\f103",
+    "sp-logo": "\f104",
+    "solaris": "\f105",
+    "simaris": "\f106",
+    "ostron": "\f107",
+    "nightwave": "\f108",
+    "nightmare": "\f109",
+    "loading": "\f10a",
+    "hexis": "\f10b",
+    "entrati": "\f10c",
+    "archwing": "\f10d",
+    "arbitrations": "\f10e",
+    "sigils-Neutral": "\f10f",
+    "sigils-NegativeRank2": "\f110",
+    "sigils-NegativeRank1": "\f111",
+    "requiem-Xata": "\f112",
+    "requiem-Vome": "\f113",
+    "requiem-Ris": "\f114",
+    "requiem-Oull": "\f115",
+    "requiem-Netra": "\f116",
+    "requiem-Lohk": "\f117",
+    "requiem-Khra": "\f118",
+    "requiem-Jahu": "\f119",
+    "requiem-Fass": "\f11a",
+    "nightwaves-weekly": "\f11b",
+    "nightwaves-elite": "\f11c",
+    "nightwaves-daily": "\f11d",
+    "kuva-kuvaflood": "\f11e",
+    "kuva-kuva": "\f11f",
+    "menu-WoundedInfestedPredator": "\f120",
+    "menu-WoundedInfestedCritter": "\f121",
+    "menu-Wild": "\f122",
+    "menu-Weapons": "\f123",
+    "menu-WarframeOff": "\f124",
+    "menu-Warframe": "\f125",
+    "menu-VehiclesKdrive": "\f126",
+    "menu-Utility2": "\f127",
+    "menu-Utility": "\f128",
+    "menu-Tenets": "\f129",
+    "menu-Teleport": "\f12a",
+    "menu-Tactical": "\f12b",
+    "menu-Synthetics2": "\f12c",
+    "menu-Synthetics": "\f12d",
+    "menu-Swatch": "\f12e",
+    "menu-Strike": "\f12f",
+    "menu-Stance": "\f130",
+    "menu-SquareVial": "\f131",
+    "menu-Solaris": "\f132",
+    "menu-Skins": "\f133",
+    "menu-Simaris": "\f134",
+    "menu-Sigils": "\f135",
+    "menu-Shotgun": "\f136",
+    "menu-Sentinel": "\f137",
+    "menu-Salvage": "\f138",
+    "menu-RoundVial": "\f139",
+    "menu-RivenMod": "\f13a",
+    "menu-RifleOff": "\f13b",
+    "menu-Rifle": "\f13c",
+    "menu-ResourceDrone": "\f13d",
+    "menu-ResearchTenno": "\f13e",
+    "menu-ResearchRailjack": "\f13f",
+    "menu-ResearchOrokin": "\f140",
+    "menu-ResearchInfested": "\f141",
+    "menu-ResearchGrineer": "\f142",
+    "menu-ResearchCorpus": "\f143",
+    "menu-RequirementsMet": "\f144",
+    "menu-RequiemRelic": "\f145",
+    "menu-RequiemMod": "\f146",
+    "menu-RelicNeo": "\f147",
+    "menu-RelicMeso": "\f148",
+    "menu-RelicLith": "\f149",
+    "menu-RelicAxi": "\f14a",
+    "menu-Relic": "\f14b",
+    "menu-RelatedItems": "\f14c",
+    "menu-RailjackTurrets": "\f14d",
+    "menu-RailjackPilot": "\f14e",
+    "menu-RailjackOrdnance": "\f14f",
+    "menu-RailjackCountermeasures": "\f150",
+    "menu-RailjackAbilities": "\f151",
+    "menu-Railjack2": "\f152",
+    "menu-Railjack": "\f153",
+    "menu-QuestPickerMystery": "\f154",
+    "menu-QuestPickerCompleted": "\f155",
+    "menu-QuestPickerActive": "\f156",
+    "menu-Purchase": "\f157",
+    "menu-Prospector": "\f158",
+    "menu-PrimeParts": "\f159",
+    "menu-PrimaryWeaponSpecial": "\f15a",
+    "menu-PrimaryWeaponSpeargun": "\f15b",
+    "menu-PrimaryWeaponSniper": "\f15c",
+    "menu-PrimaryWeaponShotgun": "\f15d",
+    "menu-PrimaryWeaponRifle": "\f15e",
+    "menu-PrimaryWeaponLauncher": "\f15f",
+    "menu-PrimaryWeaponBow": "\f160",
+    "menu-PrexCategory": "\f161",
+    "menu-PlayerShip": "\f162",
+    "menu-Pistol": "\f163",
+    "menu-Pilot": "\f164",
+    "menu-Pheromones": "\f165",
+    "menu-ParazonLongShadow2": "\f166",
+    "menu-ParazonLongShadow": "\f167",
+    "menu-ParazonLong": "\f168",
+    "menu-Parazon": "\f169",
+    "menu-Oxides": "\f16a",
+    "menu-OwnedBlueprint": "\f16b",
+    "menu-OrokinOn": "\f16c",
+    "menu-Operator": "\f16d",
+    "menu-Noggles": "\f16e",
+    "menu-Natural": "\f16f",
+    "menu-ModularItem": "\f170",
+    "menu-Mods": "\f171",
+    "menu-MkIII": "\f172",
+    "menu-MkII": "\f173",
+    "menu-MkI": "\f174",
+    "menu-Misc": "\f175",
+    "menu-Melee": "\f176",
+    "menu-MechBoard": "\f177",
+    "menu-Mech": "\f178",
+    "menu-MaterialsOff": "\f179",
+    "menu-Materials": "\f17a",
+    "menu-ManufacturerZekti": "\f17b",
+    "menu-ManufacturerVidar": "\f17c",
+    "menu-ManufacturerSigma": "\f17d",
+    "menu-ManufacturerLavan": "\f17e",
+    "menu-LotusEmblem": "\f17f",
+    "menu-Link": "\f180",
+    "menu-LimitedTime": "\f181",
+    "menu-LichCategory": "\f182",
+    "menu-Lab": "\f183",
+    "menu-KuvaLichVanquished": "\f184",
+    "menu-KuvaLichTraded": "\f185",
+    "menu-KuvaLichConverted": "\f186",
+    "menu-KuvaLichActive": "\f187",
+    "menu-Kubrow": "\f188",
+    "menu-Keys": "\f189",
+    "menu-Kavat": "\f18a",
+    "menu-Infested": "\f18b",
+    "menu-IndividualObstacleCourse": "\f18c",
+    "menu-Incomplete": "\f18d",
+    "menu-Hall": "\f18e",
+    "menu-Gunnery": "\f18f",
+    "menu-Grip": "\f190",
+    "menu-Grineer": "\f191",
+    "menu-Glyph": "\f192",
+    "menu-Gift": "\f193",
+    "menu-Ghouls": "\f194",
+    "menu-GeneticImprint": "\f195",
+    "menu-GearWheel": "\f196",
+    "menu-Gear": "\f197",
+    "menu-Garden": "\f198",
+    "menu-Gara": "\f199",
+    "menu-Fx": "\f19a",
+    "menu-Fusion": "\f19b",
+    "menu-FishSmall": "\f19c",
+    "menu-FishMedium": "\f19d",
+    "menu-FishLarge": "\f19e",
+    "menu-Favorite": "\f19f",
+    "menu-Exilus": "\f1a0",
+    "menu-Equip": "\f1a1",
+    "menu-Entrati": "\f1a2",
+    "menu-Engineering": "\f1a3",
+    "menu-Energy": "\f1a4",
+    "menu-Emotes": "\f1a5",
+    "menu-Duplicate": "\f1a6",
+    "menu-Drone": "\f1a7",
+    "menu-Displays": "\f1a8",
+    "menu-CraftingMoaModel": "\f1a9",
+    "menu-CraftingMoaGyro": "\f1aa",
+    "menu-CraftingMoaCore": "\f1ab",
+    "menu-CraftingMoaBrackets": "\f1ac",
+    "menu-CraftingKitgunPrimaryGrip": "\f1ad",
+    "menu-CraftingKitgunLoader": "\f1ae",
+    "menu-CraftingKitgunGrip": "\f1af",
+    "menu-CraftingKitgunChamber": "\f1b0",
+    "menu-CraftingKDriveReactor": "\f1b1",
+    "menu-CraftingKDriveNose": "\f1b2",
+    "menu-CraftingKDriveJet": "\f1b3",
+    "menu-CraftingKDriveBoard": "\f1b4",
+    "menu-CraftingHoundTail": "\f1b5",
+    "menu-CraftingHoundLegs": "\f1b6",
+    "menu-CraftingHoundHead": "\f1b7",
+    "menu-CraftingHoundBody": "\f1b8",
+    "menu-CraftingAmpScaffold": "\f1b9",
+    "menu-CraftingAmpPrism": "\f1ba",
+    "menu-CraftingAmpBrace": "\f1bb",
+    "menu-Corpus": "\f1bc",
+    "menu-Connector": "\f1bd",
+    "menu-Command": "\f1be",
+    "menu-ClanObstacleCourse": "\f1bf",
+    "menu-ChangeSkins": "\f1c0",
+    "menu-CetusElder": "\f1c1",
+    "menu-Cephalon": "\f1c2",
+    "menu-Capacity": "\f1c3",
+    "menu-Calx": "\f1c4",
+    "menu-Build": "\f1c5",
+    "menu-Blueprint": "\f1c6",
+    "menu-Biotics": "\f1c7",
+    "menu-Bile": "\f1c8",
+    "menu-Barracks": "\f1c9",
+    "menu-AvionicsTactical": "\f1ca",
+    "menu-AvionicsSuper": "\f1cb",
+    "menu-AvionicsOffensive": "\f1cc",
+    "menu-AvionicsDefensive": "\f1cd",
+    "menu-Avionics": "\f1ce",
+    "menu-Aura": "\f1cf",
+    "menu-Augment": "\f1d0",
+    "menu-Armor": "\f1d1",
+    "menu-ArchwingSecondary": "\f1d2",
+    "menu-ArchwingPrimary": "\f1d3",
+    "menu-ArchwingEmblem": "\f1d4",
+    "menu-ArchwingColour": "\f1d5",
+    "menu-Archwing": "\f1d6",
+    "menu-Arcane": "\f1d7",
+    "menu-Amp": "\f1d8",
+    "menu-All": "\f1d9",
+    "fissures-requiem": "\f1da",
+    "fissures-neo": "\f1db",
+    "fissures-meso": "\f1dc",
+    "fissures-lith": "\f1dd",
+    "fissures-axi": "\f1de",
+    "fissures-5": "\f1df",
+    "fissures-4": "\f1e0",
+    "fissures-3": "\f1e1",
+    "fissures-2": "\f1e2",
+    "fissures-1": "\f1e3",
+    "factions-sentient": "\f1e4",
+    "factions-narmer2": "\f1e5",
+    "factions-narmer": "\f1e6",
+    "factions-murmur": "\f1e7",
+    "factions-infested": "\f1e8",
+    "factions-grineer": "\f1e9",
+    "factions-corrupted": "\f1ea",
+    "factions-corpus": "\f1eb",
+    "sigils-Vox-Solaris-VoxLevel5": "\f1ec",
+    "sigils-Vox-Solaris-VoxLevel4": "\f1ed",
+    "sigils-Vox-Solaris-VoxLevel3": "\f1ee",
+    "sigils-Vox-Solaris-VoxLevel2": "\f1ef",
+    "sigils-Vox-Solaris-VoxLevel1": "\f1f0",
+    "sigils-VentKids-VentKidsLevel5": "\f1f1",
+    "sigils-VentKids-VentKidsLevel4": "\f1f2",
+    "sigils-VentKids-VentKidsLevel3": "\f1f3",
+    "sigils-VentKids-VentKidsLevel2": "\f1f4",
+    "sigils-VentKids-VentKidsLevel1": "\f1f5",
+    "sigils-The-Quills-QuillsLevel5": "\f1f6",
+    "sigils-The-Quills-QuillsLevel4": "\f1f7",
+    "sigils-The-Quills-QuillsLevel3": "\f1f8",
+    "sigils-The-Quills-QuillsLevel2": "\f1f9",
+    "sigils-The-Quills-QuillsLevel1": "\f1fa",
+    "sigils-The-Perrin-Sequence-PerrinLevel5": "\f1fb",
+    "sigils-The-Perrin-Sequence-PerrinLevel4": "\f1fc",
+    "sigils-The-Perrin-Sequence-PerrinLevel3": "\f1fd",
+    "sigils-The-Perrin-Sequence-PerrinLevel2": "\f1fe",
+    "sigils-The-Perrin-Sequence-PerrinLevel1": "\f1ff",
+    "sigils-The-Holdfasts-HoldfastsLevel5": "\f200",
+    "sigils-The-Holdfasts-HoldfastsLevel4": "\f201",
+    "sigils-The-Holdfasts-HoldfastsLevel3": "\f202",
+    "sigils-The-Holdfasts-HoldfastsLevel2": "\f203",
+    "sigils-The-Holdfasts-HoldfastsLevel1": "\f204",
+    "sigils-Steel-Meridian-SteelMeridianLevel5": "\f205",
+    "sigils-Steel-Meridian-SteelMeridianLevel4": "\f206",
+    "sigils-Steel-Meridian-SteelMeridianLevel3": "\f207",
+    "sigils-Steel-Meridian-SteelMeridianLevel2": "\f208",
+    "sigils-Steel-Meridian-SteelMeridianLevel1": "\f209",
+    "sigils-Solaris-United-SolarisLevel5": "\f20a",
+    "sigils-Solaris-United-SolarisLevel4": "\f20b",
+    "sigils-Solaris-United-SolarisLevel3": "\f20c",
+    "sigils-Solaris-United-SolarisLevel2": "\f20d",
+    "sigils-Solaris-United-SolarisLevel1": "\f20e",
+    "sigils-Red-Veil-RedVeilLevel5": "\f20f",
+    "sigils-Red-Veil-RedVeilLevel4": "\f210",
+    "sigils-Red-Veil-RedVeilLevel3": "\f211",
+    "sigils-Red-Veil-RedVeilLevel2": "\f212",
+    "sigils-Red-Veil-RedVeilLevel1": "\f213",
+    "sigils-Ostron-OstronLevel5": "\f214",
+    "sigils-Ostron-OstronLevel4": "\f215",
+    "sigils-Ostron-OstronLevel3": "\f216",
+    "sigils-Ostron-OstronLevel2": "\f217",
+    "sigils-Ostron-OstronLevel1": "\f218",
+    "sigils-New-Loka-NewLokaLevel5": "\f219",
+    "sigils-New-Loka-NewLokaLevel4": "\f21a",
+    "sigils-New-Loka-NewLokaLevel3": "\f21b",
+    "sigils-New-Loka-NewLokaLevel2": "\f21c",
+    "sigils-New-Loka-NewLokaLevel1": "\f21d",
+    "sigils-Necraloid-NecraloidLevel3": "\f21e",
+    "sigils-Necraloid-NecraloidLevel2": "\f21f",
+    "sigils-Necraloid-NecraloidLevel1": "\f220",
+    "sigils-Entrati-EntratiLevel5": "\f221",
+    "sigils-Entrati-EntratiLevel4": "\f222",
+    "sigils-Entrati-EntratiLevel3": "\f223",
+    "sigils-Entrati-EntratiLevel2": "\f224",
+    "sigils-Entrati-EntratiLevel1": "\f225",
+    "sigils-Cephalon-Suda-CephalonSudaLevel5": "\f226",
+    "sigils-Cephalon-Suda-CephalonSudaLevel4": "\f227",
+    "sigils-Cephalon-Suda-CephalonSudaLevel3": "\f228",
+    "sigils-Cephalon-Suda-CephalonSudaLevel2": "\f229",
+    "sigils-Cephalon-Suda-CephalonSudaLevel1": "\f22a",
+    "sigils-Arbiters-of-Hexis-ArbitersLevel5": "\f22b",
+    "sigils-Arbiters-of-Hexis-ArbitersLevel4": "\f22c",
+    "sigils-Arbiters-of-Hexis-ArbitersLevel3": "\f22d",
+    "sigils-Arbiters-of-Hexis-ArbitersLevel2": "\f22e",
+    "sigils-Arbiters-of-Hexis-ArbitersLevel1": "\f22f",
 );
 
-.icon-arbitrations::before {
-  content: map-get($Warframe-symbols-map, "arbitrations");
-}
-.icon-archwing::before {
-  content: map-get($Warframe-symbols-map, "archwing");
-}
-.icon-damage-impact::before {
-  content: map-get($Warframe-symbols-map, "damage-impact");
-}
-.icon-damage-puncture::before {
-  content: map-get($Warframe-symbols-map, "damage-puncture");
-}
-.icon-damage-slash::before {
-  content: map-get($Warframe-symbols-map, "damage-slash");
-}
-.icon-entrati::before {
-  content: map-get($Warframe-symbols-map, "entrati");
-}
-.icon-factions-corpus::before {
-  content: map-get($Warframe-symbols-map, "factions-corpus");
-}
-.icon-factions-corrupted::before {
-  content: map-get($Warframe-symbols-map, "factions-corrupted");
-}
-.icon-factions-grineer::before {
-  content: map-get($Warframe-symbols-map, "factions-grineer");
-}
-.icon-factions-infested::before {
-  content: map-get($Warframe-symbols-map, "factions-infested");
-}
-.icon-factions-murmur::before {
-  content: map-get($Warframe-symbols-map, "factions-murmur");
-}
-.icon-factions-narmer::before {
-  content: map-get($Warframe-symbols-map, "factions-narmer");
-}
-.icon-factions-narmer2::before {
-  content: map-get($Warframe-symbols-map, "factions-narmer2");
-}
-.icon-factions-sentient::before {
-  content: map-get($Warframe-symbols-map, "factions-sentient");
-}
-.icon-fissures-1::before {
-  content: map-get($Warframe-symbols-map, "fissures-1");
-}
-.icon-fissures-2::before {
-  content: map-get($Warframe-symbols-map, "fissures-2");
-}
-.icon-fissures-3::before {
-  content: map-get($Warframe-symbols-map, "fissures-3");
-}
-.icon-fissures-4::before {
-  content: map-get($Warframe-symbols-map, "fissures-4");
-}
-.icon-fissures-5::before {
-  content: map-get($Warframe-symbols-map, "fissures-5");
-}
-.icon-fissures-axi::before {
-  content: map-get($Warframe-symbols-map, "fissures-axi");
-}
-.icon-fissures-lith::before {
-  content: map-get($Warframe-symbols-map, "fissures-lith");
-}
-.icon-fissures-meso::before {
-  content: map-get($Warframe-symbols-map, "fissures-meso");
-}
-.icon-fissures-neo::before {
-  content: map-get($Warframe-symbols-map, "fissures-neo");
-}
-.icon-fissures-requiem::before {
-  content: map-get($Warframe-symbols-map, "fissures-requiem");
-}
-.icon-hexis::before {
-  content: map-get($Warframe-symbols-map, "hexis");
-}
-.icon-kuva-kuva::before {
-  content: map-get($Warframe-symbols-map, "kuva-kuva");
-}
-.icon-kuva-kuvaflood::before {
-  content: map-get($Warframe-symbols-map, "kuva-kuvaflood");
-}
-.icon-loading::before {
-  content: map-get($Warframe-symbols-map, "loading");
-}
-.icon-menu-All::before {
-  content: map-get($Warframe-symbols-map, "menu-All");
-}
-.icon-menu-Amp::before {
-  content: map-get($Warframe-symbols-map, "menu-Amp");
-}
-.icon-menu-Arcane::before {
-  content: map-get($Warframe-symbols-map, "menu-Arcane");
-}
-.icon-menu-Archwing::before {
-  content: map-get($Warframe-symbols-map, "menu-Archwing");
-}
-.icon-menu-ArchwingColour::before {
-  content: map-get($Warframe-symbols-map, "menu-ArchwingColour");
-}
-.icon-menu-ArchwingEmblem::before {
-  content: map-get($Warframe-symbols-map, "menu-ArchwingEmblem");
-}
-.icon-menu-ArchwingPrimary::before {
-  content: map-get($Warframe-symbols-map, "menu-ArchwingPrimary");
-}
-.icon-menu-ArchwingSecondary::before {
-  content: map-get($Warframe-symbols-map, "menu-ArchwingSecondary");
-}
-.icon-menu-Armor::before {
-  content: map-get($Warframe-symbols-map, "menu-Armor");
-}
-.icon-menu-Augment::before {
-  content: map-get($Warframe-symbols-map, "menu-Augment");
-}
-.icon-menu-Aura::before {
-  content: map-get($Warframe-symbols-map, "menu-Aura");
-}
-.icon-menu-Avionics::before {
-  content: map-get($Warframe-symbols-map, "menu-Avionics");
-}
-.icon-menu-AvionicsDefensive::before {
-  content: map-get($Warframe-symbols-map, "menu-AvionicsDefensive");
-}
-.icon-menu-AvionicsOffensive::before {
-  content: map-get($Warframe-symbols-map, "menu-AvionicsOffensive");
-}
-.icon-menu-AvionicsSuper::before {
-  content: map-get($Warframe-symbols-map, "menu-AvionicsSuper");
-}
-.icon-menu-AvionicsTactical::before {
-  content: map-get($Warframe-symbols-map, "menu-AvionicsTactical");
-}
-.icon-menu-Barracks::before {
-  content: map-get($Warframe-symbols-map, "menu-Barracks");
-}
-.icon-menu-Bile::before {
-  content: map-get($Warframe-symbols-map, "menu-Bile");
-}
-.icon-menu-Biotics::before {
-  content: map-get($Warframe-symbols-map, "menu-Biotics");
-}
-.icon-menu-Blueprint::before {
-  content: map-get($Warframe-symbols-map, "menu-Blueprint");
-}
-.icon-menu-Build::before {
-  content: map-get($Warframe-symbols-map, "menu-Build");
-}
-.icon-menu-Calx::before {
-  content: map-get($Warframe-symbols-map, "menu-Calx");
-}
-.icon-menu-Capacity::before {
-  content: map-get($Warframe-symbols-map, "menu-Capacity");
-}
-.icon-menu-Cephalon::before {
-  content: map-get($Warframe-symbols-map, "menu-Cephalon");
-}
-.icon-menu-CetusElder::before {
-  content: map-get($Warframe-symbols-map, "menu-CetusElder");
-}
-.icon-menu-ChangeSkins::before {
-  content: map-get($Warframe-symbols-map, "menu-ChangeSkins");
-}
-.icon-menu-ClanObstacleCourse::before {
-  content: map-get($Warframe-symbols-map, "menu-ClanObstacleCourse");
-}
-.icon-menu-Command::before {
-  content: map-get($Warframe-symbols-map, "menu-Command");
-}
-.icon-menu-Connector::before {
-  content: map-get($Warframe-symbols-map, "menu-Connector");
-}
-.icon-menu-Corpus::before {
-  content: map-get($Warframe-symbols-map, "menu-Corpus");
-}
-.icon-menu-CraftingAmpBrace::before {
-  content: map-get($Warframe-symbols-map, "menu-CraftingAmpBrace");
-}
-.icon-menu-CraftingAmpPrism::before {
-  content: map-get($Warframe-symbols-map, "menu-CraftingAmpPrism");
-}
-.icon-menu-CraftingAmpScaffold::before {
-  content: map-get($Warframe-symbols-map, "menu-CraftingAmpScaffold");
-}
-.icon-menu-CraftingHoundBody::before {
-  content: map-get($Warframe-symbols-map, "menu-CraftingHoundBody");
-}
-.icon-menu-CraftingHoundHead::before {
-  content: map-get($Warframe-symbols-map, "menu-CraftingHoundHead");
-}
-.icon-menu-CraftingHoundLegs::before {
-  content: map-get($Warframe-symbols-map, "menu-CraftingHoundLegs");
-}
-.icon-menu-CraftingHoundTail::before {
-  content: map-get($Warframe-symbols-map, "menu-CraftingHoundTail");
-}
-.icon-menu-CraftingKDriveBoard::before {
-  content: map-get($Warframe-symbols-map, "menu-CraftingKDriveBoard");
-}
-.icon-menu-CraftingKDriveJet::before {
-  content: map-get($Warframe-symbols-map, "menu-CraftingKDriveJet");
-}
-.icon-menu-CraftingKDriveNose::before {
-  content: map-get($Warframe-symbols-map, "menu-CraftingKDriveNose");
-}
-.icon-menu-CraftingKDriveReactor::before {
-  content: map-get($Warframe-symbols-map, "menu-CraftingKDriveReactor");
-}
-.icon-menu-CraftingKitgunChamber::before {
-  content: map-get($Warframe-symbols-map, "menu-CraftingKitgunChamber");
-}
-.icon-menu-CraftingKitgunGrip::before {
-  content: map-get($Warframe-symbols-map, "menu-CraftingKitgunGrip");
-}
-.icon-menu-CraftingKitgunLoader::before {
-  content: map-get($Warframe-symbols-map, "menu-CraftingKitgunLoader");
-}
-.icon-menu-CraftingKitgunPrimaryGrip::before {
-  content: map-get($Warframe-symbols-map, "menu-CraftingKitgunPrimaryGrip");
-}
-.icon-menu-CraftingMoaBrackets::before {
-  content: map-get($Warframe-symbols-map, "menu-CraftingMoaBrackets");
-}
-.icon-menu-CraftingMoaCore::before {
-  content: map-get($Warframe-symbols-map, "menu-CraftingMoaCore");
-}
-.icon-menu-CraftingMoaGyro::before {
-  content: map-get($Warframe-symbols-map, "menu-CraftingMoaGyro");
-}
-.icon-menu-CraftingMoaModel::before {
-  content: map-get($Warframe-symbols-map, "menu-CraftingMoaModel");
-}
-.icon-menu-Displays::before {
-  content: map-get($Warframe-symbols-map, "menu-Displays");
-}
-.icon-menu-Drone::before {
-  content: map-get($Warframe-symbols-map, "menu-Drone");
-}
-.icon-menu-Duplicate::before {
-  content: map-get($Warframe-symbols-map, "menu-Duplicate");
-}
-.icon-menu-Emotes::before {
-  content: map-get($Warframe-symbols-map, "menu-Emotes");
-}
-.icon-menu-Energy::before {
-  content: map-get($Warframe-symbols-map, "menu-Energy");
-}
-.icon-menu-Engineering::before {
-  content: map-get($Warframe-symbols-map, "menu-Engineering");
-}
-.icon-menu-Entrati::before {
-  content: map-get($Warframe-symbols-map, "menu-Entrati");
-}
-.icon-menu-Equip::before {
-  content: map-get($Warframe-symbols-map, "menu-Equip");
-}
-.icon-menu-Exilus::before {
-  content: map-get($Warframe-symbols-map, "menu-Exilus");
-}
-.icon-menu-Favorite::before {
-  content: map-get($Warframe-symbols-map, "menu-Favorite");
-}
-.icon-menu-FishLarge::before {
-  content: map-get($Warframe-symbols-map, "menu-FishLarge");
-}
-.icon-menu-FishMedium::before {
-  content: map-get($Warframe-symbols-map, "menu-FishMedium");
-}
-.icon-menu-FishSmall::before {
-  content: map-get($Warframe-symbols-map, "menu-FishSmall");
-}
-.icon-menu-Fusion::before {
-  content: map-get($Warframe-symbols-map, "menu-Fusion");
-}
-.icon-menu-Fx::before {
-  content: map-get($Warframe-symbols-map, "menu-Fx");
-}
-.icon-menu-Gara::before {
-  content: map-get($Warframe-symbols-map, "menu-Gara");
-}
-.icon-menu-Garden::before {
-  content: map-get($Warframe-symbols-map, "menu-Garden");
-}
-.icon-menu-Gear::before {
-  content: map-get($Warframe-symbols-map, "menu-Gear");
-}
-.icon-menu-GearWheel::before {
-  content: map-get($Warframe-symbols-map, "menu-GearWheel");
-}
-.icon-menu-GeneticImprint::before {
-  content: map-get($Warframe-symbols-map, "menu-GeneticImprint");
-}
-.icon-menu-Ghouls::before {
-  content: map-get($Warframe-symbols-map, "menu-Ghouls");
-}
-.icon-menu-Gift::before {
-  content: map-get($Warframe-symbols-map, "menu-Gift");
-}
-.icon-menu-Glyph::before {
-  content: map-get($Warframe-symbols-map, "menu-Glyph");
-}
-.icon-menu-Grineer::before {
-  content: map-get($Warframe-symbols-map, "menu-Grineer");
-}
-.icon-menu-Grip::before {
-  content: map-get($Warframe-symbols-map, "menu-Grip");
-}
-.icon-menu-Gunnery::before {
-  content: map-get($Warframe-symbols-map, "menu-Gunnery");
-}
-.icon-menu-Hall::before {
-  content: map-get($Warframe-symbols-map, "menu-Hall");
-}
-.icon-menu-Incomplete::before {
-  content: map-get($Warframe-symbols-map, "menu-Incomplete");
-}
-.icon-menu-IndividualObstacleCourse::before {
-  content: map-get($Warframe-symbols-map, "menu-IndividualObstacleCourse");
-}
-.icon-menu-Infested::before {
-  content: map-get($Warframe-symbols-map, "menu-Infested");
-}
-.icon-menu-Kavat::before {
-  content: map-get($Warframe-symbols-map, "menu-Kavat");
-}
-.icon-menu-Keys::before {
-  content: map-get($Warframe-symbols-map, "menu-Keys");
-}
-.icon-menu-Kubrow::before {
-  content: map-get($Warframe-symbols-map, "menu-Kubrow");
-}
-.icon-menu-KuvaLichActive::before {
-  content: map-get($Warframe-symbols-map, "menu-KuvaLichActive");
-}
-.icon-menu-KuvaLichConverted::before {
-  content: map-get($Warframe-symbols-map, "menu-KuvaLichConverted");
-}
-.icon-menu-KuvaLichTraded::before {
-  content: map-get($Warframe-symbols-map, "menu-KuvaLichTraded");
-}
-.icon-menu-KuvaLichVanquished::before {
-  content: map-get($Warframe-symbols-map, "menu-KuvaLichVanquished");
-}
-.icon-menu-Lab::before {
-  content: map-get($Warframe-symbols-map, "menu-Lab");
-}
-.icon-menu-LichCategory::before {
-  content: map-get($Warframe-symbols-map, "menu-LichCategory");
-}
-.icon-menu-LimitedTime::before {
-  content: map-get($Warframe-symbols-map, "menu-LimitedTime");
-}
-.icon-menu-Link::before {
-  content: map-get($Warframe-symbols-map, "menu-Link");
-}
-.icon-menu-LotusEmblem::before {
-  content: map-get($Warframe-symbols-map, "menu-LotusEmblem");
-}
-.icon-menu-ManufacturerLavan::before {
-  content: map-get($Warframe-symbols-map, "menu-ManufacturerLavan");
-}
-.icon-menu-ManufacturerSigma::before {
-  content: map-get($Warframe-symbols-map, "menu-ManufacturerSigma");
-}
-.icon-menu-ManufacturerVidar::before {
-  content: map-get($Warframe-symbols-map, "menu-ManufacturerVidar");
-}
-.icon-menu-ManufacturerZekti::before {
-  content: map-get($Warframe-symbols-map, "menu-ManufacturerZekti");
-}
-.icon-menu-Materials::before {
-  content: map-get($Warframe-symbols-map, "menu-Materials");
-}
-.icon-menu-MaterialsOff::before {
-  content: map-get($Warframe-symbols-map, "menu-MaterialsOff");
-}
-.icon-menu-Mech::before {
-  content: map-get($Warframe-symbols-map, "menu-Mech");
-}
-.icon-menu-MechBoard::before {
-  content: map-get($Warframe-symbols-map, "menu-MechBoard");
-}
-.icon-menu-Melee::before {
-  content: map-get($Warframe-symbols-map, "menu-Melee");
-}
-.icon-menu-Misc::before {
-  content: map-get($Warframe-symbols-map, "menu-Misc");
-}
-.icon-menu-MkI::before {
-  content: map-get($Warframe-symbols-map, "menu-MkI");
-}
-.icon-menu-MkII::before {
-  content: map-get($Warframe-symbols-map, "menu-MkII");
-}
-.icon-menu-MkIII::before {
-  content: map-get($Warframe-symbols-map, "menu-MkIII");
-}
-.icon-menu-Mods::before {
-  content: map-get($Warframe-symbols-map, "menu-Mods");
-}
-.icon-menu-ModularItem::before {
-  content: map-get($Warframe-symbols-map, "menu-ModularItem");
-}
-.icon-menu-Natural::before {
-  content: map-get($Warframe-symbols-map, "menu-Natural");
-}
-.icon-menu-Noggles::before {
-  content: map-get($Warframe-symbols-map, "menu-Noggles");
-}
-.icon-menu-Operator::before {
-  content: map-get($Warframe-symbols-map, "menu-Operator");
-}
-.icon-menu-OrokinOn::before {
-  content: map-get($Warframe-symbols-map, "menu-OrokinOn");
-}
-.icon-menu-OwnedBlueprint::before {
-  content: map-get($Warframe-symbols-map, "menu-OwnedBlueprint");
-}
-.icon-menu-Oxides::before {
-  content: map-get($Warframe-symbols-map, "menu-Oxides");
-}
-.icon-menu-Parazon::before {
-  content: map-get($Warframe-symbols-map, "menu-Parazon");
-}
-.icon-menu-ParazonLong::before {
-  content: map-get($Warframe-symbols-map, "menu-ParazonLong");
-}
-.icon-menu-ParazonLongShadow::before {
-  content: map-get($Warframe-symbols-map, "menu-ParazonLongShadow");
-}
-.icon-menu-ParazonLongShadow2::before {
-  content: map-get($Warframe-symbols-map, "menu-ParazonLongShadow2");
-}
-.icon-menu-Pheromones::before {
-  content: map-get($Warframe-symbols-map, "menu-Pheromones");
-}
-.icon-menu-Pilot::before {
-  content: map-get($Warframe-symbols-map, "menu-Pilot");
-}
-.icon-menu-Pistol::before {
-  content: map-get($Warframe-symbols-map, "menu-Pistol");
-}
-.icon-menu-PlayerShip::before {
-  content: map-get($Warframe-symbols-map, "menu-PlayerShip");
-}
-.icon-menu-PrexCategory::before {
-  content: map-get($Warframe-symbols-map, "menu-PrexCategory");
-}
-.icon-menu-PrimaryWeaponBow::before {
-  content: map-get($Warframe-symbols-map, "menu-PrimaryWeaponBow");
-}
-.icon-menu-PrimaryWeaponLauncher::before {
-  content: map-get($Warframe-symbols-map, "menu-PrimaryWeaponLauncher");
-}
-.icon-menu-PrimaryWeaponRifle::before {
-  content: map-get($Warframe-symbols-map, "menu-PrimaryWeaponRifle");
-}
-.icon-menu-PrimaryWeaponShotgun::before {
-  content: map-get($Warframe-symbols-map, "menu-PrimaryWeaponShotgun");
-}
-.icon-menu-PrimaryWeaponSniper::before {
-  content: map-get($Warframe-symbols-map, "menu-PrimaryWeaponSniper");
-}
-.icon-menu-PrimaryWeaponSpeargun::before {
-  content: map-get($Warframe-symbols-map, "menu-PrimaryWeaponSpeargun");
-}
-.icon-menu-PrimaryWeaponSpecial::before {
-  content: map-get($Warframe-symbols-map, "menu-PrimaryWeaponSpecial");
-}
-.icon-menu-PrimeParts::before {
-  content: map-get($Warframe-symbols-map, "menu-PrimeParts");
-}
-.icon-menu-Prospector::before {
-  content: map-get($Warframe-symbols-map, "menu-Prospector");
-}
-.icon-menu-Purchase::before {
-  content: map-get($Warframe-symbols-map, "menu-Purchase");
-}
-.icon-menu-QuestPickerActive::before {
-  content: map-get($Warframe-symbols-map, "menu-QuestPickerActive");
-}
-.icon-menu-QuestPickerCompleted::before {
-  content: map-get($Warframe-symbols-map, "menu-QuestPickerCompleted");
-}
-.icon-menu-QuestPickerMystery::before {
-  content: map-get($Warframe-symbols-map, "menu-QuestPickerMystery");
-}
-.icon-menu-Railjack::before {
-  content: map-get($Warframe-symbols-map, "menu-Railjack");
-}
-.icon-menu-Railjack2::before {
-  content: map-get($Warframe-symbols-map, "menu-Railjack2");
-}
-.icon-menu-RailjackAbilities::before {
-  content: map-get($Warframe-symbols-map, "menu-RailjackAbilities");
-}
-.icon-menu-RailjackCountermeasures::before {
-  content: map-get($Warframe-symbols-map, "menu-RailjackCountermeasures");
-}
-.icon-menu-RailjackOrdnance::before {
-  content: map-get($Warframe-symbols-map, "menu-RailjackOrdnance");
-}
-.icon-menu-RailjackPilot::before {
-  content: map-get($Warframe-symbols-map, "menu-RailjackPilot");
-}
-.icon-menu-RailjackTurrets::before {
-  content: map-get($Warframe-symbols-map, "menu-RailjackTurrets");
-}
-.icon-menu-RelatedItems::before {
-  content: map-get($Warframe-symbols-map, "menu-RelatedItems");
-}
-.icon-menu-Relic::before {
-  content: map-get($Warframe-symbols-map, "menu-Relic");
-}
-.icon-menu-RelicAxi::before {
-  content: map-get($Warframe-symbols-map, "menu-RelicAxi");
-}
-.icon-menu-RelicLith::before {
-  content: map-get($Warframe-symbols-map, "menu-RelicLith");
-}
-.icon-menu-RelicMeso::before {
-  content: map-get($Warframe-symbols-map, "menu-RelicMeso");
-}
-.icon-menu-RelicNeo::before {
-  content: map-get($Warframe-symbols-map, "menu-RelicNeo");
-}
-.icon-menu-RequiemMod::before {
-  content: map-get($Warframe-symbols-map, "menu-RequiemMod");
-}
-.icon-menu-RequiemRelic::before {
-  content: map-get($Warframe-symbols-map, "menu-RequiemRelic");
-}
-.icon-menu-RequirementsMet::before {
-  content: map-get($Warframe-symbols-map, "menu-RequirementsMet");
-}
-.icon-menu-ResearchCorpus::before {
-  content: map-get($Warframe-symbols-map, "menu-ResearchCorpus");
-}
-.icon-menu-ResearchGrineer::before {
-  content: map-get($Warframe-symbols-map, "menu-ResearchGrineer");
-}
-.icon-menu-ResearchInfested::before {
-  content: map-get($Warframe-symbols-map, "menu-ResearchInfested");
-}
-.icon-menu-ResearchOrokin::before {
-  content: map-get($Warframe-symbols-map, "menu-ResearchOrokin");
-}
-.icon-menu-ResearchRailjack::before {
-  content: map-get($Warframe-symbols-map, "menu-ResearchRailjack");
-}
-.icon-menu-ResearchTenno::before {
-  content: map-get($Warframe-symbols-map, "menu-ResearchTenno");
-}
-.icon-menu-ResourceDrone::before {
-  content: map-get($Warframe-symbols-map, "menu-ResourceDrone");
-}
-.icon-menu-Rifle::before {
-  content: map-get($Warframe-symbols-map, "menu-Rifle");
-}
-.icon-menu-RifleOff::before {
-  content: map-get($Warframe-symbols-map, "menu-RifleOff");
-}
-.icon-menu-RivenMod::before {
-  content: map-get($Warframe-symbols-map, "menu-RivenMod");
-}
-.icon-menu-RoundVial::before {
-  content: map-get($Warframe-symbols-map, "menu-RoundVial");
-}
-.icon-menu-Salvage::before {
-  content: map-get($Warframe-symbols-map, "menu-Salvage");
-}
-.icon-menu-Sentinel::before {
-  content: map-get($Warframe-symbols-map, "menu-Sentinel");
-}
-.icon-menu-Shotgun::before {
-  content: map-get($Warframe-symbols-map, "menu-Shotgun");
-}
-.icon-menu-Sigils::before {
-  content: map-get($Warframe-symbols-map, "menu-Sigils");
-}
-.icon-menu-Simaris::before {
-  content: map-get($Warframe-symbols-map, "menu-Simaris");
-}
-.icon-menu-Skins::before {
-  content: map-get($Warframe-symbols-map, "menu-Skins");
-}
-.icon-menu-Solaris::before {
-  content: map-get($Warframe-symbols-map, "menu-Solaris");
-}
-.icon-menu-SquareVial::before {
-  content: map-get($Warframe-symbols-map, "menu-SquareVial");
-}
-.icon-menu-Stance::before {
-  content: map-get($Warframe-symbols-map, "menu-Stance");
-}
-.icon-menu-Strike::before {
-  content: map-get($Warframe-symbols-map, "menu-Strike");
-}
-.icon-menu-Swatch::before {
-  content: map-get($Warframe-symbols-map, "menu-Swatch");
-}
-.icon-menu-Synthetics::before {
-  content: map-get($Warframe-symbols-map, "menu-Synthetics");
-}
-.icon-menu-Synthetics2::before {
-  content: map-get($Warframe-symbols-map, "menu-Synthetics2");
-}
-.icon-menu-Tactical::before {
-  content: map-get($Warframe-symbols-map, "menu-Tactical");
-}
-.icon-menu-Teleport::before {
-  content: map-get($Warframe-symbols-map, "menu-Teleport");
-}
-.icon-menu-Tenets::before {
-  content: map-get($Warframe-symbols-map, "menu-Tenets");
-}
-.icon-menu-Utility::before {
-  content: map-get($Warframe-symbols-map, "menu-Utility");
-}
-.icon-menu-Utility2::before {
-  content: map-get($Warframe-symbols-map, "menu-Utility2");
-}
-.icon-menu-VehiclesKdrive::before {
-  content: map-get($Warframe-symbols-map, "menu-VehiclesKdrive");
-}
-.icon-menu-Warframe::before {
-  content: map-get($Warframe-symbols-map, "menu-Warframe");
-}
-.icon-menu-WarframeOff::before {
-  content: map-get($Warframe-symbols-map, "menu-WarframeOff");
-}
-.icon-menu-Weapons::before {
-  content: map-get($Warframe-symbols-map, "menu-Weapons");
-}
-.icon-menu-Wild::before {
-  content: map-get($Warframe-symbols-map, "menu-Wild");
-}
-.icon-menu-WoundedInfestedCritter::before {
-  content: map-get($Warframe-symbols-map, "menu-WoundedInfestedCritter");
-}
-.icon-menu-WoundedInfestedPredator::before {
-  content: map-get($Warframe-symbols-map, "menu-WoundedInfestedPredator");
-}
-.icon-nightmare::before {
-  content: map-get($Warframe-symbols-map, "nightmare");
-}
-.icon-nightwave::before {
-  content: map-get($Warframe-symbols-map, "nightwave");
-}
-.icon-nightwaves-daily::before {
-  content: map-get($Warframe-symbols-map, "nightwaves-daily");
-}
-.icon-nightwaves-elite::before {
-  content: map-get($Warframe-symbols-map, "nightwaves-elite");
-}
-.icon-nightwaves-weekly::before {
-  content: map-get($Warframe-symbols-map, "nightwaves-weekly");
-}
-.icon-ostron::before {
-  content: map-get($Warframe-symbols-map, "ostron");
-}
-.icon-sigils-Arbiters-of-Hexis-ArbitersLevel1::before {
-  content: map-get($Warframe-symbols-map, "sigils-Arbiters-of-Hexis-ArbitersLevel1");
-}
-.icon-sigils-Arbiters-of-Hexis-ArbitersLevel2::before {
-  content: map-get($Warframe-symbols-map, "sigils-Arbiters-of-Hexis-ArbitersLevel2");
-}
-.icon-sigils-Arbiters-of-Hexis-ArbitersLevel3::before {
-  content: map-get($Warframe-symbols-map, "sigils-Arbiters-of-Hexis-ArbitersLevel3");
-}
-.icon-sigils-Arbiters-of-Hexis-ArbitersLevel4::before {
-  content: map-get($Warframe-symbols-map, "sigils-Arbiters-of-Hexis-ArbitersLevel4");
-}
-.icon-sigils-Arbiters-of-Hexis-ArbitersLevel5::before {
-  content: map-get($Warframe-symbols-map, "sigils-Arbiters-of-Hexis-ArbitersLevel5");
-}
-.icon-sigils-Cephalon-Suda-CephalonSudaLevel1::before {
-  content: map-get($Warframe-symbols-map, "sigils-Cephalon-Suda-CephalonSudaLevel1");
-}
-.icon-sigils-Cephalon-Suda-CephalonSudaLevel2::before {
-  content: map-get($Warframe-symbols-map, "sigils-Cephalon-Suda-CephalonSudaLevel2");
-}
-.icon-sigils-Cephalon-Suda-CephalonSudaLevel3::before {
-  content: map-get($Warframe-symbols-map, "sigils-Cephalon-Suda-CephalonSudaLevel3");
-}
-.icon-sigils-Cephalon-Suda-CephalonSudaLevel4::before {
-  content: map-get($Warframe-symbols-map, "sigils-Cephalon-Suda-CephalonSudaLevel4");
-}
-.icon-sigils-Cephalon-Suda-CephalonSudaLevel5::before {
-  content: map-get($Warframe-symbols-map, "sigils-Cephalon-Suda-CephalonSudaLevel5");
-}
-.icon-sigils-Entrati-EntratiLevel1::before {
-  content: map-get($Warframe-symbols-map, "sigils-Entrati-EntratiLevel1");
-}
-.icon-sigils-Entrati-EntratiLevel2::before {
-  content: map-get($Warframe-symbols-map, "sigils-Entrati-EntratiLevel2");
-}
-.icon-sigils-Entrati-EntratiLevel3::before {
-  content: map-get($Warframe-symbols-map, "sigils-Entrati-EntratiLevel3");
-}
-.icon-sigils-Entrati-EntratiLevel4::before {
-  content: map-get($Warframe-symbols-map, "sigils-Entrati-EntratiLevel4");
-}
-.icon-sigils-Entrati-EntratiLevel5::before {
-  content: map-get($Warframe-symbols-map, "sigils-Entrati-EntratiLevel5");
-}
-.icon-sigils-Necraloid-NecraloidLevel1::before {
-  content: map-get($Warframe-symbols-map, "sigils-Necraloid-NecraloidLevel1");
-}
-.icon-sigils-Necraloid-NecraloidLevel2::before {
-  content: map-get($Warframe-symbols-map, "sigils-Necraloid-NecraloidLevel2");
-}
-.icon-sigils-Necraloid-NecraloidLevel3::before {
-  content: map-get($Warframe-symbols-map, "sigils-Necraloid-NecraloidLevel3");
-}
-.icon-sigils-NegativeRank1::before {
-  content: map-get($Warframe-symbols-map, "sigils-NegativeRank1");
-}
-.icon-sigils-NegativeRank2::before {
-  content: map-get($Warframe-symbols-map, "sigils-NegativeRank2");
-}
-.icon-sigils-Neutral::before {
-  content: map-get($Warframe-symbols-map, "sigils-Neutral");
-}
-.icon-sigils-New-Loka-NewLokaLevel1::before {
-  content: map-get($Warframe-symbols-map, "sigils-New-Loka-NewLokaLevel1");
-}
-.icon-sigils-New-Loka-NewLokaLevel2::before {
-  content: map-get($Warframe-symbols-map, "sigils-New-Loka-NewLokaLevel2");
-}
-.icon-sigils-New-Loka-NewLokaLevel3::before {
-  content: map-get($Warframe-symbols-map, "sigils-New-Loka-NewLokaLevel3");
-}
-.icon-sigils-New-Loka-NewLokaLevel4::before {
-  content: map-get($Warframe-symbols-map, "sigils-New-Loka-NewLokaLevel4");
-}
-.icon-sigils-New-Loka-NewLokaLevel5::before {
-  content: map-get($Warframe-symbols-map, "sigils-New-Loka-NewLokaLevel5");
-}
-.icon-sigils-Ostron-OstronLevel1::before {
-  content: map-get($Warframe-symbols-map, "sigils-Ostron-OstronLevel1");
-}
-.icon-sigils-Ostron-OstronLevel2::before {
-  content: map-get($Warframe-symbols-map, "sigils-Ostron-OstronLevel2");
-}
-.icon-sigils-Ostron-OstronLevel3::before {
-  content: map-get($Warframe-symbols-map, "sigils-Ostron-OstronLevel3");
-}
-.icon-sigils-Ostron-OstronLevel4::before {
-  content: map-get($Warframe-symbols-map, "sigils-Ostron-OstronLevel4");
-}
-.icon-sigils-Ostron-OstronLevel5::before {
-  content: map-get($Warframe-symbols-map, "sigils-Ostron-OstronLevel5");
-}
-.icon-sigils-Red-Veil-RedVeilLevel1::before {
-  content: map-get($Warframe-symbols-map, "sigils-Red-Veil-RedVeilLevel1");
-}
-.icon-sigils-Red-Veil-RedVeilLevel2::before {
-  content: map-get($Warframe-symbols-map, "sigils-Red-Veil-RedVeilLevel2");
-}
-.icon-sigils-Red-Veil-RedVeilLevel3::before {
-  content: map-get($Warframe-symbols-map, "sigils-Red-Veil-RedVeilLevel3");
-}
-.icon-sigils-Red-Veil-RedVeilLevel4::before {
-  content: map-get($Warframe-symbols-map, "sigils-Red-Veil-RedVeilLevel4");
-}
-.icon-sigils-Red-Veil-RedVeilLevel5::before {
-  content: map-get($Warframe-symbols-map, "sigils-Red-Veil-RedVeilLevel5");
-}
-.icon-sigils-Solaris-United-SolarisLevel1::before {
-  content: map-get($Warframe-symbols-map, "sigils-Solaris-United-SolarisLevel1");
-}
-.icon-sigils-Solaris-United-SolarisLevel2::before {
-  content: map-get($Warframe-symbols-map, "sigils-Solaris-United-SolarisLevel2");
-}
-.icon-sigils-Solaris-United-SolarisLevel3::before {
-  content: map-get($Warframe-symbols-map, "sigils-Solaris-United-SolarisLevel3");
-}
-.icon-sigils-Solaris-United-SolarisLevel4::before {
-  content: map-get($Warframe-symbols-map, "sigils-Solaris-United-SolarisLevel4");
-}
-.icon-sigils-Solaris-United-SolarisLevel5::before {
-  content: map-get($Warframe-symbols-map, "sigils-Solaris-United-SolarisLevel5");
-}
-.icon-sigils-Steel-Meridian-SteelMeridianLevel1::before {
-  content: map-get($Warframe-symbols-map, "sigils-Steel-Meridian-SteelMeridianLevel1");
-}
-.icon-sigils-Steel-Meridian-SteelMeridianLevel2::before {
-  content: map-get($Warframe-symbols-map, "sigils-Steel-Meridian-SteelMeridianLevel2");
-}
-.icon-sigils-Steel-Meridian-SteelMeridianLevel3::before {
-  content: map-get($Warframe-symbols-map, "sigils-Steel-Meridian-SteelMeridianLevel3");
-}
-.icon-sigils-Steel-Meridian-SteelMeridianLevel4::before {
-  content: map-get($Warframe-symbols-map, "sigils-Steel-Meridian-SteelMeridianLevel4");
-}
-.icon-sigils-Steel-Meridian-SteelMeridianLevel5::before {
-  content: map-get($Warframe-symbols-map, "sigils-Steel-Meridian-SteelMeridianLevel5");
-}
-.icon-sigils-The-Holdfasts-HoldfastsLevel1::before {
-  content: map-get($Warframe-symbols-map, "sigils-The-Holdfasts-HoldfastsLevel1");
-}
-.icon-sigils-The-Holdfasts-HoldfastsLevel2::before {
-  content: map-get($Warframe-symbols-map, "sigils-The-Holdfasts-HoldfastsLevel2");
-}
-.icon-sigils-The-Holdfasts-HoldfastsLevel3::before {
-  content: map-get($Warframe-symbols-map, "sigils-The-Holdfasts-HoldfastsLevel3");
-}
-.icon-sigils-The-Holdfasts-HoldfastsLevel4::before {
-  content: map-get($Warframe-symbols-map, "sigils-The-Holdfasts-HoldfastsLevel4");
-}
-.icon-sigils-The-Holdfasts-HoldfastsLevel5::before {
-  content: map-get($Warframe-symbols-map, "sigils-The-Holdfasts-HoldfastsLevel5");
-}
-.icon-sigils-The-Perrin-Sequence-PerrinLevel1::before {
-  content: map-get($Warframe-symbols-map, "sigils-The-Perrin-Sequence-PerrinLevel1");
-}
-.icon-sigils-The-Perrin-Sequence-PerrinLevel2::before {
-  content: map-get($Warframe-symbols-map, "sigils-The-Perrin-Sequence-PerrinLevel2");
-}
-.icon-sigils-The-Perrin-Sequence-PerrinLevel3::before {
-  content: map-get($Warframe-symbols-map, "sigils-The-Perrin-Sequence-PerrinLevel3");
-}
-.icon-sigils-The-Perrin-Sequence-PerrinLevel4::before {
-  content: map-get($Warframe-symbols-map, "sigils-The-Perrin-Sequence-PerrinLevel4");
-}
-.icon-sigils-The-Perrin-Sequence-PerrinLevel5::before {
-  content: map-get($Warframe-symbols-map, "sigils-The-Perrin-Sequence-PerrinLevel5");
-}
-.icon-sigils-The-Quills-QuillsLevel1::before {
-  content: map-get($Warframe-symbols-map, "sigils-The-Quills-QuillsLevel1");
-}
-.icon-sigils-The-Quills-QuillsLevel2::before {
-  content: map-get($Warframe-symbols-map, "sigils-The-Quills-QuillsLevel2");
-}
-.icon-sigils-The-Quills-QuillsLevel3::before {
-  content: map-get($Warframe-symbols-map, "sigils-The-Quills-QuillsLevel3");
-}
-.icon-sigils-The-Quills-QuillsLevel4::before {
-  content: map-get($Warframe-symbols-map, "sigils-The-Quills-QuillsLevel4");
-}
-.icon-sigils-The-Quills-QuillsLevel5::before {
-  content: map-get($Warframe-symbols-map, "sigils-The-Quills-QuillsLevel5");
-}
-.icon-sigils-VentKids-VentKidsLevel1::before {
-  content: map-get($Warframe-symbols-map, "sigils-VentKids-VentKidsLevel1");
-}
-.icon-sigils-VentKids-VentKidsLevel2::before {
-  content: map-get($Warframe-symbols-map, "sigils-VentKids-VentKidsLevel2");
-}
-.icon-sigils-VentKids-VentKidsLevel3::before {
-  content: map-get($Warframe-symbols-map, "sigils-VentKids-VentKidsLevel3");
-}
-.icon-sigils-VentKids-VentKidsLevel4::before {
-  content: map-get($Warframe-symbols-map, "sigils-VentKids-VentKidsLevel4");
-}
-.icon-sigils-VentKids-VentKidsLevel5::before {
-  content: map-get($Warframe-symbols-map, "sigils-VentKids-VentKidsLevel5");
-}
-.icon-sigils-Vox-Solaris-VoxLevel1::before {
-  content: map-get($Warframe-symbols-map, "sigils-Vox-Solaris-VoxLevel1");
-}
-.icon-sigils-Vox-Solaris-VoxLevel2::before {
-  content: map-get($Warframe-symbols-map, "sigils-Vox-Solaris-VoxLevel2");
-}
-.icon-sigils-Vox-Solaris-VoxLevel3::before {
-  content: map-get($Warframe-symbols-map, "sigils-Vox-Solaris-VoxLevel3");
-}
-.icon-sigils-Vox-Solaris-VoxLevel4::before {
-  content: map-get($Warframe-symbols-map, "sigils-Vox-Solaris-VoxLevel4");
-}
-.icon-sigils-Vox-Solaris-VoxLevel5::before {
-  content: map-get($Warframe-symbols-map, "sigils-Vox-Solaris-VoxLevel5");
-}
-.icon-simaris::before {
-  content: map-get($Warframe-symbols-map, "simaris");
-}
-.icon-solaris::before {
-  content: map-get($Warframe-symbols-map, "solaris");
-}
-.icon-sp-logo::before {
-  content: map-get($Warframe-symbols-map, "sp-logo");
-}
-.icon-standing::before {
-  content: map-get($Warframe-symbols-map, "standing");
-}
-.icon-the_hex::before {
-  content: map-get($Warframe-symbols-map, "the_hex");
-}
-.icon-wfcd::before {
-  content: map-get($Warframe-symbols-map, "wfcd");
+@each $name, $value in ($Warframe-symbols-map) {
+    .icon-#{$name}:before {
+        content: $value;
+    }
 }
