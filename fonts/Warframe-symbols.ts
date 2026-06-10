@@ -6,11 +6,13 @@ export type WarframeSymbolsId =
   | "solaris"
   | "simaris"
   | "ostron"
+  | "normal-logo"
   | "nightwave"
   | "nightmare"
   | "loading"
   | "hexis"
   | "entrati"
+  | "crossplay-logo"
   | "archwing"
   | "arbitrations"
   | "sigils-Neutral"
@@ -28,8 +30,6 @@ export type WarframeSymbolsId =
   | "nightwaves-weekly"
   | "nightwaves-elite"
   | "nightwaves-daily"
-  | "kuva-kuvaflood"
-  | "kuva-kuva"
   | "menu-WoundedInfestedPredator"
   | "menu-WoundedInfestedCritter"
   | "menu-Wild"
@@ -216,6 +216,8 @@ export type WarframeSymbolsId =
   | "menu-Arcane"
   | "menu-Amp"
   | "menu-All"
+  | "kuva-kuvaflood"
+  | "kuva-kuva"
   | "fissures-requiem"
   | "fissures-neo"
   | "fissures-meso"
@@ -311,11 +313,13 @@ export type WarframeSymbolsKey =
   | "Solaris"
   | "Simaris"
   | "Ostron"
+  | "NormalLogo"
   | "Nightwave"
   | "Nightmare"
   | "Loading"
   | "Hexis"
   | "Entrati"
+  | "CrossplayLogo"
   | "Archwing"
   | "Arbitrations"
   | "SigilsNeutral"
@@ -333,8 +337,6 @@ export type WarframeSymbolsKey =
   | "NightwavesWeekly"
   | "NightwavesElite"
   | "NightwavesDaily"
-  | "KuvaKuvaflood"
-  | "KuvaKuva"
   | "MenuWoundedInfestedPredator"
   | "MenuWoundedInfestedCritter"
   | "MenuWild"
@@ -521,6 +523,8 @@ export type WarframeSymbolsKey =
   | "MenuArcane"
   | "MenuAmp"
   | "MenuAll"
+  | "KuvaKuvaflood"
+  | "KuvaKuva"
   | "FissuresRequiem"
   | "FissuresNeo"
   | "FissuresMeso"
@@ -616,11 +620,13 @@ export enum WarframeSymbols {
   Solaris = "solaris",
   Simaris = "simaris",
   Ostron = "ostron",
+  NormalLogo = "normal-logo",
   Nightwave = "nightwave",
   Nightmare = "nightmare",
   Loading = "loading",
   Hexis = "hexis",
   Entrati = "entrati",
+  CrossplayLogo = "crossplay-logo",
   Archwing = "archwing",
   Arbitrations = "arbitrations",
   SigilsNeutral = "sigils-Neutral",
@@ -638,8 +644,6 @@ export enum WarframeSymbols {
   NightwavesWeekly = "nightwaves-weekly",
   NightwavesElite = "nightwaves-elite",
   NightwavesDaily = "nightwaves-daily",
-  KuvaKuvaflood = "kuva-kuvaflood",
-  KuvaKuva = "kuva-kuva",
   MenuWoundedInfestedPredator = "menu-WoundedInfestedPredator",
   MenuWoundedInfestedCritter = "menu-WoundedInfestedCritter",
   MenuWild = "menu-Wild",
@@ -826,6 +830,8 @@ export enum WarframeSymbols {
   MenuArcane = "menu-Arcane",
   MenuAmp = "menu-Amp",
   MenuAll = "menu-All",
+  KuvaKuvaflood = "kuva-kuvaflood",
+  KuvaKuva = "kuva-kuva",
   FissuresRequiem = "fissures-requiem",
   FissuresNeo = "fissures-neo",
   FissuresMeso = "fissures-meso",
@@ -922,30 +928,30 @@ export const WARFRAME_SYMBOLS_CODEPOINTS: { [key in WarframeSymbols]: string } =
   [WarframeSymbols.Solaris]: "61701",
   [WarframeSymbols.Simaris]: "61702",
   [WarframeSymbols.Ostron]: "61703",
-  [WarframeSymbols.Nightwave]: "61704",
-  [WarframeSymbols.Nightmare]: "61705",
-  [WarframeSymbols.Loading]: "61706",
-  [WarframeSymbols.Hexis]: "61707",
-  [WarframeSymbols.Entrati]: "61708",
-  [WarframeSymbols.Archwing]: "61709",
-  [WarframeSymbols.Arbitrations]: "61710",
-  [WarframeSymbols.SigilsNeutral]: "61711",
-  [WarframeSymbols.SigilsNegativeRank2]: "61712",
-  [WarframeSymbols.SigilsNegativeRank1]: "61713",
-  [WarframeSymbols.RequiemXata]: "61714",
-  [WarframeSymbols.RequiemVome]: "61715",
-  [WarframeSymbols.RequiemRis]: "61716",
-  [WarframeSymbols.RequiemOull]: "61717",
-  [WarframeSymbols.RequiemNetra]: "61718",
-  [WarframeSymbols.RequiemLohk]: "61719",
-  [WarframeSymbols.RequiemKhra]: "61720",
-  [WarframeSymbols.RequiemJahu]: "61721",
-  [WarframeSymbols.RequiemFass]: "61722",
-  [WarframeSymbols.NightwavesWeekly]: "61723",
-  [WarframeSymbols.NightwavesElite]: "61724",
-  [WarframeSymbols.NightwavesDaily]: "61725",
-  [WarframeSymbols.KuvaKuvaflood]: "61726",
-  [WarframeSymbols.KuvaKuva]: "61727",
+  [WarframeSymbols.NormalLogo]: "61704",
+  [WarframeSymbols.Nightwave]: "61705",
+  [WarframeSymbols.Nightmare]: "61706",
+  [WarframeSymbols.Loading]: "61707",
+  [WarframeSymbols.Hexis]: "61708",
+  [WarframeSymbols.Entrati]: "61709",
+  [WarframeSymbols.CrossplayLogo]: "61710",
+  [WarframeSymbols.Archwing]: "61711",
+  [WarframeSymbols.Arbitrations]: "61712",
+  [WarframeSymbols.SigilsNeutral]: "61713",
+  [WarframeSymbols.SigilsNegativeRank2]: "61714",
+  [WarframeSymbols.SigilsNegativeRank1]: "61715",
+  [WarframeSymbols.RequiemXata]: "61716",
+  [WarframeSymbols.RequiemVome]: "61717",
+  [WarframeSymbols.RequiemRis]: "61718",
+  [WarframeSymbols.RequiemOull]: "61719",
+  [WarframeSymbols.RequiemNetra]: "61720",
+  [WarframeSymbols.RequiemLohk]: "61721",
+  [WarframeSymbols.RequiemKhra]: "61722",
+  [WarframeSymbols.RequiemJahu]: "61723",
+  [WarframeSymbols.RequiemFass]: "61724",
+  [WarframeSymbols.NightwavesWeekly]: "61725",
+  [WarframeSymbols.NightwavesElite]: "61726",
+  [WarframeSymbols.NightwavesDaily]: "61727",
   [WarframeSymbols.MenuWoundedInfestedPredator]: "61728",
   [WarframeSymbols.MenuWoundedInfestedCritter]: "61729",
   [WarframeSymbols.MenuWild]: "61730",
@@ -1132,90 +1138,92 @@ export const WARFRAME_SYMBOLS_CODEPOINTS: { [key in WarframeSymbols]: string } =
   [WarframeSymbols.MenuArcane]: "61911",
   [WarframeSymbols.MenuAmp]: "61912",
   [WarframeSymbols.MenuAll]: "61913",
-  [WarframeSymbols.FissuresRequiem]: "61914",
-  [WarframeSymbols.FissuresNeo]: "61915",
-  [WarframeSymbols.FissuresMeso]: "61916",
-  [WarframeSymbols.FissuresLith]: "61917",
-  [WarframeSymbols.FissuresAxi]: "61918",
-  [WarframeSymbols.Fissures5]: "61919",
-  [WarframeSymbols.Fissures4]: "61920",
-  [WarframeSymbols.Fissures3]: "61921",
-  [WarframeSymbols.Fissures2]: "61922",
-  [WarframeSymbols.Fissures1]: "61923",
-  [WarframeSymbols.FactionsSentient]: "61924",
-  [WarframeSymbols.FactionsNarmer2]: "61925",
-  [WarframeSymbols.FactionsNarmer]: "61926",
-  [WarframeSymbols.FactionsMurmur]: "61927",
-  [WarframeSymbols.FactionsInfested]: "61928",
-  [WarframeSymbols.FactionsGrineer]: "61929",
-  [WarframeSymbols.FactionsCorrupted]: "61930",
-  [WarframeSymbols.FactionsCorpus]: "61931",
-  [WarframeSymbols.SigilsVoxSolarisVoxLevel5]: "61932",
-  [WarframeSymbols.SigilsVoxSolarisVoxLevel4]: "61933",
-  [WarframeSymbols.SigilsVoxSolarisVoxLevel3]: "61934",
-  [WarframeSymbols.SigilsVoxSolarisVoxLevel2]: "61935",
-  [WarframeSymbols.SigilsVoxSolarisVoxLevel1]: "61936",
-  [WarframeSymbols.SigilsVentKidsVentKidsLevel5]: "61937",
-  [WarframeSymbols.SigilsVentKidsVentKidsLevel4]: "61938",
-  [WarframeSymbols.SigilsVentKidsVentKidsLevel3]: "61939",
-  [WarframeSymbols.SigilsVentKidsVentKidsLevel2]: "61940",
-  [WarframeSymbols.SigilsVentKidsVentKidsLevel1]: "61941",
-  [WarframeSymbols.SigilsTheQuillsQuillsLevel5]: "61942",
-  [WarframeSymbols.SigilsTheQuillsQuillsLevel4]: "61943",
-  [WarframeSymbols.SigilsTheQuillsQuillsLevel3]: "61944",
-  [WarframeSymbols.SigilsTheQuillsQuillsLevel2]: "61945",
-  [WarframeSymbols.SigilsTheQuillsQuillsLevel1]: "61946",
-  [WarframeSymbols.SigilsThePerrinSequencePerrinLevel5]: "61947",
-  [WarframeSymbols.SigilsThePerrinSequencePerrinLevel4]: "61948",
-  [WarframeSymbols.SigilsThePerrinSequencePerrinLevel3]: "61949",
-  [WarframeSymbols.SigilsThePerrinSequencePerrinLevel2]: "61950",
-  [WarframeSymbols.SigilsThePerrinSequencePerrinLevel1]: "61951",
-  [WarframeSymbols.SigilsTheHoldfastsHoldfastsLevel5]: "61952",
-  [WarframeSymbols.SigilsTheHoldfastsHoldfastsLevel4]: "61953",
-  [WarframeSymbols.SigilsTheHoldfastsHoldfastsLevel3]: "61954",
-  [WarframeSymbols.SigilsTheHoldfastsHoldfastsLevel2]: "61955",
-  [WarframeSymbols.SigilsTheHoldfastsHoldfastsLevel1]: "61956",
-  [WarframeSymbols.SigilsSteelMeridianSteelMeridianLevel5]: "61957",
-  [WarframeSymbols.SigilsSteelMeridianSteelMeridianLevel4]: "61958",
-  [WarframeSymbols.SigilsSteelMeridianSteelMeridianLevel3]: "61959",
-  [WarframeSymbols.SigilsSteelMeridianSteelMeridianLevel2]: "61960",
-  [WarframeSymbols.SigilsSteelMeridianSteelMeridianLevel1]: "61961",
-  [WarframeSymbols.SigilsSolarisUnitedSolarisLevel5]: "61962",
-  [WarframeSymbols.SigilsSolarisUnitedSolarisLevel4]: "61963",
-  [WarframeSymbols.SigilsSolarisUnitedSolarisLevel3]: "61964",
-  [WarframeSymbols.SigilsSolarisUnitedSolarisLevel2]: "61965",
-  [WarframeSymbols.SigilsSolarisUnitedSolarisLevel1]: "61966",
-  [WarframeSymbols.SigilsRedVeilRedVeilLevel5]: "61967",
-  [WarframeSymbols.SigilsRedVeilRedVeilLevel4]: "61968",
-  [WarframeSymbols.SigilsRedVeilRedVeilLevel3]: "61969",
-  [WarframeSymbols.SigilsRedVeilRedVeilLevel2]: "61970",
-  [WarframeSymbols.SigilsRedVeilRedVeilLevel1]: "61971",
-  [WarframeSymbols.SigilsOstronOstronLevel5]: "61972",
-  [WarframeSymbols.SigilsOstronOstronLevel4]: "61973",
-  [WarframeSymbols.SigilsOstronOstronLevel3]: "61974",
-  [WarframeSymbols.SigilsOstronOstronLevel2]: "61975",
-  [WarframeSymbols.SigilsOstronOstronLevel1]: "61976",
-  [WarframeSymbols.SigilsNewLokaNewLokaLevel5]: "61977",
-  [WarframeSymbols.SigilsNewLokaNewLokaLevel4]: "61978",
-  [WarframeSymbols.SigilsNewLokaNewLokaLevel3]: "61979",
-  [WarframeSymbols.SigilsNewLokaNewLokaLevel2]: "61980",
-  [WarframeSymbols.SigilsNewLokaNewLokaLevel1]: "61981",
-  [WarframeSymbols.SigilsNecraloidNecraloidLevel3]: "61982",
-  [WarframeSymbols.SigilsNecraloidNecraloidLevel2]: "61983",
-  [WarframeSymbols.SigilsNecraloidNecraloidLevel1]: "61984",
-  [WarframeSymbols.SigilsEntratiEntratiLevel5]: "61985",
-  [WarframeSymbols.SigilsEntratiEntratiLevel4]: "61986",
-  [WarframeSymbols.SigilsEntratiEntratiLevel3]: "61987",
-  [WarframeSymbols.SigilsEntratiEntratiLevel2]: "61988",
-  [WarframeSymbols.SigilsEntratiEntratiLevel1]: "61989",
-  [WarframeSymbols.SigilsCephalonSudaCephalonSudaLevel5]: "61990",
-  [WarframeSymbols.SigilsCephalonSudaCephalonSudaLevel4]: "61991",
-  [WarframeSymbols.SigilsCephalonSudaCephalonSudaLevel3]: "61992",
-  [WarframeSymbols.SigilsCephalonSudaCephalonSudaLevel2]: "61993",
-  [WarframeSymbols.SigilsCephalonSudaCephalonSudaLevel1]: "61994",
-  [WarframeSymbols.SigilsArbitersOfHexisArbitersLevel5]: "61995",
-  [WarframeSymbols.SigilsArbitersOfHexisArbitersLevel4]: "61996",
-  [WarframeSymbols.SigilsArbitersOfHexisArbitersLevel3]: "61997",
-  [WarframeSymbols.SigilsArbitersOfHexisArbitersLevel2]: "61998",
-  [WarframeSymbols.SigilsArbitersOfHexisArbitersLevel1]: "61999",
+  [WarframeSymbols.KuvaKuvaflood]: "61914",
+  [WarframeSymbols.KuvaKuva]: "61915",
+  [WarframeSymbols.FissuresRequiem]: "61916",
+  [WarframeSymbols.FissuresNeo]: "61917",
+  [WarframeSymbols.FissuresMeso]: "61918",
+  [WarframeSymbols.FissuresLith]: "61919",
+  [WarframeSymbols.FissuresAxi]: "61920",
+  [WarframeSymbols.Fissures5]: "61921",
+  [WarframeSymbols.Fissures4]: "61922",
+  [WarframeSymbols.Fissures3]: "61923",
+  [WarframeSymbols.Fissures2]: "61924",
+  [WarframeSymbols.Fissures1]: "61925",
+  [WarframeSymbols.FactionsSentient]: "61926",
+  [WarframeSymbols.FactionsNarmer2]: "61927",
+  [WarframeSymbols.FactionsNarmer]: "61928",
+  [WarframeSymbols.FactionsMurmur]: "61929",
+  [WarframeSymbols.FactionsInfested]: "61930",
+  [WarframeSymbols.FactionsGrineer]: "61931",
+  [WarframeSymbols.FactionsCorrupted]: "61932",
+  [WarframeSymbols.FactionsCorpus]: "61933",
+  [WarframeSymbols.SigilsVoxSolarisVoxLevel5]: "61934",
+  [WarframeSymbols.SigilsVoxSolarisVoxLevel4]: "61935",
+  [WarframeSymbols.SigilsVoxSolarisVoxLevel3]: "61936",
+  [WarframeSymbols.SigilsVoxSolarisVoxLevel2]: "61937",
+  [WarframeSymbols.SigilsVoxSolarisVoxLevel1]: "61938",
+  [WarframeSymbols.SigilsVentKidsVentKidsLevel5]: "61939",
+  [WarframeSymbols.SigilsVentKidsVentKidsLevel4]: "61940",
+  [WarframeSymbols.SigilsVentKidsVentKidsLevel3]: "61941",
+  [WarframeSymbols.SigilsVentKidsVentKidsLevel2]: "61942",
+  [WarframeSymbols.SigilsVentKidsVentKidsLevel1]: "61943",
+  [WarframeSymbols.SigilsTheQuillsQuillsLevel5]: "61944",
+  [WarframeSymbols.SigilsTheQuillsQuillsLevel4]: "61945",
+  [WarframeSymbols.SigilsTheQuillsQuillsLevel3]: "61946",
+  [WarframeSymbols.SigilsTheQuillsQuillsLevel2]: "61947",
+  [WarframeSymbols.SigilsTheQuillsQuillsLevel1]: "61948",
+  [WarframeSymbols.SigilsThePerrinSequencePerrinLevel5]: "61949",
+  [WarframeSymbols.SigilsThePerrinSequencePerrinLevel4]: "61950",
+  [WarframeSymbols.SigilsThePerrinSequencePerrinLevel3]: "61951",
+  [WarframeSymbols.SigilsThePerrinSequencePerrinLevel2]: "61952",
+  [WarframeSymbols.SigilsThePerrinSequencePerrinLevel1]: "61953",
+  [WarframeSymbols.SigilsTheHoldfastsHoldfastsLevel5]: "61954",
+  [WarframeSymbols.SigilsTheHoldfastsHoldfastsLevel4]: "61955",
+  [WarframeSymbols.SigilsTheHoldfastsHoldfastsLevel3]: "61956",
+  [WarframeSymbols.SigilsTheHoldfastsHoldfastsLevel2]: "61957",
+  [WarframeSymbols.SigilsTheHoldfastsHoldfastsLevel1]: "61958",
+  [WarframeSymbols.SigilsSteelMeridianSteelMeridianLevel5]: "61959",
+  [WarframeSymbols.SigilsSteelMeridianSteelMeridianLevel4]: "61960",
+  [WarframeSymbols.SigilsSteelMeridianSteelMeridianLevel3]: "61961",
+  [WarframeSymbols.SigilsSteelMeridianSteelMeridianLevel2]: "61962",
+  [WarframeSymbols.SigilsSteelMeridianSteelMeridianLevel1]: "61963",
+  [WarframeSymbols.SigilsSolarisUnitedSolarisLevel5]: "61964",
+  [WarframeSymbols.SigilsSolarisUnitedSolarisLevel4]: "61965",
+  [WarframeSymbols.SigilsSolarisUnitedSolarisLevel3]: "61966",
+  [WarframeSymbols.SigilsSolarisUnitedSolarisLevel2]: "61967",
+  [WarframeSymbols.SigilsSolarisUnitedSolarisLevel1]: "61968",
+  [WarframeSymbols.SigilsRedVeilRedVeilLevel5]: "61969",
+  [WarframeSymbols.SigilsRedVeilRedVeilLevel4]: "61970",
+  [WarframeSymbols.SigilsRedVeilRedVeilLevel3]: "61971",
+  [WarframeSymbols.SigilsRedVeilRedVeilLevel2]: "61972",
+  [WarframeSymbols.SigilsRedVeilRedVeilLevel1]: "61973",
+  [WarframeSymbols.SigilsOstronOstronLevel5]: "61974",
+  [WarframeSymbols.SigilsOstronOstronLevel4]: "61975",
+  [WarframeSymbols.SigilsOstronOstronLevel3]: "61976",
+  [WarframeSymbols.SigilsOstronOstronLevel2]: "61977",
+  [WarframeSymbols.SigilsOstronOstronLevel1]: "61978",
+  [WarframeSymbols.SigilsNewLokaNewLokaLevel5]: "61979",
+  [WarframeSymbols.SigilsNewLokaNewLokaLevel4]: "61980",
+  [WarframeSymbols.SigilsNewLokaNewLokaLevel3]: "61981",
+  [WarframeSymbols.SigilsNewLokaNewLokaLevel2]: "61982",
+  [WarframeSymbols.SigilsNewLokaNewLokaLevel1]: "61983",
+  [WarframeSymbols.SigilsNecraloidNecraloidLevel3]: "61984",
+  [WarframeSymbols.SigilsNecraloidNecraloidLevel2]: "61985",
+  [WarframeSymbols.SigilsNecraloidNecraloidLevel1]: "61986",
+  [WarframeSymbols.SigilsEntratiEntratiLevel5]: "61987",
+  [WarframeSymbols.SigilsEntratiEntratiLevel4]: "61988",
+  [WarframeSymbols.SigilsEntratiEntratiLevel3]: "61989",
+  [WarframeSymbols.SigilsEntratiEntratiLevel2]: "61990",
+  [WarframeSymbols.SigilsEntratiEntratiLevel1]: "61991",
+  [WarframeSymbols.SigilsCephalonSudaCephalonSudaLevel5]: "61992",
+  [WarframeSymbols.SigilsCephalonSudaCephalonSudaLevel4]: "61993",
+  [WarframeSymbols.SigilsCephalonSudaCephalonSudaLevel3]: "61994",
+  [WarframeSymbols.SigilsCephalonSudaCephalonSudaLevel2]: "61995",
+  [WarframeSymbols.SigilsCephalonSudaCephalonSudaLevel1]: "61996",
+  [WarframeSymbols.SigilsArbitersOfHexisArbitersLevel5]: "61997",
+  [WarframeSymbols.SigilsArbitersOfHexisArbitersLevel4]: "61998",
+  [WarframeSymbols.SigilsArbitersOfHexisArbitersLevel3]: "61999",
+  [WarframeSymbols.SigilsArbitersOfHexisArbitersLevel2]: "62000",
+  [WarframeSymbols.SigilsArbitersOfHexisArbitersLevel1]: "62001",
 };

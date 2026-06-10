@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Warframe-symbols";
-    src: url("./Warframe-symbols.eot?35144b5c113511a18e4992dd625ce91d#iefix") format("embedded-opentype"),
-url("./Warframe-symbols.woff?35144b5c113511a18e4992dd625ce91d") format("woff"),
-url("./Warframe-symbols.woff2?35144b5c113511a18e4992dd625ce91d") format("woff2"),
-url("./Warframe-symbols.ttf?35144b5c113511a18e4992dd625ce91d") format("truetype"),
-url("./Warframe-symbols.svg?35144b5c113511a18e4992dd625ce91d#Warframe-symbols") format("svg");
+    src: url("./Warframe-symbols.eot?67d852a65b3bad1a3d088b0e73707ce4#iefix") format("embedded-opentype"),
+url("./Warframe-symbols.woff?67d852a65b3bad1a3d088b0e73707ce4") format("woff"),
+url("./Warframe-symbols.woff2?67d852a65b3bad1a3d088b0e73707ce4") format("woff2"),
+url("./Warframe-symbols.ttf?67d852a65b3bad1a3d088b0e73707ce4") format("truetype"),
+url("./Warframe-symbols.svg?67d852a65b3bad1a3d088b0e73707ce4#Warframe-symbols") format("svg");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -39,76 +39,76 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-ostron:before {
     content: "\f107";
 }
-.icon-nightwave:before {
+.icon-normal-logo:before {
     content: "\f108";
 }
-.icon-nightmare:before {
+.icon-nightwave:before {
     content: "\f109";
 }
-.icon-loading:before {
+.icon-nightmare:before {
     content: "\f10a";
 }
-.icon-hexis:before {
+.icon-loading:before {
     content: "\f10b";
 }
-.icon-entrati:before {
+.icon-hexis:before {
     content: "\f10c";
 }
-.icon-archwing:before {
+.icon-entrati:before {
     content: "\f10d";
 }
-.icon-arbitrations:before {
+.icon-crossplay-logo:before {
     content: "\f10e";
 }
-.icon-sigils-Neutral:before {
+.icon-archwing:before {
     content: "\f10f";
 }
-.icon-sigils-NegativeRank2:before {
+.icon-arbitrations:before {
     content: "\f110";
 }
-.icon-sigils-NegativeRank1:before {
+.icon-sigils-Neutral:before {
     content: "\f111";
 }
-.icon-requiem-Xata:before {
+.icon-sigils-NegativeRank2:before {
     content: "\f112";
 }
-.icon-requiem-Vome:before {
+.icon-sigils-NegativeRank1:before {
     content: "\f113";
 }
-.icon-requiem-Ris:before {
+.icon-requiem-Xata:before {
     content: "\f114";
 }
-.icon-requiem-Oull:before {
+.icon-requiem-Vome:before {
     content: "\f115";
 }
-.icon-requiem-Netra:before {
+.icon-requiem-Ris:before {
     content: "\f116";
 }
-.icon-requiem-Lohk:before {
+.icon-requiem-Oull:before {
     content: "\f117";
 }
-.icon-requiem-Khra:before {
+.icon-requiem-Netra:before {
     content: "\f118";
 }
-.icon-requiem-Jahu:before {
+.icon-requiem-Lohk:before {
     content: "\f119";
 }
-.icon-requiem-Fass:before {
+.icon-requiem-Khra:before {
     content: "\f11a";
 }
-.icon-nightwaves-weekly:before {
+.icon-requiem-Jahu:before {
     content: "\f11b";
 }
-.icon-nightwaves-elite:before {
+.icon-requiem-Fass:before {
     content: "\f11c";
 }
-.icon-nightwaves-daily:before {
+.icon-nightwaves-weekly:before {
     content: "\f11d";
 }
-.icon-kuva-kuvaflood:before {
+.icon-nightwaves-elite:before {
     content: "\f11e";
 }
-.icon-kuva-kuva:before {
+.icon-nightwaves-daily:before {
     content: "\f11f";
 }
 .icon-menu-WoundedInfestedPredator:before {
@@ -669,261 +669,267 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-menu-All:before {
     content: "\f1d9";
 }
-.icon-fissures-requiem:before {
+.icon-kuva-kuvaflood:before {
     content: "\f1da";
 }
-.icon-fissures-neo:before {
+.icon-kuva-kuva:before {
     content: "\f1db";
 }
-.icon-fissures-meso:before {
+.icon-fissures-requiem:before {
     content: "\f1dc";
 }
-.icon-fissures-lith:before {
+.icon-fissures-neo:before {
     content: "\f1dd";
 }
-.icon-fissures-axi:before {
+.icon-fissures-meso:before {
     content: "\f1de";
 }
-.icon-fissures-5:before {
+.icon-fissures-lith:before {
     content: "\f1df";
 }
-.icon-fissures-4:before {
+.icon-fissures-axi:before {
     content: "\f1e0";
 }
-.icon-fissures-3:before {
+.icon-fissures-5:before {
     content: "\f1e1";
 }
-.icon-fissures-2:before {
+.icon-fissures-4:before {
     content: "\f1e2";
 }
-.icon-fissures-1:before {
+.icon-fissures-3:before {
     content: "\f1e3";
 }
-.icon-factions-sentient:before {
+.icon-fissures-2:before {
     content: "\f1e4";
 }
-.icon-factions-narmer2:before {
+.icon-fissures-1:before {
     content: "\f1e5";
 }
-.icon-factions-narmer:before {
+.icon-factions-sentient:before {
     content: "\f1e6";
 }
-.icon-factions-murmur:before {
+.icon-factions-narmer2:before {
     content: "\f1e7";
 }
-.icon-factions-infested:before {
+.icon-factions-narmer:before {
     content: "\f1e8";
 }
-.icon-factions-grineer:before {
+.icon-factions-murmur:before {
     content: "\f1e9";
 }
-.icon-factions-corrupted:before {
+.icon-factions-infested:before {
     content: "\f1ea";
 }
-.icon-factions-corpus:before {
+.icon-factions-grineer:before {
     content: "\f1eb";
 }
-.icon-sigils-Vox-Solaris-VoxLevel5:before {
+.icon-factions-corrupted:before {
     content: "\f1ec";
 }
-.icon-sigils-Vox-Solaris-VoxLevel4:before {
+.icon-factions-corpus:before {
     content: "\f1ed";
 }
-.icon-sigils-Vox-Solaris-VoxLevel3:before {
+.icon-sigils-Vox-Solaris-VoxLevel5:before {
     content: "\f1ee";
 }
-.icon-sigils-Vox-Solaris-VoxLevel2:before {
+.icon-sigils-Vox-Solaris-VoxLevel4:before {
     content: "\f1ef";
 }
-.icon-sigils-Vox-Solaris-VoxLevel1:before {
+.icon-sigils-Vox-Solaris-VoxLevel3:before {
     content: "\f1f0";
 }
-.icon-sigils-VentKids-VentKidsLevel5:before {
+.icon-sigils-Vox-Solaris-VoxLevel2:before {
     content: "\f1f1";
 }
-.icon-sigils-VentKids-VentKidsLevel4:before {
+.icon-sigils-Vox-Solaris-VoxLevel1:before {
     content: "\f1f2";
 }
-.icon-sigils-VentKids-VentKidsLevel3:before {
+.icon-sigils-VentKids-VentKidsLevel5:before {
     content: "\f1f3";
 }
-.icon-sigils-VentKids-VentKidsLevel2:before {
+.icon-sigils-VentKids-VentKidsLevel4:before {
     content: "\f1f4";
 }
-.icon-sigils-VentKids-VentKidsLevel1:before {
+.icon-sigils-VentKids-VentKidsLevel3:before {
     content: "\f1f5";
 }
-.icon-sigils-The-Quills-QuillsLevel5:before {
+.icon-sigils-VentKids-VentKidsLevel2:before {
     content: "\f1f6";
 }
-.icon-sigils-The-Quills-QuillsLevel4:before {
+.icon-sigils-VentKids-VentKidsLevel1:before {
     content: "\f1f7";
 }
-.icon-sigils-The-Quills-QuillsLevel3:before {
+.icon-sigils-The-Quills-QuillsLevel5:before {
     content: "\f1f8";
 }
-.icon-sigils-The-Quills-QuillsLevel2:before {
+.icon-sigils-The-Quills-QuillsLevel4:before {
     content: "\f1f9";
 }
-.icon-sigils-The-Quills-QuillsLevel1:before {
+.icon-sigils-The-Quills-QuillsLevel3:before {
     content: "\f1fa";
 }
-.icon-sigils-The-Perrin-Sequence-PerrinLevel5:before {
+.icon-sigils-The-Quills-QuillsLevel2:before {
     content: "\f1fb";
 }
-.icon-sigils-The-Perrin-Sequence-PerrinLevel4:before {
+.icon-sigils-The-Quills-QuillsLevel1:before {
     content: "\f1fc";
 }
-.icon-sigils-The-Perrin-Sequence-PerrinLevel3:before {
+.icon-sigils-The-Perrin-Sequence-PerrinLevel5:before {
     content: "\f1fd";
 }
-.icon-sigils-The-Perrin-Sequence-PerrinLevel2:before {
+.icon-sigils-The-Perrin-Sequence-PerrinLevel4:before {
     content: "\f1fe";
 }
-.icon-sigils-The-Perrin-Sequence-PerrinLevel1:before {
+.icon-sigils-The-Perrin-Sequence-PerrinLevel3:before {
     content: "\f1ff";
 }
-.icon-sigils-The-Holdfasts-HoldfastsLevel5:before {
+.icon-sigils-The-Perrin-Sequence-PerrinLevel2:before {
     content: "\f200";
 }
-.icon-sigils-The-Holdfasts-HoldfastsLevel4:before {
+.icon-sigils-The-Perrin-Sequence-PerrinLevel1:before {
     content: "\f201";
 }
-.icon-sigils-The-Holdfasts-HoldfastsLevel3:before {
+.icon-sigils-The-Holdfasts-HoldfastsLevel5:before {
     content: "\f202";
 }
-.icon-sigils-The-Holdfasts-HoldfastsLevel2:before {
+.icon-sigils-The-Holdfasts-HoldfastsLevel4:before {
     content: "\f203";
 }
-.icon-sigils-The-Holdfasts-HoldfastsLevel1:before {
+.icon-sigils-The-Holdfasts-HoldfastsLevel3:before {
     content: "\f204";
 }
-.icon-sigils-Steel-Meridian-SteelMeridianLevel5:before {
+.icon-sigils-The-Holdfasts-HoldfastsLevel2:before {
     content: "\f205";
 }
-.icon-sigils-Steel-Meridian-SteelMeridianLevel4:before {
+.icon-sigils-The-Holdfasts-HoldfastsLevel1:before {
     content: "\f206";
 }
-.icon-sigils-Steel-Meridian-SteelMeridianLevel3:before {
+.icon-sigils-Steel-Meridian-SteelMeridianLevel5:before {
     content: "\f207";
 }
-.icon-sigils-Steel-Meridian-SteelMeridianLevel2:before {
+.icon-sigils-Steel-Meridian-SteelMeridianLevel4:before {
     content: "\f208";
 }
-.icon-sigils-Steel-Meridian-SteelMeridianLevel1:before {
+.icon-sigils-Steel-Meridian-SteelMeridianLevel3:before {
     content: "\f209";
 }
-.icon-sigils-Solaris-United-SolarisLevel5:before {
+.icon-sigils-Steel-Meridian-SteelMeridianLevel2:before {
     content: "\f20a";
 }
-.icon-sigils-Solaris-United-SolarisLevel4:before {
+.icon-sigils-Steel-Meridian-SteelMeridianLevel1:before {
     content: "\f20b";
 }
-.icon-sigils-Solaris-United-SolarisLevel3:before {
+.icon-sigils-Solaris-United-SolarisLevel5:before {
     content: "\f20c";
 }
-.icon-sigils-Solaris-United-SolarisLevel2:before {
+.icon-sigils-Solaris-United-SolarisLevel4:before {
     content: "\f20d";
 }
-.icon-sigils-Solaris-United-SolarisLevel1:before {
+.icon-sigils-Solaris-United-SolarisLevel3:before {
     content: "\f20e";
 }
-.icon-sigils-Red-Veil-RedVeilLevel5:before {
+.icon-sigils-Solaris-United-SolarisLevel2:before {
     content: "\f20f";
 }
-.icon-sigils-Red-Veil-RedVeilLevel4:before {
+.icon-sigils-Solaris-United-SolarisLevel1:before {
     content: "\f210";
 }
-.icon-sigils-Red-Veil-RedVeilLevel3:before {
+.icon-sigils-Red-Veil-RedVeilLevel5:before {
     content: "\f211";
 }
-.icon-sigils-Red-Veil-RedVeilLevel2:before {
+.icon-sigils-Red-Veil-RedVeilLevel4:before {
     content: "\f212";
 }
-.icon-sigils-Red-Veil-RedVeilLevel1:before {
+.icon-sigils-Red-Veil-RedVeilLevel3:before {
     content: "\f213";
 }
-.icon-sigils-Ostron-OstronLevel5:before {
+.icon-sigils-Red-Veil-RedVeilLevel2:before {
     content: "\f214";
 }
-.icon-sigils-Ostron-OstronLevel4:before {
+.icon-sigils-Red-Veil-RedVeilLevel1:before {
     content: "\f215";
 }
-.icon-sigils-Ostron-OstronLevel3:before {
+.icon-sigils-Ostron-OstronLevel5:before {
     content: "\f216";
 }
-.icon-sigils-Ostron-OstronLevel2:before {
+.icon-sigils-Ostron-OstronLevel4:before {
     content: "\f217";
 }
-.icon-sigils-Ostron-OstronLevel1:before {
+.icon-sigils-Ostron-OstronLevel3:before {
     content: "\f218";
 }
-.icon-sigils-New-Loka-NewLokaLevel5:before {
+.icon-sigils-Ostron-OstronLevel2:before {
     content: "\f219";
 }
-.icon-sigils-New-Loka-NewLokaLevel4:before {
+.icon-sigils-Ostron-OstronLevel1:before {
     content: "\f21a";
 }
-.icon-sigils-New-Loka-NewLokaLevel3:before {
+.icon-sigils-New-Loka-NewLokaLevel5:before {
     content: "\f21b";
 }
-.icon-sigils-New-Loka-NewLokaLevel2:before {
+.icon-sigils-New-Loka-NewLokaLevel4:before {
     content: "\f21c";
 }
-.icon-sigils-New-Loka-NewLokaLevel1:before {
+.icon-sigils-New-Loka-NewLokaLevel3:before {
     content: "\f21d";
 }
-.icon-sigils-Necraloid-NecraloidLevel3:before {
+.icon-sigils-New-Loka-NewLokaLevel2:before {
     content: "\f21e";
 }
-.icon-sigils-Necraloid-NecraloidLevel2:before {
+.icon-sigils-New-Loka-NewLokaLevel1:before {
     content: "\f21f";
 }
-.icon-sigils-Necraloid-NecraloidLevel1:before {
+.icon-sigils-Necraloid-NecraloidLevel3:before {
     content: "\f220";
 }
-.icon-sigils-Entrati-EntratiLevel5:before {
+.icon-sigils-Necraloid-NecraloidLevel2:before {
     content: "\f221";
 }
-.icon-sigils-Entrati-EntratiLevel4:before {
+.icon-sigils-Necraloid-NecraloidLevel1:before {
     content: "\f222";
 }
-.icon-sigils-Entrati-EntratiLevel3:before {
+.icon-sigils-Entrati-EntratiLevel5:before {
     content: "\f223";
 }
-.icon-sigils-Entrati-EntratiLevel2:before {
+.icon-sigils-Entrati-EntratiLevel4:before {
     content: "\f224";
 }
-.icon-sigils-Entrati-EntratiLevel1:before {
+.icon-sigils-Entrati-EntratiLevel3:before {
     content: "\f225";
 }
-.icon-sigils-Cephalon-Suda-CephalonSudaLevel5:before {
+.icon-sigils-Entrati-EntratiLevel2:before {
     content: "\f226";
 }
-.icon-sigils-Cephalon-Suda-CephalonSudaLevel4:before {
+.icon-sigils-Entrati-EntratiLevel1:before {
     content: "\f227";
 }
-.icon-sigils-Cephalon-Suda-CephalonSudaLevel3:before {
+.icon-sigils-Cephalon-Suda-CephalonSudaLevel5:before {
     content: "\f228";
 }
-.icon-sigils-Cephalon-Suda-CephalonSudaLevel2:before {
+.icon-sigils-Cephalon-Suda-CephalonSudaLevel4:before {
     content: "\f229";
 }
-.icon-sigils-Cephalon-Suda-CephalonSudaLevel1:before {
+.icon-sigils-Cephalon-Suda-CephalonSudaLevel3:before {
     content: "\f22a";
 }
-.icon-sigils-Arbiters-of-Hexis-ArbitersLevel5:before {
+.icon-sigils-Cephalon-Suda-CephalonSudaLevel2:before {
     content: "\f22b";
 }
-.icon-sigils-Arbiters-of-Hexis-ArbitersLevel4:before {
+.icon-sigils-Cephalon-Suda-CephalonSudaLevel1:before {
     content: "\f22c";
 }
-.icon-sigils-Arbiters-of-Hexis-ArbitersLevel3:before {
+.icon-sigils-Arbiters-of-Hexis-ArbitersLevel5:before {
     content: "\f22d";
 }
-.icon-sigils-Arbiters-of-Hexis-ArbitersLevel2:before {
+.icon-sigils-Arbiters-of-Hexis-ArbitersLevel4:before {
     content: "\f22e";
 }
-.icon-sigils-Arbiters-of-Hexis-ArbitersLevel1:before {
+.icon-sigils-Arbiters-of-Hexis-ArbitersLevel3:before {
     content: "\f22f";
+}
+.icon-sigils-Arbiters-of-Hexis-ArbitersLevel2:before {
+    content: "\f230";
+}
+.icon-sigils-Arbiters-of-Hexis-ArbitersLevel1:before {
+    content: "\f231";
 }
